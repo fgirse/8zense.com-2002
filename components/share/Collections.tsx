@@ -1,6 +1,6 @@
 import { IEvent } from '@/lib/database/models/event.model'
 import React from 'react'
-import Card from '../ui/card';
+import { Card } from '../ui/card';
 import Pagination from './Pagination'
 
 type CollectionProps = {
@@ -12,6 +12,7 @@ type CollectionProps = {
   totalPages?: number,
   urlParamName?: string,
   collectionType?: 'Events_Organized' | 'My_Tickets' | 'All_Events'
+  event: boolean,
 }
 
 const Collection = ({
@@ -34,7 +35,7 @@ const Collection = ({
 
               return (
                 <li key={event._id} className="flex justify-center">
-                  <Card event={event} hasOrderLink={hasOrderLink} hidePrice={hidePrice} />
+                {/*  <Card event={event} hasOrderLink={hasOrderLink} hidePrice={hidePrice} />*/}
                 </li>
               )
             })}

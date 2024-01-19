@@ -3,7 +3,7 @@ import { type ClassValue, clsx } from 'clsx'
 import { twMerge } from 'tailwind-merge'
 import qs from 'query-string'
 
-import { UrlQueryParams, RemoveUrlQueryParams } from '../types/index.tsx';
+import { UrlQueryParams, RemoveUrlQueryParams } from '../types/index2';
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))

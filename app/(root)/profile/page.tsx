@@ -1,9 +1,9 @@
-import Collection from '@/components/shared/Collection'
+import Collection from '@/components/share/Collections'
 import { Button } from '@/components/ui/button'
 import { getEventsByUser } from '@/lib/actions/event.actions'
 import { getOrdersByUser } from '@/lib/actions/order.actions'
 import { IOrder } from '@/lib/database/models/order.model'
-import { SearchParamProps } from '../../../types/index'
+import { SearchParamProps } from '../../../types/index2'
 import { auth } from '@clerk/nextjs'
 import Link from 'next/link'
 import React from 'react'
@@ -43,8 +43,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
           limit={3}
           page={ordersPage}
           urlParamName="ordersPage"
-          totalPages={orders?.totalPages}
-        />
+          totalPages={orders?.totalPages} event={false}        />
       </section>
 
       {/* Events Organized */}
@@ -68,8 +67,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
           limit={3}
           page={eventsPage}
           urlParamName="eventsPage"
-          totalPages={organizedEvents?.totalPages}
-        />
+          totalPages={organizedEvents?.totalPages} event={false}        />
       </section>
     </>
   )
