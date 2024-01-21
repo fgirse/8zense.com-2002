@@ -30,7 +30,7 @@ export default function Home() {
             </div>
     <div className="col-span-4 row-span-6 col-start-9 row-start-1">
                  <p className="mb-5 lg:mr-12 bg-zinc-500/10 lg:px-5 lg:py-3 rounded-xl  mt-5 py-1 text-zinc-700 font-bold text-right text-sm px-3 sm:text-2xl md:text-[2.33rem] md:leading-9 lg:font-black lg:text-6xl lg-p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
-                 <div className=" shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-3xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:w-32 lg:h-32">
+                 <div className=" font-black shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-10 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:w-32 lg:h-32">
                   <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
                   <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black">Sagan</p>
                 </div>
