@@ -11,11 +11,11 @@ export const headerLinks = [
       label: 'Gallerie',
       route: '/gallery',
     },
-    
     {
-      label: 'Create Event',
-      route: '/events/create',
+      label: 'Contact',
+      route: '/kontakt',
     },
+   
     {
       label: 'My Profile',
       route: '/profile',

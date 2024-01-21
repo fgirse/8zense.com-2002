@@ -17,7 +17,7 @@ export default function Home() {
     <h1 className="relative px-1 -top-6 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-amber-600 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[14rem]">Design</h1>
     </div>
      <div className="relative -top-16  col-span-8 row-span-3 col-start-1 row-start-4 lg:-top-2">
-    <div className=" bg-yellow-500/20 rounded-xl col-span-5 row-span-3 col-start-4 row-start-4">
+    <div className="-mt-5 bg-yellow-500/20 rounded-xl col-span-5 row-span-3 col-start-4 row-start-4">
             <div className='mt-12 y-6 w-full  '>
             <Image
               src={Hero}
@@ -37,9 +37,9 @@ export default function Home() {
                 </div>
                </div>
               <div className="col-span-6 row-span-6 col-start-4 row-start-7">
-            <div className=" flex flex-col items-center jusify-center lg:border lg:hidden">
+            <div className="-mt-12 flex flex-col items-center jusify-start lg:border lg:hidden">
 
-                                <Image className="rounded-xl" src="/assets/images/LogoEZ.png" width="350" height="350" alt="Logo: 8zense.com"/>
+                                <Image className="-mt-20rounded-xl" src="/assets/images/LogoEZ.png" width="350" height="350" alt="Logo: 8zense.com"/>
                             </div>
                   </div>  
           <div className="col-span-8 row-span-3 col-start-3 row-start-13">

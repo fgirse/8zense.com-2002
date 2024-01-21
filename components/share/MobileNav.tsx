@@ -15,7 +15,7 @@ import {
     return (
       <nav className="md:hidden">
         <Sheet>
-          <SheetTrigger className="align-middle">
+          <SheetTrigger className="align-middle text-red-500">
             <Image 
               src="/assets/icons/menu.svg"
               alt="menu"
@@ -24,14 +24,14 @@ import {
               className="cursor-pointer"
             />
           </SheetTrigger>
-          <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
+          <SheetContent className="flex flex-col gap-6 bg-zinc-600 md:hidden">
             <Image 
               src="/assets/images/LogoEZ.png"
               alt="logo"
               width={128}
               height={38}
             />
-            <Separator className="border border-gray-50" />
+            <Separator className="border border-orange-300" />
             <NavItems />
           </SheetContent>
         </Sheet>
