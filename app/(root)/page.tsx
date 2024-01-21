@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import Player from "../../components/share/Player"
 import { nanoid } from 'nanoid'
 import Link from 'next/link'
+import Hero from './../../public/assets/images/Rastergrafikobg.png'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
     <div className=" bg-yellow-500/20 rounded-xl col-span-5 row-span-3 col-start-4 row-start-4">
             <div className='mt-12 y-6 w-full  '>
             <Image
-              src="/assets/images/rastergrafikobg.png"
+              src={Hero}
               className="mx-auto"              width="700"
               height="420"
               alt="technical-glance"
@@ -36,7 +37,7 @@ export default function Home() {
                 </div>
                </div>
               <div className="col-span-6 row-span-6 col-start-4 row-start-7">
-            <div className="relative -top-8 flex flex-col items-center jusify-center lg:border lg:hidden">
+            <div className=" flex flex-col items-center jusify-center lg:border lg:hidden">
 
                                 <Image className="rounded-xl" src="/assets/images/LogoEZ.png" width="350" height="350" alt="Logo: 8zense.com"/>
                             </div>
@@ -44,7 +45,7 @@ export default function Home() {
           <div className="col-span-8 row-span-3 col-start-3 row-start-13">
     <div className=''>
       <div className="flex flex-col items-center justify-center">
-            <Button className="mt-5  text-orange-300 font-bold border-8 border-orange-300 text-3xl w-60 h-12 shadow-2xl shadow-zinc-800 lg:w-80 lg:h-20 lg:text-5xl lg:-mt-12 lg:mb-6" variant={'outline'} size="lg" >send e-mail 
+            <Button className="mt-5 bg-zinc-500 text-orange-300 font-bold border-8 border-orange-300 text-3xl w-60 h-12 shadow-2xl shadow-zinc-800 lg:w-80 lg:h-20 lg:text-5xl lg:-mt-12 lg:mb-6" variant={'outline'} size="lg" >send e-mail 
         <div>
   
   </div>   
