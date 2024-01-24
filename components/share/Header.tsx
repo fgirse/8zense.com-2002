@@ -8,7 +8,7 @@ import MobileNav from "../share/MobileNav";
 const Header = () => {
   return (
     <header className="w-full bg-zinc-600 text-white border-b-2 border-orange-300">
-      <div className="wrapper flex items-center justify-between">
+      <div id="LogoEZ" className="wrapper flex items-center justify-between">
         <Link href="/" className="">
           <Image 
           className="border border-yellow-500 rounded-xl shadow-2xl shadow-zinc-400"

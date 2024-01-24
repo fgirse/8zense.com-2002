@@ -1,10 +1,12 @@
+
+import { motion } from "framer-motion";
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import Player from "../../components/share/Player"
 import { nanoid } from 'nanoid'
 import Link from 'next/link'
 import Hero from './../../public/assets/images/Rastergrafikobg.png'
-
+import  MotionLogo  from "./../../public/assets/images/LogoEZ.png"
 export default function Home() {
   return (
     <>
@@ -34,13 +36,19 @@ export default function Home() {
                  <div className=" font-black shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-10 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:w-32 lg:h-32">
                   <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
                   <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black">Sagan</p>
-                </div>
-               </div>
-              <div className="col-span-6 row-span-6 col-start-4 row-start-7">
-            <div className="-mt-12 flex flex-col items-center jusify-start lg:border lg:hidden">
 
-                                <Image className="-mt-20rounded-xl" src="/assets/images/LogoEZ.png" width="350" height="350" alt="Logo: 8zense.com"/>
-                            </div>
+  {/*          
+
+<motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1.5, delay: 0.1 }}
+>
+<Image className="LogoEZ -mt-20 rounded-xl" src={MotionLogo} width="233" height="233" alt="Logo: 8zense.com"/>
+
+  </motion.div>*/}
+
+                         </div>
                   </div>  
           <div className="col-span-8 row-span-3 col-start-3 row-start-13">
     <div className=''>
