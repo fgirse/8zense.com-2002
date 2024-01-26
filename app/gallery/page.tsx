@@ -4,7 +4,7 @@ const page = () => {
   return (
     <>
     <section className='h-[100dvh] bg-zinc-400'>
-    <h1 className="py-5 text-center text-zinc-200 uppercase font-black text-8xl ">galleria</h1>
+    <h1   className='text-center uppercase font-black text-7xl text-yellow-600' >galeria</h1>
     <div className='flex flex-col items-center justify-brterrb v '>
 
       <SlightShow/>

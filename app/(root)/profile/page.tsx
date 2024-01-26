@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div  className='text-center uppercase font-black text-7xl text-yellow-600' >my profil</div>
+    <h1  className='text-center uppercase font-black text-7xl text-yellow-600' >my profil</h1>
   )
 }
 
