@@ -76,8 +76,23 @@
   scroll-behavior: smooth;
 }
 
+
+
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   font-family: var(--font-raleway)
+}
+
+.nav {
+  padding: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  background: #ffcc00;
 }
 
 .filter-grey {
