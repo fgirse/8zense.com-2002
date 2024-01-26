@@ -4,7 +4,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import { images } from "./../../constants/imageData";
+import { images } from"@/constants/imageData"
 
 const variants = {
   enter: (direction: number) => {
@@ -38,7 +38,7 @@ const swipePower = (offset: number, velocity: number) => {
   return Math.abs(offset) * velocity;
 };
 
-export const Example = () => {
+ const SlightShow = () => {
   const [[page, direction], setPage] = useState([0, 0]);
 
   // We only have 3 images, but we paginate them absolutely (ie 1, 2, 3, 4, 5...) and
@@ -89,3 +89,4 @@ export const Example = () => {
     </>
   );
 };
+export default SlightShow

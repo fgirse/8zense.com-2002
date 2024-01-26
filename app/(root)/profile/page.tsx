@@ -1,4 +1,15 @@
-import Collection from '@/components/share/Collections'
+import React from 'react'
+
+const page = () => {
+  return (
+    <div  className='text-center uppercase font-black text-7xl text-yellow-600' >my profil</div>
+  )
+}
+
+export default page
+
+
+{/*import Collection from '@/components/share/Collections'
 import { Button } from '@/components/ui/button'
 import { getEventsByUser } from '@/lib/actions/event.actions'
 import { getOrdersByUser } from '@/lib/actions/order.actions'
@@ -22,7 +33,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
 
   return (
     <>
-      {/* My Tickets */}
+      {/* My Tickets */}{/*}
       <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
         <div className="wrapper flex items-center justify-center sm:justify-between">
           <h3 className='h3-bold text-center sm:text-left'>My Tickets</h3>
@@ -46,7 +57,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
           totalPages={orders?.totalPages} event={false}        />
       </section>
 
-      {/* Events Organized */}
+      {/* Events Organized */}{/*0}
       <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
         <div className="wrapper flex items-center justify-center sm:justify-between">
           <h3 className='h3-bold text-center sm:text-left'>Events Organized</h3>
@@ -73,4 +84,4 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
   )
 }
 
-export default ProfilePage
+export default ProfilePageç*/}

@@ -28,7 +28,7 @@ import {
             <Image 
               src="/assets/images/LogoEZ.png"
               alt="logo"
-              width={128}
+              width={38}
               height={38}
             />
             <Separator className="border border-orange-300" />
