@@ -4,7 +4,7 @@ import Link from "next/link"
 const Footer = () => {
   return (
     <footer className="border-t">
-      <div className="flex-center wrapper flex-between flex flex-col gap-4 p-5 text-center sm:flex-row">
+      <div className=" flex-center wrapper flex-between flex flex-col gap-4 p-5 text-center sm:flex-row">
         <Link href='/'>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
           <Image 
@@ -16,7 +16,7 @@ const Footer = () => {
            
         </Link>
 
-        <div className=" copyright text-[1rem] font-medium text-center text-gray-600 :text-gray-400">
+        <div className="mt-12 copyright text-[1rem] font-medium text-center text-gray-600 :text-gray-400">
           Copyright © {new Date().getFullYear()}. All rights by{" "}
          {/*} <a
             href="https://web3templates.com/"

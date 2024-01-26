@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import styles from './../../styles/styles.css';
+import { slideIn, staggerContainer, textVariant } from './../../app/utils/motion';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings} mx-auto bg-hero relative top-[2vh] h-screen bg-no-repeat pl- lg:h-screen lg:bg-no-repeat lg:bg-right`}>
+  <section className={`${styles.yPaddings} mx-auto bg-hero relative top-[2vh] h-screen bg-no-repeat lg:bg-right`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -15,7 +15,7 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
    <div className='mx-auto mt-[1vh] bg-gray-900/30 w-[90vw] h-[80vh] flex flex-col items-center justify-between'>
-      <img src="/LogoNeu.png"   alt="LogoNeu" className="object-contain w-[33vw] h-[24vh] md:mt-[0vh] md:w-[55vw] md:h-[36vh] lg:hidden "/>
+      <img src="/assests/images/LogoEZ.png"   alt="LogoNeu" className="object-contain w-[33vw] h-[24vh] md:mt-[0vh] md:w-[55vw] md:h-[36vh] "/>
       
       <div className="flex justify-center items-center flex-col relative z-10 ">
         <motion.h1
@@ -45,4 +45,4 @@ const Hero = () => (
   </section>
 );
 
-export default Hero;
+export default Hero

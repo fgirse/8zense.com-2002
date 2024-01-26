@@ -4,7 +4,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import { images } from "./../../constants/imageData.js";
+import { images } from "./../../constants/imageData";
 
 const variants = {
   enter: (direction: number) => {

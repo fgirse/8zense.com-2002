@@ -1,7 +1,8 @@
-import type { Metadata } from 'next'
-import { Raleway, Bowlby_One_SC } from 'next/font/google'
-import './globals.css'
-import { ClerkProvider } from '@clerk/nextjs'
+import type { Metadata } from 'next';
+import { Raleway, Bowlby_One_SC } from 'next/font/google';
+import './globals.css';
+import './../styles/styles.css';
+import { ClerkProvider } from '@clerk/nextjs';
 
 const bowlbySC = Bowlby_One_SC({
   weight: '400',

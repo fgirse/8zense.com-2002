@@ -7,12 +7,12 @@ import MobileNav from "../share/MobileNav";
 
 const Header = () => {
   return (
-    <header className="w-full bg-zinc-600 text-white border-b-2 border-orange-300">
-      <div id="LogoEZ" className="wrapper flex items-center justify-between">
+    <header className="w-full h-20 bg-zinc-600 text-white border-b-2 border-orange-300">
+      <div id="LogoEZ" className="wrapper flex items-start justify-between">
         <Link href="/" className="">
           <Image 
           className="border border-yellow-500 rounded-xl shadow-2xl shadow-zinc-400"
-            src="/assets/images/LogoEZ.png" width={56} height={56}
+            src="/assets/images/LogoEZ.png" width={46} height={46}
             alt="Logo 8zense.com" 
           />
         </Link>
@@ -29,7 +29,7 @@ const Header = () => {
             <MobileNav />
           </SignedIn>
           <SignedOut>
-            <Button asChild className="rounded-full bg-zinc-300 hover:bg-orange-300 hover:border-2 hover:border-amber-400" size="lg">
+            <Button asChild className="rounded-full bg-zinc-500 hover:bg-orange-300 hover:border-2 hover:border-amber-400" size="lg">
               <Link href="/sign-in">
                 Login
               </Link>
