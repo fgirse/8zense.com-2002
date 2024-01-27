@@ -5,7 +5,7 @@ export const motionConfig = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      ease: easeOut,
+      
     },
   },
   exit: {
@@ -13,7 +13,7 @@ export const motionConfig = {
     transition: {
       duration: 0.5,
       delay: 1,
-      ease: easeOut,
+      
     },
   },
 };

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
+
 const NavItems = () => {
   const pathname = usePathname();
 
