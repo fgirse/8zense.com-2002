@@ -52,19 +52,17 @@ const MobileNav = () => {
 
         <SheetContent className="flex flex-col gap-6 bg-zinc-600 md:hidden">
 
-          <Image 
-
+        <div className="">
+          <Image
+            className="max-w-full" 
             src="/assets/images/LogoEZ.png"
-
             alt="logo"
-
             width={38}
-
             height={38}
-
           />
+        </div>
 
-          <Separator className="border border-orange-300" />
+          <Separator className="mt-16 border border-orange-300" />
 
           <NavItems />
 
