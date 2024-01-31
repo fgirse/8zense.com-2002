@@ -3,6 +3,7 @@ import { Raleway, Bowlby_One_SC } from 'next/font/google';
 import './globals.css';
 import './../styles/styles.css';
 import { ClerkProvider } from '@clerk/nextjs';
+import { neobrutalism } from '@clerk/themes'
 
 const bowlbySC = Bowlby_One_SC({
   weight: '400',
@@ -30,7 +31,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider  appearance={{
+      baseTheme:neobrutalism
+    }} >
    <html lang="en">
       <body className={raleway.className}>{children}</body>
     </html>
