@@ -6,8 +6,8 @@ import { connectToDatabase } from '../database/models/database/index'
 import User from '@/lib/database/models/user.model'
 import Order from '@/lib/database/models/order.model'
 import Event from '@/lib/database/models/event.model'
-import { handleError } from '../../lib2/utils'
-import { CreateUserParams, UpdateUserParams } from '@/types/index2'
+import { handleError } from '../utils'
+import { CreateUserParams, UpdateUserParams } from '@/types/index'
 export async function createUser(user: CreateUserParams) {
   try {
     await connectToDatabase()

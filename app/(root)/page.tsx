@@ -1,17 +1,20 @@
 
-import { motion } from "framer-motion";
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import Player from "../../components/share/Player";
-import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import SideBoard  from "./../../public/assets/images/Rastergrafikobg.png";
-import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
 import LogoEZ from'../../public/assets/images/LogoEZ.png';
-import Hero from"@/components/share/Hero"
-import Sideboard from './../../public/assets/images/Rastergrafikobg.png';
+import  Testimonials  from "@/components/partials/Testimonials"
+import {ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
+import { Button } from '@/components/ui/button';
+//import CallToAction from "@/components/partials/CallToAction";
+import { getListPage } from '@/lib/contentParser';
+
+const testimonial = getListPage("sections/testimonial.md");
+const callToAction = getListPage("sections/call-to-action.md");
 
 export default function Home() {
+ 
+ 
 
 
   return (
@@ -116,7 +119,14 @@ export default function Home() {
     </section>
 
 {/*====================================================grid ende ===============*/}
+<section>
 
+
+
+<Testimonials data={testimonial} />
+
+
+</section>
 
 </>
 
@@ -125,6 +135,3 @@ export default function Home() {
 
 
 }
-
-
-

@@ -1,7 +1,7 @@
 "use server"
 
-import { CreateCategoryParams } from "@/types/index2"
-import { handleError } from "../../lib2/utils"
+import { CreateCategoryParams } from "@/types/index"
+import { handleError } from "../utils"
 import { connectToDatabase } from "../database/models/database/"
 import Category from "../database/models/database/models/category.model"
 

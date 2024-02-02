@@ -1,9 +1,9 @@
 "use server"
 
 import Stripe from 'stripe';
-import { CheckoutOrderParams, CreateOrderParams, GetOrdersByEventParams, GetOrdersByUserParams } from "../../types/index2"
+import { CheckoutOrderParams, CreateOrderParams, GetOrdersByEventParams, GetOrdersByUserParams } from "../../types/index"
 import { redirect } from 'next/navigation';
-import { handleError } from '../../lib2/utils';
+import { handleError } from '../utils';
 import { connectToDatabase } from '../database/models/database/index';
 import Order from '../database/models/order.model';
 import Event from '../database/models/event.model';
