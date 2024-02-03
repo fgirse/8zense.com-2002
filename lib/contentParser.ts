@@ -1,5 +1,3 @@
-
-
 import fs from "fs";
 import matter from "gray-matter";
 import { notFound } from "next/navigation";
@@ -72,3 +70,5 @@ export const getSinglePage = (folder: string) => {
 
   return filterByDate;
 };
+
+export default getListPage

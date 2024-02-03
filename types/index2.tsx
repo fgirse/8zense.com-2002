@@ -1,4 +1,4 @@
-// ====== USER PARAMS
+{/*// ====== USER PARAMS
 export type CreateUserParams = {
     clerkId: string
     firstName: string
@@ -147,4 +147,4 @@ export type CreateUserParams = {
     params: { id: string }
     searchParams: { [key: string]: string | string[] | undefined }
   }
-  
+*/}

@@ -1,20 +1,22 @@
 
+import { motion } from "framer-motion";
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import Player from "../../components/share/Player";
+import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import SideBoard  from "./../../public/assets/images/Rastergrafikobg.png";
+import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
 import LogoEZ from'../../public/assets/images/LogoEZ.png';
-import  Testimonials  from "@/components/partials/Testimonials"
-import {ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
-import { Button } from '@/components/ui/button';
-//import CallToAction from "@/components/partials/CallToAction";
-import { getListPage } from '@/lib/contentParser';
+import Hero from"@/components/share/Hero"
+import Sideboard from './../../public/assets/images/Rastergrafikobg.png';
+import Testimonials from "@/components/partials/Testimonials";
 
-const testimonial = getListPage("sections/testimonial.md");
-const callToAction = getListPage("sections/call-to-action.md");
+import { any, array } from "zod";
+import DemoSlider from "@/components/partials/TestimonialsAAA";
+import dataSlider from "@/constants/sliderData.json";
 
 export default function Home() {
- 
- 
 
 
   return (
@@ -80,7 +82,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center">
 
-    <Image className=" mx-auto w-36 border-2 rounded-2xl border-yellow-600 " src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width: '60%',height: 'auto',}}/>
+    <Image className="mt-12 mx-auto w-36 border-2 border-yellow-600 rounded-full" src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width: '60%',height: 'auto',}}/>
 
     </div>
 
@@ -119,6 +121,22 @@ export default function Home() {
     </section>
 
 {/*====================================================grid ende ===============*/}
+<main className="flex min-h-screen flex-col items-center justify-between">
+      <DemoSlider data={dataSlider} />
+    </main>
+</>
+  )
+}
+
+
+
+    
+
+
+
+{/*====================================================grid ende ===============*/}
+
+{/*
 <section>
 
 
@@ -129,9 +147,9 @@ export default function Home() {
 </section>
 
 </>
-
-
-  )
-
-
+)
 }
+export default Home
+
+
+*/}
