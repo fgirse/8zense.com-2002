@@ -55,6 +55,7 @@
     "react-hook-form": "^7.49.0",
     "react-icons": "^5.0.1",
     "rehype-slug": "^6.0.0",
+    "react-lite-youtube-embed": "^2.4.0",
     "remark-gfm": "^3.0.1",
     "stripe": "^14.8.0",
     "svix": "^1.15.0",
