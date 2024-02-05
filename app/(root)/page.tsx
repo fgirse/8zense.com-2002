@@ -11,10 +11,7 @@ import LogoEZ from'../../public/assets/images/LogoEZ.png';
 import Hero from"@/components/share/Hero"
 import Sideboard from './../../public/assets/images/Rastergrafikobg.png';
 import Testimonials from "@/components/partials/Testimonials";
-
-import { any, array } from "zod";
-import DemoSlider from "@/components/partials/TestimonialsAAA";
-import dataSlider from "@/constants/sliderData.json";
+import { array } from "zod";
 
 export default function Home() {
 
@@ -82,7 +79,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center">
 
-    <Image className="mt-12 mx-auto w-36 border-2 border-yellow-600 rounded-full" src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width: '60%',height: 'auto',}}/>
+    <Image className=" mx-auto w-36 border-2 rounded-2xl border-yellow-600 " src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width: '60%',height: 'auto',}}/>
 
     </div>
 
@@ -120,10 +117,7 @@ export default function Home() {
 
     </section>
 
-{/*====================================================grid ende ===============*/}
-<main className="flex min-h-screen flex-col items-center justify-between">
-      <DemoSlider data={dataSlider} />
-    </main>
+{/*====================================================grid ende ========== =                                            ==} {...Testimonials}/>
 </>
   )
 }
@@ -153,3 +147,5 @@ export default Home
 
 
 */}
+</>
+  )}
