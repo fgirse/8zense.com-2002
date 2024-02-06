@@ -8,6 +8,7 @@ import { neobrutalism } from '@clerk/themes';
 
 const sairaCond = Saira_Condensed({
   display: 'swap',
+  subsets: undefined,
   weight: ['300', '400', '700', '900',],
   variable: '--font-saira_c',
     });
