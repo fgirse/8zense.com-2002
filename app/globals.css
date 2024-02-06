@@ -92,7 +92,13 @@ body {
 
 .content {
   flex-grow: 1;
-  background: transparent;
+  background: rgb(187, 187, 190);
+}
+
+.headingA {
+  -webkit-text-stroke-width: 2.33px;
+  -webkit-text-stroke-color: #ffffff;
+  font-family: var(--font-saira_c);
 }
 
 .filter-grey {
