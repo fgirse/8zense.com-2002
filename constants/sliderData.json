@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "title": "VERY AWESOME",
-      "tagline": "8ZENSE.COM",
+      "title": "ARE AWESOME",
+      "tagline": "NEXTJS 13 & SWIPER SLIDER",
       "image": "/assets/images/avatar-sm-bardot.png",
       "buttons": [
         {
@@ -15,8 +15,8 @@
     },
     {
       "id": 2,
-      "title": "GRANDE CINEMA",
-      "tagline": "8ZENSE.COM",
+      "title": "GIVE IT A SHOOT",
+      "tagline": "IF YOU LIKE IT",
       "image": "/assets/images/avatar-sm-belmondo.png",
       "buttons": [
         {
@@ -29,8 +29,8 @@
     },
     {
         "id": 3,
-        "title": "J'ADORE",
-        "tagline": "8ZENSE.COM",
+        "title": "ARE AWESOME",
+        "tagline": "NEXTJS 13 & SWIPER SLIDER",
         "image": "/assets/images/avatar-sm-zidane.png",
         "buttons": [
           {
@@ -43,8 +43,8 @@
       },
       {
         "id": 4,
-        "title": " WONDERFUL DESIGN",
-        "tagline": "8ZENSE.COM",
+        "title": "ARE AWESOME",
+        "tagline": "NEXTJS 13 & SWIPER SLIDER",
         "image": "/assets/images/avatar-sm-cevert.png",
         "buttons": [
           {

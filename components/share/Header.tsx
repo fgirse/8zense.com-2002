@@ -7,11 +7,11 @@ import MobileNav from "../share/MobileNav";
 
 const Header = () => {
   return (
-    <header className="px-5 w-full h-20 bg-zinc-600 text-white border-b-2 border-orange-300">
-      <div id="LogoEZ" className="rounded-full wrapper flex items-start justify-between">
+    <header className="px-5 w-full h-20 bg-zinc-600 text-white border-b-2 border-lime-300">
+      <div id="LogoEZ" className="rounded-xl wrapper flex items-start justify-between">
         <Link href="/" className="">
           <Image 
-          className=" rounded-full shadow-2xl shadow-zinc-400"
+          className=" rounded-xl shadow-2xl shadow-zinc-400"
             src="/assets/images/LogoEZ2.png" width={66} height={66}
             alt="Logo 8zense.com" 
           />

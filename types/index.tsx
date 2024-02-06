@@ -203,6 +203,7 @@ export type Feature = {
 };
 
 export type Testimonial = {
+  frontmatter: any;
   data:  string;
   name: string;
   designation: string;

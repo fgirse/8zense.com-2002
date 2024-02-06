@@ -1,3 +1,5 @@
+"use client"
+
 import ImageFallback from "@/components/helpers/ImageFallback";
 import { markdownify } from "@/lib/utils/textConverter";
 import { Testimonial } from "@/types";
@@ -16,7 +18,7 @@ interface PageData {
   };
 }
 
-export default function Testimonials({ data }: { data: PageData; }) {
+export default function Testimonials({ data }: { data: Testimonial; }) {
   return (
     <>
       {data.frontmatter.enable && (

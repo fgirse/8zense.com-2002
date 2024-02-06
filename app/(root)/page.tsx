@@ -7,11 +7,12 @@ import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import SideBoard  from "./../../public/assets/images/Rastergrafikobg.png";
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
-import LogoEZ from'../../public/assets/images/LogoEZ.png';
-import Hero from"@/components/share/Hero"
-import Sideboard from './../../public/assets/images/Rastergrafikobg.png';
-import Testimonials from "@/components/partials/Testimonials";
-import { array } from "zod";
+import LogoEZ from'../../public/assets/images/LogoEZ2.png';
+//import {LinkIcon} from "@/public/assets/icons/link.svg"
+import { any, array } from "zod";
+import DemoSlider from "@/components/partials/TestimonialsAAA";
+import dataSlider from "@/constants/sliderData.json";
+import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
 
@@ -26,17 +27,17 @@ export default function Home() {
     {/*====================================================grid start ===============*/}
 
 
-<section className=' bg-[url("/assets/images/Griddy.svg")]  bg-cover'>
+<section className='min-h-screen bg-[url("/assets/images/Griddy.svg")] bg-cover'>
 
 
-<div className="h-[calc (118dvh - 30px)] grid grid-cols-12 grid-rows-16 gap-4">
+<div className=" grid grid-cols-12 grid-rows-16 gap-4">
 
       <div className="mt-8 col-span-8 row-span-3">
 
       <h1 className=" px-1 uppercase text-5xl font-black sm:text-8xl  md:text-8xl  bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent  lg:text-[9rem] lg:mb-3">Timeless</h1>
 
 
-<h1 className="relative px-1 -top-6 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-amber-600 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[14rem]">Design</h1>
+<h1 className="relative px-1 -top-6 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[14rem]">Design</h1>
 
 
     
@@ -45,7 +46,7 @@ export default function Home() {
 
     <div className="col-span-7 row-span-3 col-start-1 row-start-4">
 
-    <div className='mt-[2vh] 2w-[60vw]  '>
+    <div className=' w-[60vw] lg:-mt-[20vh]'>
 
             <Image src={SideBoard}   alt="technical-glance"/>
 
@@ -73,13 +74,13 @@ export default function Home() {
 
     </div>
 
-    <div className="mt-7 col-span-6 row-span-6 col-start-4 row-start-8">
+    <div className=" col-span-6 row-span-6 col-start-4 row-start-8">
 
     <ClientAnimationWrapper>
 
       <div className="flex flex-col items-center">
 
-    <Image className=" mx-auto w-36 border-2 rounded-2xl border-yellow-600 " src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width: '60%',height: 'auto',}}/>
+    <Image className=" mx-auto rounded-2xl border-2 lg:-mt-40  lg:bg-black/5" src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width:'30%',height: 'auto',}}/>
 
     </div>
 
@@ -89,9 +90,11 @@ export default function Home() {
 
     <div className="col-span-8 row-span-3 col-start-3 row-start-14"                        >
 
-    <div className="mb-12 mt-[15vh] flex flex-col items-center justify-center">
+    <div className="mb-12 mt-[6vh] flex flex-row items-center justify-center gap-x-5">
 
-            <Button className="mt-5 bg-zinc-500 text-orange-300 font-bold border-8 border-orange-300 text-3xl w-60 h-12 shadow-2xl shadow-zinc-800 lg:w-80 lg:h-20 lg:text-5xl lg:-mt-12 lg:mb-6" variant={'outline'} size="lg" >send e-mail 
+            <Button className=" bg-lime-300 text-orange-400 font-bold border-8 border-lime-300 text-3xl w-72 h-12 shadow-2xl shadow-zinc-800 lg:w-96 lg:h-24 lg:ml-5 lg:text-5xl lg:px-2 lg:-mt-12 lg:mb-6" variant={'outline'} size="lg" >
+              <EnvelopeOpenIcon margin-right={15} width={50} height={50}/>
+             
 
         <div>
 
@@ -100,7 +103,7 @@ export default function Home() {
   </div>   
 
     <Link href="fgirse@bluemail" className="bg-zinc-600 "></Link>   
-
+                     &nbsp; send e-mail
     </Button>
 
     </div>
@@ -117,7 +120,10 @@ export default function Home() {
 
     </section>
 
-{/*====================================================grid ende ========== =                                            ==} {...Testimonials}/>
+{/*====================================================grid ende ===============*/}
+<main className="flex min-h-screen flex-col items-center justify-between">
+      <DemoSlider data={dataSlider} />
+    </main>
 </>
   )
 }
@@ -147,5 +153,3 @@ export default Home
 
 
 */}
-</>
-  )}
