@@ -18,7 +18,19 @@ module.exports = withUt({
       },
     },
     extend: {
+
+
+      
       colors: {
+       
+     //================8zense-colors==================
+
+        zenseGreen: "#7c9292",
+        zenseCyan: "#add8d8",
+        zenseGrey: "#66696b",
+        zenseLightgrey: "#bdbfc2",
+        zenseSignal: "#ca8a04",
+     //========================================================
         primary: {
           500: '#624CF5',
           50: ' #F6F8FD',
@@ -67,7 +79,7 @@ module.exports = withUt({
         },
       },
       fontFamily: {
-        robotoc: 'var(--font-sairacond)',
+        sairaCond: 'var(--font-saira_c)',
         primary: 'var(--font-inter)',
         mono: 'var(--font-mono)',
       },
