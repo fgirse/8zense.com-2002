@@ -16,7 +16,7 @@ const sairaCond = Saira_Condensed({
 export const metadata: Metadata = {
   title: '8zenSe.com',
   description: 'LandingPage for startup - 8zense.com',
-  icons: {icon : "/assets/images/LogoEZ.png"}
+  icons: {icon : "/assets/images/LogoEZ2.png"}
 }
 
 export default function RootLayout({

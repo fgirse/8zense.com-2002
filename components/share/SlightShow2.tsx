@@ -15,7 +15,7 @@ import '@/styles/styles.css'
 import { Pagination } from 'swiper/modules';
 import Testimonials from '../partials/Testimonials'
 import { any, boolean, string } from 'zod';
-import SliderCards from '../helpers/SliderCards';
+import SliderCards from '../BV                                                                            £/SliderCards';
 
 
 const SlightShow2=() => {

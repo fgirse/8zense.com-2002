@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // Our custom button component
-import SliderButtons from "@/components/helpers/SliderButtons";
+import SliderButtons from "@/components/BV                                                                            £/SliderButtons";
 
 interface Slide {
   id: number;
