@@ -4,11 +4,9 @@ import LogoEZ from "../../public/assets/images/LogoEZ3.svg";
 import React from 'react'
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import Grafik from'../../public/assets/images/Grafik.svg'
-import { IMAGES_MANIFEST } from 'next/dist/shared/lib/constants';
 import Logo01 from"@/public/assets/images/LogoEZ30.svg"
 import Logo02 from"@/public/assets/images/placeholder.png"
-import Grafik from"@/public/assets/images/Grafik.svg"
+import ArchGrafik from"@/public/assets/images/Grafik.svg"
 import './about.module.css'
 
 const smileyEmoji = String.fromCodePoint(0x1F603);
@@ -45,7 +43,7 @@ const page = () => {
           }}
         /></div>
 <h1 className='text-zenseSignal text-[3.33rem] uppercase mt-36 font-bold text-center leading-10 '>wer ist <br/>  8zense.com ?</h1>
-<h2 className="mt-3 text-[1.46rem]">8zense.com ist Fernanda Perreda</h2>
+<h2 className="mt-3 text-[1.46rem]">8zense.com ist Fernanda Perreira</h2>
 
 <h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[1.03rem] leading-3 text-justify">8zense enstand aus Inttuition heraus,  durch welche sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 <br/><br/>
@@ -74,8 +72,8 @@ const page = () => {
     <h1 className=" leading-7 mt-4 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
     <div className='flex flex-col items-center mt-3'>
       <Image
-          src={Grafik}
-          alt="Logo 8zense"
+          src={ArchGrafik}
+          alt="Illustration"
           sizes="100vw"
             className='rounded-lg '
           style={{
