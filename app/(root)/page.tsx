@@ -14,6 +14,8 @@ import DemoSlider from "@/components/partials/TestimonialsAAA";
 import dataSlider from "@/constants/sliderData.json";
 import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 
+import Slider00 from"@/components/share/Slider00"
+
 export default function Home() {
 
 
@@ -124,6 +126,8 @@ export default function Home() {
 <main className="flex min-h-screen flex-col items-center justify-between">
       <DemoSlider data={dataSlider} />
     </main>
+
+    <Slider00/>
 </>
   )
 }

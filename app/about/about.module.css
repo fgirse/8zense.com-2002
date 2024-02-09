@@ -1,0 +1,15 @@
+.image-container {
+
+    width: 50%;
+  
+    > div {
+      position: unset !important;
+    }
+  
+    .image-about {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }

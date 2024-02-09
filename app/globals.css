@@ -324,14 +324,14 @@ body {
 
 .inner-carousel {
   display: flex;
-  background: rgb(76, 76, 76);
+  background-color: rgb(76, 76, 76);
   height: 23rem;
 }
 
 .carousel {
   cursor: grab;
   overflow: hidden;
-  background: rgb(215, 216, 215);
+  background-color: rgb(215, 216, 215);
   height: 23rem;
 }
 
