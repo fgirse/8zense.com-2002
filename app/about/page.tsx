@@ -57,7 +57,7 @@ const page = () => {
       </div>
     
           
-    <h1 className='px-2 text-[1.92rem] text-zenseCyan font-bold uppercase mt-1 text-left leading-6 py-3'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
+    <h1 className='px-2 text-[1.92rem] text-zenseGrey font-bold uppercase mt-1 text-left leading-6 py-3'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
 
 
 <div className="grid grid-cols-5 grid-rows-5 gap-4">
