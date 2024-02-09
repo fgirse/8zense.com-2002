@@ -43,9 +43,9 @@ const page = () => {
           }}
         /></div>
 <h1 className='text-zenseSignal text-[3.33rem] uppercase mt-36 font-bold text-center leading-10 '>wer ist <br/>  8zense.com ?</h1>
-<h2 className="mt-3 text-[1.46rem]">8zense.com ist Fernanda Perreira</h2>
+<h2 className="mt-3 text-[1.49rem]">8zense.com ist Fernanda Perreira</h2>
 
-<h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[1.03rem] leading-3 text-justify">8zense enstand aus Inttuition heraus,  durch welche sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
+<h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[.93rem] leading-3 text-justify">8zense enstand aus Inttuition heraus,  durch welche sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 <br/><br/>
     <span className="text-[2.33rem] text-zenseGrey leading-7 headingA uppercase font-black ">design<span className='text-zenseSignal'>✔</span></span> <br/> <span className="text-[2.33rem] text-zenseGrey leading-7 headingA uppercase font-black ">individuell<span className='text-zenseSignal'>✔</span></span><br/> <span className="text-[2.33rem] text-zenseGrey leading-7 headingA uppercase font-black ">exklusiv<span className='text-zenseSignal'>✔</span></span> </h2>
     
@@ -57,20 +57,20 @@ const page = () => {
       </div>
     
           
-    <h1 className='px-2 text-[1.92rem] text-zenseGrey font-bold uppercase mt-1 text-left leading-6 py-3'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
+    <h1 className='px-2 text-[1.92rem] text-zenseSignal font-bold uppercase mt-1 text-left leading-6 py-3'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
 
 
 <div className="grid grid-cols-5 grid-rows-5 gap-4">
     <div className="bg-zenseSignal/10 col-span-3 row-span-5">
     <p className="mt-3 text-[.866rem] text-zenseGrey text-justify  px-4 py-3">
-    📐 M. Fernanda Pereira besuchte als PhD-Studentin die university of Sao Paulo -Brasilia. <br/> <br/>📐 An der Universität Montevideo - Uruguay  legte sie den Grundstein ihres beruflichen Werdeganges mit einem Studium der Architektur. <br/> <br/>📐 Sie graduierte mit einem Master’s Degree am rennomierten Institut für Konstruktionswissenschaften ‚Eduardo Torroja‘ in Spanien. <br/> <br/>📐 Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches „Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection
+    📐 M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo -Brasilia. <br/> <br/>📐 An der Universität Montevideo - Uruguay  legte sie den Grundstein ihres beruflichen Werdeganges mit einem Studium der Architektur. <br/> <br/>📐 Sie graduierte mit einem Master’s Degree am rennomierten Institut für Konstruktionswissenschaften ‚Eduardo Torroja‘ in Spanien. <br/> <br/>📐 Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches „Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection
 
 </p>
 
     </div>
     <div className='bg-[ url("/assets/images/grafik6.png")] bg-cover bg-no-repeat col-span-2 row-span-5 col-start-4 h-96'>
-    <h1 className=" leading-7 mt-4 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
-    <div className='flex flex-col items-center mt-3'>
+    
+    <div className='flex flex-col items-center mt-3 px-3'>
       <Image
           src={ArchGrafik}
           alt="Illustration"
@@ -80,8 +80,9 @@ const page = () => {
             width: '40%',
             height: 'auto',
           }}
-        /></div>
-    
+        />
+        </div>
+        <h1 className=" text-zenseGrey  leading-7 mt-48 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
     </div>
 </div>
     
