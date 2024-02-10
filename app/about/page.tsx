@@ -1,4 +1,4 @@
-
+"use client"
 import Image from 'next/image'
 import LogoEZ from "../../public/assets/images/LogoEZ3.svg";
 import React from 'react'
@@ -19,7 +19,7 @@ const page = () => {
     <div className='flex flex-col items-center justify-around'>
 
       <h1 className='text center text-xl font-bold text-zenseGrey uppercase'>über uns</h1>
-      <div className='image-container flex flex-col items-center'>
+      <div className='image-container flex flex-col items-center sm:w-[20vw]'>
           <Image
           src={Logo01}
           alt="Logo 8zense"
@@ -30,8 +30,8 @@ const page = () => {
           }}
         />
       </div>
-      <h1 className=' mt-32 text-4xl font-bold text-zenseGrey'>8zense.com</h1>
-     <div className='flex flex-col items-center mt-3'>
+      <h1 className=' mt-32 text-4xl font-bold text-zenseGrey md:mt-72'>8zense.com</h1>
+     <div className='flex flex-col items-center mt-3 md:w-36'>
       <Image
           src={Logo02}
           alt="Logo 8zense"
@@ -42,12 +42,12 @@ const page = () => {
             height: 'auto',
           }}
         /></div>
-<h1 className='text-zenseSignal text-[3.33rem] uppercase mt-36 font-bold text-center leading-10 '>wer ist <br/>  8zense.com ?</h1>
+<h1 className='text-zenseSignal text-[3.1rem] uppercase mt-36 font-bold text-center leading-10 '>was ist <br/>  8zense.com ?</h1>
 <h2 className="mt-3 text-[1.49rem]">8zense.com ist Fernanda Perreira</h2>
 
 <h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[.93rem] leading-3 text-justify">8zense enstand aus Inttuition heraus,  durch welche sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 <br/><br/>
-    <span className="text-[2.33rem] text-zenseGrey leading-7 headingA uppercase font-black ">design<span className='text-zenseSignal'>✔</span></span> <br/> <span className="text-[2.33rem] text-zenseGrey leading-7 headingA uppercase font-black ">individuell<span className='text-zenseSignal'>✔</span></span><br/> <span className="text-[2.33rem] text-zenseGrey leading-7 headingA uppercase font-black ">exklusiv<span className='text-zenseSignal'>✔</span></span> </h2>
+<span className="text-[2.43rem] text-zenseGrey leading-7 headingA uppercase font-black ">design<span className='text-zenseSignal'>✔</span></span> <br/><span className="text-[2.43rem] text-zenseGrey leading-7 headingA uppercase font-black ">individuell<span className='text-zenseSignal'>✔</span></span> <br/> <span className="text-[2.43rem] text-zenseGrey leading-7 headingA uppercase font-black ">exklusiv<span className='text-zenseSignal'>✔</span></span> </h2>
     
     <h1 className="mt-3 text-xl font-bold text-zenseGrey text-center md:text-3xl lg:py-5">über Fernanda</h1>
     
