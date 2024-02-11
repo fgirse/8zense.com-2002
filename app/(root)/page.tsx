@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button';
 import Player from "../../components/share/Player";
 import { nanoid } from 'nanoid';
 import Link from 'next/link';
-import SideBoard  from "./../../public/assets/images/Rastergrafikobg.png";
+import SideBoard  from "./../../public/assets/images/sideboardobg.png";
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
-import LogoEZ from'../../public/assets/images/LogoEZ2.png';
+import LogoEZ from"@/public/assets/images/LogoEZCyan.png"
 //import {LinkIcon} from "@/public/assets/icons/link.svg"
 import { any, array } from "zod";
 import DemoSlider from "@/components/partials/TestimonialsAAA";
@@ -80,9 +80,9 @@ export default function Home() {
 
     <ClientAnimationWrapper>
 
-      <div className="flex flex-col items-center">
+      <div className="mt-24 mb-8 flex flex-col items-center">
 
-    <Image className=" mx-auto rounded-2xl border-2 lg:-mt-40  lg:bg-black/5" src={LogoEZ}  alt="LogoEZ" sizes="100vw" style={{width:'30%',height: 'auto',}}/>
+    <Image className=" mx-auto rounded-2xl border-2 lg:-mt-40  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'66%',height: 'auto',}}/>
 
     </div>
 
@@ -90,9 +90,9 @@ export default function Home() {
 
     </div>
 
-    <div className="col-span-8 row-span-3 col-start-3 row-start-14"                        >
+    <div className="col-span-8 row-span-3 col-start-3 row-start-14">
 
-    <div className="mb-12 mt-[6vh] flex flex-row items-center justify-center gap-x-5">
+    <div className="mb-16 mt-[12vh] flex flex-row items-center justify-center gap-x-5 sm:mt-12">
 
             <Button className=" bg-lime-300 text-orange-400 font-bold border-8 border-lime-300 text-3xl w-72 h-12 shadow-2xl shadow-zinc-800 lg:w-96 lg:h-24 lg:ml-5 lg:text-5xl lg:px-2 lg:-mt-12 lg:mb-6" variant={'outline'} size="lg" >
               <EnvelopeOpenIcon margin-right={15} width={50} height={50}/>

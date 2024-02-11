@@ -8,7 +8,7 @@ const Footer = () => {
         <Link href='/'>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
           <Image 
-            src="/assets/images/LogoEZ2.png"
+            src="/assets/images/LogoEZCyan.png"
             alt="logo"
             width={56}
             height={56}

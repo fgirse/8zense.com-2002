@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/gallery/page.tsx", "components/partials/Testimonials.tsx", "types/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/gallery/page.tsx", "components/partials/Testimonials.tsx", "types/index.tsx", "components/Illustrationen/Häckchen.js"],
   "exclude": ["node_modules"]
 }
