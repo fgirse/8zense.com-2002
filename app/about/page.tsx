@@ -47,8 +47,17 @@ const page = () => {
 
 <h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[.93rem] leading-3 text-justify">8zense enstand aus Inttuition heraus,  durch welche sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 <br/><br/></h2>
-<h1 className='text-left uppercase text-zenserGrey headingA text-4xl'>design</h1>
+<div className='flex gap-x-1 items-end'>
+<h1 className='text-left uppercase font-extrabold text-zenserGrey headingA text-5xl'>design</h1>
 <Hook className="w-12 h-12 align-text-bottom"/>
+</div>
+<div className='flex gap-x-1 items-end'>
+<h1 className='text-left uppercase font-extrabold text-zenserGrey headingA text-5xl'>Individuell</h1>
+<Hook className="w-12 h-12 align-text-bottom"/>
+</div><div className='flex gap-x-1 items-end'>
+<h1 className='text-left uppercase font-extrabold text-zenserGrey headingA text-5xl'>exclusive</h1>
+<Hook className="w-12 h-12 align-text-bottom"/>
+</div>
 <div className='flex flex-row items-center justify-start'>
 
 </div>
@@ -68,7 +77,7 @@ const page = () => {
 
 <div className="grid grid-cols-5 grid-rows-5 gap-4">
     <div className="bg-zenseSignal/10 col-span-3 row-span-5">
-      <Image src="Hook" width={20} height={20} alt="Illustration Häckchen" />
+      <Image src="/assets/images/hook.svg" width={20} height={20} alt="Illustration Häckchen" />
     <p className="mt-3 text-[.866rem] text-zenseGrey text-justify  px-4 py-3">
      M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo -Brasilia. <br/> <br/>📐 An der Universität Montevideo - Uruguay  legte sie den Grundstein ihres beruflichen Werdeganges mit einem Studium der Architektur. <br/> <br/>📐 Sie graduierte mit einem Master’s Degree am rennomierten Institut für Konstruktionswissenschaften ‚Eduardo Torroja‘ in Spanien. <br/> <br/>📐 Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches „Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection
 
