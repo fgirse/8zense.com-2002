@@ -11,7 +11,7 @@ import './about.module.css'
 //import Hook from "@/public/assets/images/hook.svg"
 import Hook from"@/components/Illustrationen/Häckchen"
 import Tools from "@/components/Illustrationen/Tools"
-
+import Grafik from "@/public/assets/images/grafik6.svg"
 
 const page = () => {
   return (
@@ -55,7 +55,7 @@ const page = () => {
 </div>
 </div>
 <div className='flex gap-x-1 items-end'>
-<h1 className='text-left uppercase font-extrabold text-zenserGrey headingA text-5xl md:text-7xl'>Individuell</h1>
+<h1 className='text-le0ft uppercase font-extrabold text-zenserGrey headingA text-5xl md:text-7xl'>Individuell</h1>
 <Hook className="w-12 h-12 align-text-bottom"/>
 </div><div className='flex gap-x-1 items-end'>
 <h1 className='text-left uppercase font-extrabold text-zenserGrey headingA text-5xl md:text-7xl'>exclusive</h1>
@@ -76,38 +76,47 @@ const page = () => {
     
           
     <h1 className='px-2 text-[1.82rem] text-zenseSignal font-bold uppercase mt-1 text-left leading-6 py-3'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1> <div className='bg-zenseSignal/10 col-span-3 row-span-5'>
-   <div className='inline-flex '>
-    <Tools className="align__________--_______________________________------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- rounded-full bg-black w-9 h-9 p-1" />
-    <p className="align-top  mt-3 text-[1.196rem] text-zenseGrey text-justify  px-4 py-3">
-     M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo -Brasilia. <br/> <br/>An der Universität Montevideo - Uruguay  legte sie den Grundstein ihres beruflichen Werdeganges mit einem Studium der Architektur. <br/> <br/>📐 Sie graduierte mit einem Master’s Degree am rennomierten Institut für Konstruktionswissenschaften ‚Eduardo Torroja‘ in Spanien. <br/> <br/>📐 Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches „Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection
-
-</p></div>
-    <div className='bg-[ url("/assets/images/grafik6.png")] bg-cover bg-no-repeat col-span-2 row-span-5 col-start-4 h-96'>
-    
-    <div className='flex flex-col items-center mt-3 px-3'>
-      <Image
-          src={ArchGrafik}
-          alt="Illustration"
+   
+   <div className='bg-[url("/assets/images/grafik6.png)] bg-cover'>
+    <h1 className='uppercase text-3xl headingA font-extrabold'>Education - Projekte</h1>
+    <Image src={Grafik}  alt="Tools"
           sizes="100vw"
-            className='rounded-lg '
+            className=''
           style={{
-            width: '40%',
+            width: '50%',
             height: 'auto',
           }}
         />
-        </div>
-        <h1 className=" text-zenseGrey  leading-7 mt-48 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
-    </div>
+   </div>
+   <div className='mt-48 flex items-center justify-center'>
+    <Tools className=" w-14 h-14 p-2" />
+    <p className=" text-[1.196rem] text-zenseGrey text-justify  px-4 py-3">
+Fernanda studierte als PhD an der Universität von Sao Paulo - Brasil
+</p></div>
+<div className='relative flex'>
+    <Tools className=" w-14 h-14 p-1" />
+    <p className=" text-[1.196rem] text-zenseGrey text-justify  px-4 py-3">
+  An der Universität Montevideo - Uruguay  legte sie den Grundstein ihres beruflichen Werdeganges mit einem Studium der Architektur. 
+</p></div>
+<div className='flex'>
+    <Tools className=" w-14 h-14 p-2" />
+    <p className=" text-[1.196rem] text-zenseGrey text-justify  px-4 py-3">
+ Sie graduierte mit einem Master’s Degree am rennomierten Institut für Konstruktionswissenschaften ‚Eduardo Torroja‘ in Spanien. 
+
+</p></div>
+
+
+<div className='flex'>
+    <Tools className=" w-14 h-14 p-2" />
+    <p className=" text-[1.196rem] text-zenseGrey text-justify  px-4 py-3">
+      Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches „Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection
+
+</p></div>
+    
 </div>
     
    </div>
     
-      
-    
-    
-    
-  
-
     </section>
    
    
@@ -118,8 +127,3 @@ const page = () => {
 }
  
 export default page
-
-
-        
-
-
