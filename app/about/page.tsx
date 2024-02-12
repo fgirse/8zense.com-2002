@@ -83,12 +83,12 @@ const page = () => {
           sizes="100vw"
             className=''
           style={{
-            width: '50%',
+            width: '60%',
             height: 'auto',
           }}
         />
    </div>
-   <div className='mt-48 flex items-center justify-center'>
+   <div className='mt-60 flex items-center justify-center'>
     <Tools className=" w-14 h-14 p-2" />
     <p className=" text-[1.196rem] text-zenseGrey text-justify  px-4 py-3">
 Fernanda studierte als PhD an der Universität von Sao Paulo - Brasil
