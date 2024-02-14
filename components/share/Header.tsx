@@ -8,7 +8,7 @@ import Locked from"@/public/assets/images/locked.png"
 
 const Header = () => {
   return (
-    <header className="px-5 w-full h-20 bg-zinc-600 text-white border-b-2 border-grey-200">
+    <header className="px-5 w-full h-20 bg-zinc-600/20 text-white border-b-2 border-grey-200">
       <div id="LogoEZ" className="rounded-xl wrapper flex items-start justify-between">
         <Link href="/" className="">
           <Image 

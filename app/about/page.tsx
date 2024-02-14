@@ -30,7 +30,7 @@ const page = () => {
 
     <>
 
-    <section className='min-h-screen container '>
+    <section className='mx-auto min-h-screen w-[95vw]'>
 
     <div className='flex flex-col items-center justify-around'>
 
@@ -87,10 +87,10 @@ const page = () => {
 
 <h1 className='text-zenseSignal text-[3.1rem] uppercase mt-36 font-bold text-center leading-10 sm:mt-60'>was ist <br/>  8zense.com ?</h1>
 
-<h2 className="mt-3 text-[1.49rem]">8zense.com ist Fernanda Perreira</h2>
+<h2 className="mt-3 text-[1.49rem]">8zense.com ist Fernanda Pereira</h2>
 
 
-<h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[.93rem] leading-3 text-justify">8zense enstand aus Inttuition heraus,  durch welche sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten kÃ¶nnen. Als studierte Innenarchitektin hat Fernanda unzÃ¤hlige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
+<h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="text-[.93rem] leading-3 text-justify">8zense enstand aus Intuition heraus,  obwelcher sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 
 <br/><br/></h2>
 
@@ -143,32 +143,32 @@ const page = () => {
 
    
   
-  <div className="flex items-start gap-3">
-    <Tools className="ml-1 w-12 h-12 p mx-1" />
-
+  <div className="p-2 flex items-start gap-3">
+  <Tools className="mt-3 ml-1 w-20 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
+          
     <p className='text-xs mt-2 p-1' >
   M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo
 </p></div>
 
-<div className="flex items-start gap-3">
-    <Tools className="ml-1 w-16 h-16" />
-
+<div className="p-2 flex  items-start gap-1">
+<Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
+          
     <p className='text-xs mt-2 p-1' >
-    An der Universität Montevideo - Uruguay  legte sie den Grundstein ihres beruflichen Werdeganges mit einem Studium der Architektur.
+    An der Universität in Montevideo- Uruquay legte sie den Grundsteon ihres berulichen Werdegangs mit einem Studium der Architektur.
 </p></div>
 
-<div className="flex items-start gap-3">
-    <Tools className="ml-1 w-16 h-16 p mx-1" />
-
+<div className="p-2 flex items-start gap-3">
+<Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
+          
     <p className='text-xs mt-2 p-1' >
     Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktionswissenschaften âEduardo Torrojaâ in Spanien.
 </p></div>
 
-<div className="flex items-start gap-3">
-    <Tools className="ml-1 w-16 h-16 p mx-1" />
-
+<div className="p-2 flex items-start gap-3">
+<Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
+          
     <p className='text-xs mt-2 p-1' >
-    Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches âManual of Concrete Rehabilitation: Reparier, Strengthening and Protection
+    Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches âManual of Concrete Rehabilitation: Reparier, Strengthening and Protection.
 </p></div>
 
 
@@ -240,7 +240,7 @@ const page = () => {
 
         </div>
 
-        <h1 className="mt-40 text-zenseGrey  leading-7 md:mt-80 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
+        <h1 className="mt-44 text-zenseGrey  leading-7 md:mt-80 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
 
     </div>
 

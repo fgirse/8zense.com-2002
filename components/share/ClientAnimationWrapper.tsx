@@ -15,7 +15,7 @@ export const ClientAnimationWrapper = ({ children }: { children: React.ReactNode
       <motion.div
       className="box"
       initial={{ opacity: 0, scale: 0.3 }}
-      animate={{ opacity: 1, scale: 1.66 }}
+      animate={{ opacity: 1, scale: 1.3 }}
       transition={{
         duration: 2.5,
         delay: 0.2,
