@@ -61,7 +61,7 @@ const page = () => {
 
       <h1 className=' mt-32 text-4xl font-bold text-zenseGrey md:mt-72'>8zense.com</h1>
 
-     <div className='flex flex-col items-center mt-3 md:w-36'>
+     <div className='flex flex-col items-center mt-3 md:w-8'>
 
       <Image
 
@@ -146,28 +146,28 @@ const page = () => {
   <div className="p-2 flex items-start gap-3">
   <Tools className="mt-3 ml-1 w-20 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
           
-    <p className='text-xs mt-2 p-1' >
-  M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo
+    <p className='text-xs mt-2 p-1 sm:text-sm' >
+  M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo. Hier studierte sie Innenarchitektur.
 </p></div>
 
 <div className="p-2 flex  items-start gap-1">
 <Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
           
-    <p className='text-xs mt-2 p-1' >
+    <p className='text-xs mt-2 p-1 sm:text-sm' >
     An der Universität in Montevideo- Uruquay legte sie den Grundsteon ihres berulichen Werdegangs mit einem Studium der Architektur.
 </p></div>
 
 <div className="p-2 flex items-start gap-3">
 <Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
           
-    <p className='text-xs mt-2 p-1' >
-    Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktionswissenschaften âEduardo Torrojaâ in Spanien.
+    <p className='text-xs mt-2 p-1 sm:text-sm' >
+    Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktionswissenschaften "Eduardo Torroja" in Spanien.
 </p></div>
 
 <div className="p-2 flex items-start gap-3">
 <Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
           
-    <p className='text-xs mt-2 p-1' >
+    <p className='text-xs mt-2 p-1 sm:text-sm' >
     Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches âManual of Concrete Rehabilitation: Reparier, Strengthening and Protection.
 </p></div>
 
@@ -240,7 +240,7 @@ const page = () => {
 
         </div>
 
-        <h1 className="mt-44 text-zenseGrey  leading-7 md:mt-80 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
+        <h1 className="mt-44 sm:mt-60 text-zenseGrey  leading-7 md:mt-2 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
 
     </div>
 

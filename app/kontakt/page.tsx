@@ -1,3 +1,4 @@
+
 "use client"
 
 import React from 'react';
@@ -5,11 +6,12 @@ import Image from 'next/image';
 import Logo from "@/public/assets/images/LogoEZ30.svg";
 import Phone from "@/components/Illustrationen/phone";
 import Email from "@/components/Illustrationen/email";
-import QRCode from "@/public/assets/images/QRCode.png";
+import QRCode from "@/public/assets/images/QRCode.png"
 import { Separator } from '@/components/ui/separator';
 const Contact = () => {
   return (
     <>
+    <section>
     <h1  className='text-center uppercase font-black text-xl text-zenseGrey' >contact</h1>
     <div className='flex flex-col items-center'>
             <div className='py-7 w-full flex flex-col items-center'>
@@ -30,13 +32,15 @@ const Contact = () => {
         <Separator></Separator>
       
     </div>
-    <div className='flex flex-col items-center'>
-    <Image src={QRCode} alt="Logo 8zense" sizes="100vw" style={{ width: '33%',height: 'auto',}} className ="mt-5 w-full mx-auto" /> 
-  
     
-    </div>
+    <Image src={QRCode} alt="Logo 8zense" sizes="100vw" style={{ width: '33%',height: 'auto',}} className ="mt-5 w-full mx-auto" />
+
+
+</section>
+    
+
     </>
   )
-}
+  }
 
 export default Contact

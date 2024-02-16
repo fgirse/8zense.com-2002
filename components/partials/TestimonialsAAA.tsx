@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import Card01 from"@/components/share/Card01";
 // Our custom button component
 import SliderButtons from "@/components/BV                                                                            £/SliderButtons";
 
@@ -37,6 +37,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
       <div className=" h-screen">
         <ul className="h-96 w-full">
           <Swiper
+          className="w-full h-[55vw]"
             navigation
             pagination={{ type: "bullets", clickable: true }}
             autoplay={true}
@@ -45,12 +46,12 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
           >
             {data.map(({ id, image, tagline, title, buttons }) => (
               <SwiperSlide key={id}>
-                <div
+               {/* <div
                   className="h-screen w-full absolute left-0 top-0"
                   style={{
                     background: `url(${image}) center center / cover scroll no-repeat`,
                   }}
-                ></div>
+                ></div>*/}
                 <div className="h-full w-full absolute left-0 top-0 bg-black opacity-20"></div>
                 <div className="relative z-10 h-[85vh] flex items-center justify-center">
                   <div className="text-center">
@@ -69,6 +70,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
                     ) : null}
                   </div>
                 </div>
+                <Card01/>
               </SwiperSlide>
             ))}
           </Swiper>

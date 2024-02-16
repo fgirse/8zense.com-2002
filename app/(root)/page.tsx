@@ -1,3 +1,4 @@
+"use client"
 
 import { motion } from "framer-motion";
 import Image from 'next/image';
@@ -7,7 +8,7 @@ import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import SideBoard  from "./../../public/assets/images/sideboardobg.png";
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
-import LogoEZ from"@/public/assets/images/LogoEZCyan.png"
+import LogoEZ from"@/public/assets/images/LogoEZ30.svg"
 //import {LinkIcon} from "@/public/assets/icons/link.svg"
 import { any, array } from "zod";
 import DemoSlider from "@/components/partials/TestimonialsAAA";
@@ -32,9 +33,9 @@ export default function Home() {
 <section className='min-h-screen bg-[url("/assets/images/Griddy.svg")] bg-cover'>
 
 
-<div className=" grid grid-cols-12 grid-rows-16 gap-4">
+<div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
-      <div className="mt-8 col-span-8 row-span-3">
+      <div className="mt-8 col-span-6 row-span-3">
 
       <h1 className=" px-1 uppercase text-5xl font-black sm:text-8xl  md:text-8xl  bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent  lg:text-[9rem] lg:mb-3">Timeless</h1>
 
@@ -48,7 +49,7 @@ export default function Home() {
 
     <div className="col-span-7 row-span-3 col-start-1 row-start-4">
 
-    <div className=' w-[60vw] lg:-mt-[20vh]'>
+    <div className='mt-12 w-[60vw] lg:-mt-[20vh]'>
 
             <Image src={SideBoard}   alt="technical-glance"/>
 
@@ -58,11 +59,11 @@ export default function Home() {
 
     </div>
 
-    <div className="px-1 col-span-4 row-span-7 col-start-9 row-start-1">
+    <div className="px-1 col-span-6 row-span-7 col-start-7 row-start-1">
 
-    <p className="mb-5 lg:mr-12 bg-zinc-500/20 lg:px-5 lg:py-3 rounded-xl  mt-5 py-1 text-zinc-700 font-black text-right text-[.7rem] px-3 sm:text-2xl md:text-[2.33rem] md:leading-9 lg:font-black lg:text-6xl lg-p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
+    <p className="mb-5 lg:mr-12 bg-zenseSignal/20  rounded-xl  mt-7 py-1 text-zinc-700 font-black text-right text-[.9rem] px-3 sm:text-2xl md:text-[2.33rem] md:leading-9 lg:px-5 lg:py-3 lg:font-black lg:text-6xl lg:p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
 
-<div className=" font-black shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-10 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:w-32 lg:h-32">
+<div className=" relative -top-5  font-black shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-10 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:w-32 lg:h-32">
 
 
  <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
@@ -80,9 +81,9 @@ export default function Home() {
 
     <ClientAnimationWrapper>
 
-      <div className="mt-24 mb-8 flex flex-col items-center">
+      <div className="mt-[25vh] mb-8 flex flex-col items-center  lg:w-4/12">
 
-    <Image className=" mx-auto rounded-2xl border-2 lg:-mt-40  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'66%',height: 'auto',}}/>
+    <Image className=" mx-auto rounded-2xl border-2 lg:-mt-40  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'75%',height: 'auto',}}/>
 
     </div>
 
@@ -90,7 +91,7 @@ export default function Home() {
 
     </div>
 
-    <div className="col-span-8 row-span-3 col-start-3 row-start-14">
+   {/*} <div className="col-span-8 row-span-3 col-start-3 row-start-14">
 
     <div className="mb-16 mt-[15vh] flex flex-row items-center justify-center gap-x-5 sm:mt-12">
 
@@ -112,7 +113,7 @@ export default function Home() {
 
     
 
-    </div>
+  </div>*/}
 
 </div>
 
