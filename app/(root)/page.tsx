@@ -15,7 +15,8 @@ import DemoSlider from "@/components/partials/TestimonialsAAA";
 import dataSlider from "@/constants/sliderData.json";
 import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 
-import Slider00 from"@/components/share/Slider00"
+
+import SlightShow2 from"@/components/share/SlightShow2"
 
 export default function Home() {
 
@@ -29,9 +30,7 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-
 <section className='min-h-screen bg-[url("/assets/images/Griddy.svg")] bg-cover'>
-
 
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
@@ -115,20 +114,15 @@ export default function Home() {
 
   </div>*/}
 
-</div>
-
-    
-
-
-
+    </div>
     </section>
 
 {/*====================================================grid ende ===============*/}
-<main className="flex min-h-screen flex-col items-center justify-between">
+{/*<main className="flex min-h-screen flex-col items-center justify-between">
       <DemoSlider data={dataSlider} />
-    </main>
+</main>*/}
 
-    <Slider00/>
+    <SlightShow2/>
 </>
   )
 }

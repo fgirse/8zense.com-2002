@@ -6,6 +6,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import Image from "next/image"
+import Avatar from "@/public/assets/images/avatar-sm-bardot.png"
 
 export default function ProductCard() {
   return (
@@ -13,22 +15,17 @@ export default function ProductCard() {
       {/* Product Card 1 */}
       <Card className="bg-white max-w-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
         <CardHeader className="relative">
-          <img
-            src="/watch.png"
-            alt="Product Image"
-            className="w-full h-48 bg-contain bg-center"
-          />
-          <div className="absolute top-0 left-0 bg-gradient-to-r from-blue-500 to-purple-500 p-2 text-white">
-            New Arrival
+          <Image src={Avatar} alt="Portrait Bardot" sizes="100vw" style={{width:'30%',height: 'auto',}}/>
+          <div className="absolute top-0 left-0 bg-gradient-to-r from-zenseSignal to-orange-200 p-2 text-white">
+            Testimonials
           </div>
         </CardHeader>
         <CardContent className="p-4">
           <CardTitle className="text-xl font-semibold mb-2">
-            Product Title
+            Brigitte Bardot
           </CardTitle>
           <CardDescription className="text-gray-600 mb-4">
-            Product Description goes here. Provide a brief overview of the
-            product.
+            Schauspielerin
           </CardDescription>
           <p className="text-gray-700 mb-2">$99.99</p>
         </CardContent>
@@ -88,7 +85,7 @@ export default function ProductCard() {
             Product Description goes here. Provide a brief overview of the
             product.
           </CardDescription>
-          <p className="text-gray-700 mb-2">$99.99</p>
+          <p className="text-gray-700 mb-2"></p>
         </CardContent>
         <CardFooter className="p-4 bg-gray-100">
           <button className="bg-blue-500 hover:bg-blue-700 text-white  py-2 px-4 rounded-full">

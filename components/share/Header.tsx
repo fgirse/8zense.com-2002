@@ -5,16 +5,15 @@ import { Button } from "../ui/button";
 import NavItems from "./NavItems";
 import MobileNav from "../share/MobileNav";
 import Locked from"@/public/assets/images/locked.png"
+import Logo from"@/public/assets/images/8zenseVer.png";
 
 const Header = () => {
   return (
     <header className="px-5 w-full h-20 bg-zinc-600/5 text-white border-b-2 border-grey-200">
       <div id="LogoEZ" className="rounded-xl wrapper flex items-start justify-between">
         <Link href="/" className="">
-          <Image 
-          className=" rounded-xl shadow-2xl shadow-zinc-400"
-            src="/assets/images/LogoEZCyan.png" width={70} height={50}
-            alt="Logo 8zense.com" 
+          <Image src={Logo} sizes="100vw" style={{width:"12%",height:"auto"}}alt="Logo 8zense.com"
+          
           />
         </Link>
 

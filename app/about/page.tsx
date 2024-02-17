@@ -30,7 +30,7 @@ const page = () => {
 
     <>
 
-    <section className='mx-auto min-h-screen w-[95vw]'>
+    <section className='mx-auto min-h-screen container'>
 
     <div className='flex flex-col items-center justify-around'>
 
@@ -75,7 +75,7 @@ const page = () => {
 
           style={{
 
-            width: '33%',
+            width: '3%',
 
             height: 'auto',
 
@@ -123,7 +123,7 @@ const page = () => {
 
     
 
-    <div className="w-full h-60 col-span-10 row-span-4 row-start-3 bg-[url('/assets/images/Hotel.SaoPaulo.png')] bg-cover lg:bg-contain bg-no-repeat bg-center">
+    <div className="w-full h-60 col-span-10 row-span-4 row-start-3 bg-[url('/assets/images/Hotel-SaoPaulo.png')] bg-cover lg:bg-contain bg-no-repeat bg-center">
 
     <h1   className='relative  text-center text-3xl text-white uppercase font-extrabold'>projekt sao paulo-brasil</h1>
 
@@ -133,7 +133,9 @@ const page = () => {
 
           
 
-    <h1 className='text-[1.82rem] mt-5 px-2 md:text-[1.92rem] text-zenseSignal font-bold uppercase text-left leading-6 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
+    <h1 className='text-[1.8rem] style={{
+
+    }}2rem] mt-5 px-2 md:text-[1.92rem] text-zenseSignal font-bold uppercase text-left leading-6 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
 
 
 
@@ -144,10 +146,10 @@ const page = () => {
    
   
   <div className="p-2 flex items-start gap-3">
-  <Tools className="mt-3 ml-1 w-20 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
+  <Tools className="mt-3 ml-1 w-32 sm:w-28 md:w-28 p mx-1 bg-zenseSignal rounded-full p-1" />
           
     <p className='text-xs mt-2 p-1 sm:text-sm' >
-  M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo. Hier studierte sie Innenarchitektur.
+  M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo. Hier studierte sie das Fachgebiet Innenarchitektur.
 </p></div>
 
 <div className="p-2 flex  items-start gap-1">
@@ -168,7 +170,7 @@ const page = () => {
 <Tools className="mt-3 ml-1 w-32 md:w-12 md:h-12 p mx-1 bg-zenseSignal rounded-full p-1" />
           
     <p className='text-xs mt-2 p-1 sm:text-sm' >
-    Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches âManual of Concrete Rehabilitation: Reparier, Strengthening and Protection.
+    Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection.
 </p></div>
 
 
@@ -212,10 +214,7 @@ const page = () => {
     </div>
 
 
-    <div className='bg-[ url("/assets/images/grafik7.png")] bg-cover bg-no-repeat col-span-2 row-span-5 col-start-4 h-96'>
-
-    
-
+    <div className='flex-3 bg-[ url("/assets/images/grafik7.png")] bg-cover bg-no-repeat col-span-2 row-span-5 col-start-4 h-96'>
     <div className='mt-5 flex flex-col items-center md:mt-3 px-3'>
 
       <Image
@@ -236,51 +235,19 @@ const page = () => {
 
           }}
 
-        />
+          />
 
-        </div>
+            </div>
 
         <h1 className="mt-44 sm:mt-60 text-zenseGrey  leading-7 md:mt-2 font-black px-1 text-[2.11rem] uppercase headingA" >education projekte</h1 >
 
-    </div>
-
+  </div>
 </div>
-
-    
-
-   
-
-    </div>
-
-      
-
-    
-
-    
-
-    
-
-  
-
-
-    </section>
-
-   
-
-   
-
-    
-
-    </>
-
-    
-
-  )
-
+</div>
+</section>  
+</>
+)
 }
-
- 
-
 export default page
 
 
