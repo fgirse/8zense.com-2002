@@ -1,0 +1,23 @@
+.section{
+    background-color: royalblue;
+    margin-right: auto;
+    margin-left: auto;
+    width: 97vw;
+    }
+    
+    .image-container {
+    
+        width: 80%;
+     
+         .div {
+          position: unset !important;
+        }
+      
+        .image-home {
+          object-fit: cover;
+          width: 100% !important;
+          position: relative !important;
+          top: 20vh;
+          height: unset !important;
+        }
+      }

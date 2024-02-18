@@ -11,13 +11,13 @@ import { Separator } from '@/components/ui/separator';
 const Contact = () => {
   return (
     <>
-    <section className="min-h-screen">
+    <section className=" min-h-screen">
     <h1  className='text-center uppercase font-black text-xl text-zenseGrey' >contact</h1>
     <div className='flex flex-col items-center'>
-            <div className='py-7 w-full flex flex-col items-center'>
+            <div className=' py-7 w-full flex flex-col items-center'>
               <Image src={Logo} alt="Logo 8zense" sizes="100vw" className='' style={{ width: '45%', height: 'auto',}}/>
             </div>
-        <h1 className='mt-12 text-center text-2xl font-semibold text-zenseGreen'>María Fernanda Pereira Campos</h1>
+        <h1 className='mt-12 text-center text-2xl font-semibold text-zenseGreen md:mt-52'>María Fernanda Pereira Campos</h1>
         <h1 className='text-center text-2xl font-extralight text-zenseGreen'>Architecte et Designer Interieur </h1>
         <h1 className='text-center text-2xl font-extralight text-zenseGreen'>3 Rue de Blotzheim</h1>
         <h1 className='text-center text-2xl font-normal text-zenseGreen'>F-68128-Village-Neuf </h1>

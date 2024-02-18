@@ -117,7 +117,7 @@ const page = () => {
 
         
 
-    <h1 className="mt-7 text-xl font-bold text-zenseGrey text-center md:text-3xl lg:py-5">uber Fernanda</h1>
+    <h1 className="mt-7 text-xl font-bold text-zenseGrey text-center md:text-3xl lg:py-5">über Fernanda</h1>
 
     
 
@@ -133,7 +133,7 @@ const page = () => {
 
           
 
-    <h1 className='text-[1.8rem] style={{
+    <h1 className='text-[1.66rem] sm:text-[1.8rem] style={{
 
     }}2rem] mt-5 px-2 md:text-[1.92rem] text-zenseSignal font-bold uppercase text-left leading-6 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
 

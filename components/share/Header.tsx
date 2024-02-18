@@ -5,20 +5,21 @@ import { Button } from "../ui/button";
 import NavItems from "./NavItems";
 import MobileNav from "../share/MobileNav";
 import Locked from"@/public/assets/images/locked.png"
-import Logo from"@/public/assets/images/8zenseVer.png";
+import Logo from"@/public/assets/images/LogoEZ30.svg";
 
 const Header = () => {
   return (
-    <header className="px-5 w-full h-20 bg-zinc-600/5 text-white border-b-2 border-grey-200">
+    <header className="px-5 w-full h-20 bg-transparent text-white border-b-2 border-grey-200">
       <div id="LogoEZ" className="rounded-xl wrapper flex items-start justify-between">
         <Link href="/" className="">
-          <Image src={Logo} sizes="100vw" style={{width:"12%",height:"auto"}}alt="Logo 8zense.com"
+          <div className="w-[12vw] h-1/2 sm:w-16">
+          <Image src={Logo} sizes="100vw" style={{width:"24%",height:"auto"}}alt="Logo 8zense.com"
           
-          />
+          /></div>
         </Link>
 
         <SignedIn>
-          <nav className="md:flex-between hidden w-full max-w-xs">
+          <nav className="md:flex-between hidden w-full max-w-7xl">
             <NavItems />
           </nav>
         </SignedIn>
@@ -37,7 +38,7 @@ const Header = () => {
           sizes="100vw"
             className='rounded-full border-x-8 border-gray-300'
           style={{
-            width: '10%',
+            width: '3%',
             height: 'auto',
           }}
         /></div>
