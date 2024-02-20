@@ -25,12 +25,13 @@ const ParticleRing = () => {
         <pointLight position={[-30, 0, -30]} power={10.0} />
         <PointCircle />
       </Canvas>
-<div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center"></div>
-      <h1 className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseCyan font-medium text-2xl md:text-5xl lg:text-[6.33rem] pointer-events-none">
+<div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center">
+<p className="relative -top-36 text-2xl text-white text-center uppercase">Herzlich willkommen<br/>welcome<br/>salut<br/>ciao<br/>bei</p>
+      <h1 className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseCyan font-medium text-7xl md:text-7xl lg:text-[12.33rem] pointer-events-none">
         8zense.com
         <Image className="" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'100%',height: 'auto',}}/>
       </h1>
-     
+     </div>
     </div>
   );
 };

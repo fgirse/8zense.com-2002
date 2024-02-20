@@ -31,20 +31,20 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='{styles.section}  mx-auto min-h-screen bg-[url("/assets/images/gitter.png")] bg-contain'>
+<section className='{styles.section}  mx-auto min-h-screen bg-[url("/assets/images/gitter3.png")] bg-contain'>
 <div className="">
   <ParticlsRing/>
 </div>
 
 
-<div className=" grid grid-cols-12 grid-rows-16 gap-1">
+<div className="min-h-screen grid grid-cols-12 grid-rows-16 gap-1">
 
       <div className="mt-8 col-span-6 row-span-3">
 
       <h1 className=" px-1 uppercase text-5xl font-black sm:text-8xl md:text-8xl bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent lg:text-[11.66rem] lg:tracking-widest lg:mb-3">Timeless</h1>
 
 
-<h1 className="relative px-1 top-4 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Design</h1>
+<h1 className="relative px-1 -top-4 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Design</h1>
 
     
 

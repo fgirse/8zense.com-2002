@@ -29,7 +29,7 @@ export default function RootLayout({
       baseTheme:neobrutalism
     }} >
    
-   <html lang="en" className={`${sairaCond.variable}d`}>
+   <html lang="en" className="bg-transparent">
 
 
       <body className={sairaCond.className}>{children}</body>

@@ -85,7 +85,8 @@ body {
   margin-right: 5vw;
   flex-direction: column;
   overflow-x: hidden;
-  background: rgb(187, 187, 190);
+
+  
   box-sizing: border-box;
   font-family: var(--font-saira_c)
 }
