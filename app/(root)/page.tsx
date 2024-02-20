@@ -16,6 +16,7 @@ import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 //import Testimonials from "@/components/share/Testimonials"
 import SlightShow2 from"@/components/share/SlightShow2"
 import"@/app/home.module.css"
+import ParticlsRing from '@/components/share/ParticleRing';
 
 export default function Home() {
 
@@ -31,6 +32,10 @@ export default function Home() {
     {/*====================================================grid start ===============*/}
 
 <section className='{styles.section}  mx-auto min-h-screen bg-[url("/assets/images/gitter.png")] bg-contain'>
+<div className="">
+  <ParticlsRing/>
+</div>
+
 
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
@@ -122,6 +127,13 @@ export default function Home() {
 </main>*/}
 {/*"<Testimonials data={testimonial}/>"*/}"
     <SlightShow2/>
+
+    <section className="">
+<ParticlsRing>
+  
+</ParticlsRing>
+
+    </section>
 </>
   )
 }
