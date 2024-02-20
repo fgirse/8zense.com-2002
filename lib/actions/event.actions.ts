@@ -1,11 +1,10 @@
 'use server'
 
 import { revalidatePath } from 'next/cache'
-
-import { connectToDatabase } from '../database/models/database/'
 import Event from '@/lib/database/models/event.model'
+import { connectToDatabase } from '../database/models/database/index';
 import User from '@/lib/database/models/user.model'
-import Category from '../database/models/database/models/category.model'
+import Category from '@/lib/database/models/event.model'
 import { handleError } from '@/lib/utils'
 
 import {
@@ -15,7 +14,7 @@ import {
   GetAllEventsParams,
   GetEventsByUserParams,
   GetRelatedEventsByCategoryParams,
-} from '../../types/index'
+} from '@/types'
 
 const getCategoryByName = async (name: string) => {
   return Category.findOne({ name: { $regex: name, $options: 'i' } })

@@ -4,10 +4,12 @@ import Logo02 from"@/public/assets/images/LogoEZCyan.png"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Image from "next/image"
+//import ScrollToTop from "../BackToTop/ScrollToTop"
 
 export default function FooterDemo() {
   return (
     <footer className="mt-auto bg-gray-800 w-full">
+     
       <div
         className="
         container

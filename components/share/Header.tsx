@@ -9,28 +9,28 @@ import Logo from"@/public/assets/images/LogoEZ30.svg";
 
 const Header = () => {
   return (
-    <header className="px-5 w-full h-20 bg-transparent text-white border-b-2 border-grey-200">
-      <div id="LogoEZ" className="rounded-xl wrapper flex items-start justify-between">
+    <header className="flex flex-col py-3 px-5 w-full bg-zenseSignal/10 text-white items-center justify-center">
+      <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
-          <div className="w-[12vw] h-1/2 sm:w-16">
-          <Image src={Logo} sizes="100vw" style={{width:"24%",height:"auto"}}alt="Logo 8zense.com"
-          
-          /></div>
+          <div className="w-[12vw] h-1/4 sm:w-16">
+          <Image src={Logo} sizes="100vw" style={{width:"6%",height:"auto"}}alt="Logo 8zense.com"
+/></div>
         </Link>
 
         <SignedIn>
-          <nav className="md:flex-between hidden w-full max-w-7xl">
+          <nav className="md:flex-between hidden w-full max-w-3xl">
             <NavItems />
           </nav>
         </SignedIn>
 
-        <div className="flex items justify-end gap-8">
+        <div className="flex  items-center justify-center gap-20">
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
             <MobileNav />
           </SignedIn>
           <SignedOut>
-          <div className='flex flex-col items-center mt-3'>
+          <div className='
+      '>
             
       <Image
           src={Locked}
@@ -42,7 +42,7 @@ const Header = () => {
             height: 'auto',
           }}
         /></div>
-            <Button asChild className="rounded-xl font-bold text-amber-500 bg-[#fcf601] hover:bg-amber-400 hover:border-2 hover:border-[#fcf601]" size="lg">
+            <Button asChild className="rounded-xl font-bold text-3xl text-amber-500 bg-[#fcf601] hover:bg-amber-400 hover:border-2 hover:border-[#fcf601]" size="lg">
               <Link href="/sign-in">
                 Login
               </Link>

@@ -25,6 +25,8 @@
     "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "@react-three/drei": "^9.97.6",
+    "@react-three/fiber": "^8.15.16",
     "@sentry/nextjs": "^7.99.0",
     "@stripe/stripe-js": "^2.2.1",
     "@uploadthing/react": "^6.1.0",

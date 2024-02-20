@@ -1,10 +1,11 @@
 "use server"
 
 import Stripe from 'stripe';
-import { CheckoutOrderParams, CreateOrderParams, GetOrdersByEventParams, GetOrdersByUserParams } from "../../types/index"
+import { CheckoutOrderParams, CreateOrderParams, GetOrdersByEventParams, GetOrdersByUserParams } from "@/types"
 import { redirect } from 'next/navigation';
 import { handleError } from '../utils';
 import { connectToDatabase } from '../database/models/database/index';
+
 import Order from '../database/models/order.model';
 import Event from '../database/models/event.model';
 import {ObjectId} from 'mongodb';

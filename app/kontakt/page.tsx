@@ -1,6 +1,7 @@
 
 "use client"
 
+import styles from './kontakt.module.css'
 import React from 'react';
 import Image from 'next/image';
 import Logo from "@/public/assets/images/LogoEZ30.svg";
@@ -14,7 +15,7 @@ const Contact = () => {
     <section className=" min-h-screen">
     <h1  className='text-center uppercase font-black text-xl text-zenseGrey' >contact</h1>
     <div className='flex flex-col items-center'>
-            <div className=' py-7 w-full flex flex-col items-center'>
+            <div className='{styles.image-container} py-7 w-full flex flex-col items-center'>
               <Image src={Logo} alt="Logo 8zense" sizes="100vw" className='' style={{ width: '45%', height: 'auto',}}/>
             </div>
         <h1 className='mt-12 text-center text-2xl font-semibold text-zenseGreen md:mt-52'>María Fernanda Pereira Campos</h1>

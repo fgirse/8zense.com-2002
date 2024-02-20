@@ -1,6 +1,4 @@
-"use client"
-
-import styles from '@/app/home.module.css';
+import { getListPage } from "@/lib/contentParser";
 import { motion } from "framer-motion";
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -15,12 +13,13 @@ import { any, array } from "zod";
 import DemoSlider from "@/components/partials/TestimonialsAAA";
 import dataSlider from "@/constants/sliderData.json";
 import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
-
-
+//import Testimonials from "@/components/share/Testimonials"
 import SlightShow2 from"@/components/share/SlightShow2"
+import"@/app/home.module.css"
 
 export default function Home() {
 
+  
 
   return (
 
@@ -31,7 +30,7 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='{styles.section}mx-auto min-h-screen bg-[url("/assets/images/Grid2.svg")] bg-cover'>
+<section className='{styles.section}  mx-auto min-h-screen bg-[url("/assets/images/gitter.png")] bg-contain'>
 
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
@@ -40,8 +39,7 @@ export default function Home() {
       <h1 className=" px-1 uppercase text-5xl font-black sm:text-8xl md:text-8xl bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent lg:text-[11.66rem] lg:tracking-widest lg:mb-3">Timeless</h1>
 
 
-<h1 className="relative px-1 -top-6 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wide">Design</h1>
-
+<h1 className="relative px-1 top-4 uppercase text-[3.7rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Design</h1>
 
     
 
@@ -81,9 +79,9 @@ export default function Home() {
 
     <ClientAnimationWrapper>
 
-      <div className="{styles.image-container} mt-[25vh] mb-8 flex flex-col items-center  lg:w-[20vw] lg:flex-1">
+      <div className="{styles.image-container} mt-[35vh] mb-8 flex flex-col items-center  lg:w-[10vw] lg:flex-1">
 
-    <Image className="{styles.image-home} mx-auto  lg:-mt-40  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'50%',height: 'auto',}}/>
+    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'50%',height: 'auto',}}/>
 
     </div>
 
@@ -122,7 +120,7 @@ export default function Home() {
 {/*<main className="flex min-h-screen flex-col items-center justify-between">
       <DemoSlider data={dataSlider} />
 </main>*/}
-
+{/*"<Testimonials data={testimonial}/>"*/}"
     <SlightShow2/>
 </>
   )
