@@ -30,9 +30,9 @@ const page = () => {
 
     <>
 
-    <section className='mx-auto min-h-screen container'>
+    <section className='mx-auto min-h-screen'>
 
-    <div className='flex flex-col items-center justify-around'>
+    <div className=''>
 
 
       <h1 className='text center text-xl font-bold text-zenseGrey uppercase'>uber uns</h1>

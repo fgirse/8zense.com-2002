@@ -29,18 +29,16 @@ const Header = () => {
             <MobileNav />
           </SignedIn>
           <SignedOut>
-          <div className='
-      '>
+          <div className='flex items-center'>
             
       <Image
           src={Locked}
           alt="Schloss"
-          sizes="100vw"
+          
             className='rounded-full border-x-8 border-gray-300'
-          style={{
-            width: '3%',
-            height: 'auto',
-          }}
+          
+            width='49'
+            height= '49'
         /></div>
             <Button asChild className="rounded-xl font-bold text-3xl text-amber-500 bg-[#fcf601] hover:bg-amber-400 hover:border-2 hover:border-[#fcf601]" size="lg">
               <Link href="/sign-in">
