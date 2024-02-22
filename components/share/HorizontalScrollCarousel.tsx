@@ -57,7 +57,7 @@ const Card = ({ card }: { card: CardType }) => {
         className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
       ></div>
       <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
+        <p className="bg-gradient-to-br from-zenseSignal/75 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
           {card.title}
         </p>
       </div>
@@ -74,52 +74,49 @@ export default Example;
   type CardType = {
     url: string;
     title: string;
+    subtitle: string;
     id: number;
   };
   
   const cards: CardType[] = [
     {
-      url: "@/public/assets/images/avarta-sm-bardot.png",
+      url: '/assets/images/avarta-sm-bardot.png',
       title: "Brigitte Bardot",
+      subtitle: "Actreuse",
       id: 1,
     },
     {
-      url: "@/assets/assets/images/avarta-sm-belmondo.png",
+      url: '/assets/images/avarta-sm-belmondo.png',
       title: "Bebel",
+      subtitle: "Acteur",
       id: 2,
     },
     {
       url: "/assets/images/avarta-sm-zidane.png",
       title: "Zinedine Zidane",
+      subtitle: "Professioel Footballplayer and Choache.",
       id: 3,
     },
     {
       url: "/assets/images/avarta-sm-cevert.png",
       title: "Fancoise Cevert",
+      subtitle: "Pilot Formula One",
       id: 4,
     },
     {
       url: "/assets/images/avarta-sm-zidane.png",
       title: "Title 3",
       id: 5,
+      subtitle: "",
     },
     {
       url: "assets/images/avarta-sm-zidane.png",
       title: "Title 3",
+      subtitle: "",
       id: 6,
-    },
       
-    {
-      url: "assets/images/avarta-sm-zidane.png",
-      title: "Title 3",
-      id: 7,
     },
-    {
-      url: "assets/images/avarta-sm-zidane.png",
-      title: "Title 3",
-      id: 8,
-    },
-      
+            
   ]
 
 

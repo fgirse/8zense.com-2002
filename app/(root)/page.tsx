@@ -33,10 +33,10 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='{styles.section}  mx-auto min-h-screen bg-[url("/assets/images/gitter3.png")] bg-contain'>
-<div className="w-full mx-auto">
+<section className='{styles.section}  mx-auto min-h-screen'>
+
   <ParticlsRing/>
-</div>
+
 <section className="">
   <ShuffleHero></ShuffleHero>
 </section>
@@ -56,10 +56,10 @@ export default function Home() {
 
     <div className="col-span-7 row-span-3 col-start-1 row-start-4">
 
-    <div className='mt-12 w-[60vw] lg:-mt-[20vh]'>
+    <div className='mt-12 w-[60vw] lg:-mt-[20vh] bg-zenseCyan/20'>
 
-            <Image src={SideBoard}   alt="technical-glance"/>
-
+            <Image src={SideBoard} alt="technical-glance"  sizes="100vw" placeholder="blur" style={{objectFit: 'cover' }}/>
+            <p className = "text-sm bg-zenseSignal/30 relative -top-10 left-48 uppercase text-zenseGreen bg-zenseGray font-bold ">sideboard Beton <br/>klare Linie<br/>edles Design</p>
     </div> 
 
     
@@ -84,13 +84,13 @@ export default function Home() {
 
     </div>
 
-    <div className=" col-span-6 row-span-6 col-start-4 row-start-8">
+    <div className=" col-span-6 row-span-6 col-start-4 row-start-8 bg-zenseGreen/20">
 
     <ClientAnimationWrapper>
 
       <div className="{styles.image-container} mt-[35vh] mb-8 flex flex-col items-center  lg:w-[10vw] lg:flex-1">
 
-    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'1200%',height: 'auto',}}/>
+    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'1000%',height: 'auto',}}/>
 
     </div>
 

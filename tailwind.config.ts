@@ -18,7 +18,10 @@ module.exports = withUt({
       },
     },
     extend: {
-
+          container: {
+            center:true,
+            
+          },
 
       
       colors: {
