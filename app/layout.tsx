@@ -30,7 +30,9 @@ export default function RootLayout({
     }} >
    
    <html lang="en" className="bg-transparent">
-      <body className="">{children}</body>
+
+
+      <body className={sairaCond.className}>{children}</body>
     </html>
     </ClerkProvider>
   )

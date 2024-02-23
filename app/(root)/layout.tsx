@@ -1,6 +1,8 @@
 import Footer from "@/components/share/Footer";
 import Header from "@/components/share/Header";
 import ScrollToTop from "@/components/BackToTop/ScrollToTop";
+import Newsletter from "@/components/share/Newsletter";
+
 export default function RootLayout({
   children,
 }: {
@@ -11,6 +13,7 @@ export default function RootLayout({
       <Header />
       <main className="content">{children}</main>
   <ScrollToTop/>
+  <Newsletter/>
       <Footer />
       
     </div>

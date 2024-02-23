@@ -54,12 +54,18 @@ const Card = ({ card }: { card: CardType }) => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
+        className="absolute tpooi inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
       ></div>
-      <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="bg-gradient-to-br from-zenseSignal/75 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
+      <div className="absolute top-[24vh] inset-0 z-10 grid place-content-center">
+        <p className=" leading-6 bg-gradient-to-br from-zenseSignal/25 to-white/0 p-8 text-5xl font-black uppercase text-white ">
           {card.title}
-        </p>
+        <br/>
+        <span className="text-2xl">
+          {card.subtitle}
+        </span><br/>
+        <span className="text-sm leading-3">
+          {card.statement}
+        </span></p>
       </div>
     </div>
   );
@@ -75,48 +81,40 @@ export default Example;
     url: string;
     title: string;
     subtitle: string;
+    statement: string;
     id: number;
   };
   
   const cards: CardType[] = [
     {
-      url: '/assets/images/avarta-sm-bardot.png',
+      url: '/assets/images/avatar-sm-bardot.png',
       title: "Brigitte Bardot",
       subtitle: "Actreuse",
+      statement: "<< 8zense.com hat einen hervorragenden Service und die Produkte zeigen ein einzigartiges Design >>",
       id: 1,
     },
     {
-      url: '/assets/images/avarta-sm-belmondo.png',
+      url: '/assets/images/avatar-sm-belmondo.png',
       title: "Bebel",
       subtitle: "Acteur",
+      statement: "<< 8zense.com hat einen hervorragenden Service und die Produkte zeigen ein einzigartiges Design >>",
       id: 2,
     },
     {
-      url: "/assets/images/avarta-sm-zidane.png",
+      url: "/assets/images/avatar-sm-zidane.png",
       title: "Zinedine Zidane",
-      subtitle: "Professioel Footballplayer and Choache.",
+      subtitle: "Footballplayer and Choache.",
+      statement: "<< 8zense.com hat einen hervorragenden Service und die Produkte zeigen ein einzigartiges Design >>",
       id: 3,
     },
     {
-      url: "/assets/images/avarta-sm-cevert.png",
+      url: "/assets/images/avatar-sm-cevert.png",
       title: "Fancoise Cevert",
       subtitle: "Pilot Formula One",
+      statement: "<< 8zense.com hat einen hervorragenden Service und die Produkte zeigen ein einzigartiges Design >>",
       id: 4,
     },
-    {
-      url: "/assets/images/avarta-sm-zidane.png",
-      title: "Title 3",
-      id: 5,
-      subtitle: "",
-    },
-    {
-      url: "assets/images/avarta-sm-zidane.png",
-      title: "Title 3",
-      subtitle: "",
-      id: 6,
-      
-    },
-            
+        
   ]
 
 

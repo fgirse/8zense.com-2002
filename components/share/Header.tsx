@@ -13,7 +13,7 @@ const Header = () => {
       <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
           <div className="w-[12vw] h-1/4 sm:w-16">
-          <Image src={Logo} sizes="100vw" style={{width:"6%",height:"auto"}}alt="Logo 8zense.com"
+          <Image src={Logo} sizes="100vw" style={{width:"12%",height:"auto"}}alt="Logo 8zense.com"
 /></div>
         </Link>
 
