@@ -2,12 +2,12 @@
     background-color: royalblue;
     margin-right: auto;
     margin-left: auto;
-    width: 97vw;
+    width: 100vw;
     }
     
     .image-container {
     
-        width: 80%;
+        width: 100%;
      
          .div {
           position: unset !important;
