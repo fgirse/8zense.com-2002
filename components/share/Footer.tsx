@@ -12,7 +12,7 @@ export default function FooterDemo() {
      
       <div
         className="
-        container
+    
         flex flex-col flex-wrap
         px-4
         py-16

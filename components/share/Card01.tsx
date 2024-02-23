@@ -11,7 +11,7 @@ import Avatar from "@/public/assets/images/avatar-sm-bardot.png"
 
 export default function ProductCard() {
   return (
-    <div className="container mx-auto my-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className=" mx-auto my-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {/* Product Card 1 */}
       <Card className="bg-white max-w-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
         <CardHeader className="relative">
