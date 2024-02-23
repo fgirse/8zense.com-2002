@@ -12,7 +12,7 @@ import { Group } from "three";
 
 const ParticleRing = () => {
   return (
-    <div className="relative container">
+    <div className="relative">
       <Canvas
         camera={{
           position: [10, -7.5, -5],
