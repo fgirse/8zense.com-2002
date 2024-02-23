@@ -12,7 +12,7 @@ module.exports = withUt({
   theme: {
     container: {
       
-      padding: '2rem',
+      padding: '1rem',
       screens: {
         '2xl': '1890px',
       },

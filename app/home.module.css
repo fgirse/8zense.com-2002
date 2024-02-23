@@ -4,14 +4,7 @@
     margin-left: auto;
     width: 100vw;
     }
-    
-    .image-container {
-    
-        width: 100%;
-     
-         .div {
-          position: unset !important;
-        }
+  
       
         .image-home {
           object-fit: cover;
@@ -20,4 +13,4 @@
           top: 20vh;
           height: unset !important;
         }
-      }
+      
