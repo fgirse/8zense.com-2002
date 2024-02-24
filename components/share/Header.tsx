@@ -9,11 +9,11 @@ import Logo from"@/public/assets/images/LogoEZ30.svg";
 
 const Header = () => {
   return (
-    <header className="flex flex-col py-3 px-5 w-full text-white bg-gray-600 items-center justify-center">
+    <header className="flex flex-col py-3 px-5 w-full text-white bg-zenseGreen/50 items-center justify-center">
       <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
-          <div className="w-[12vw] h-1/4 sm:w-16">
-          <Image src={Logo} sizes="100vw" style={{width:"12%",height:"auto"}}alt="Logo 8zense.com"
+          <div className="relative w-24 h-20 sm:w-16">
+          <Image src={Logo} sizes="100vw" fill alt="Logo 8zense.com"
 /></div>
         </Link>
 
@@ -23,24 +23,23 @@ const Header = () => {
           </nav>
         </SignedIn>
 
-        <div className="flex  items-center justify-center gap-20">
+        <div className="flex items-center justify-end gap-3">
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
             <MobileNav />
           </SignedIn>
           <SignedOut>
           <div className='flex items-center'>
-            
       <Image
           src={Locked}
           alt="Schloss"
           
-            className='rounded-full border-x-8 border-gray-300'
+            className='relative rounded-full border-0 -8 border-gray-300'
           
-            width='49'
-            height= '49'
+            width='45'
+            height= '45'
         /></div>
-            <Button asChild className="rounded-xl font-bold text-3xl text-amber-500 bg-[#fcf601] hover:bg-amber-400 hover:border-2 hover:border-[#fcf601]" size="lg">
+            <Button asChild className="mr-9 rounded-xl font-bold text-3xl text-amber-500 bg-[#fcf601] hover:bg-amber-400 hover:border-2 hover:border-[#fcf601]" size="lg">
               <Link href="/sign-in">
                 Login
               </Link>

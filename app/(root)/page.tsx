@@ -271,9 +271,9 @@ export default function Example() {
 
       <div className="{styles.image-container} mt-[35vh] mb-8 flex flex-col items-center  lg:w-[10vw] lg:flex-1">
 
-    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'1000%',height: 'auto',}}/>
+    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'66%',height: 'auto',}}/>
 
-    </div>
+ü    </div>
 
     </ClientAnimationWrapper>
 

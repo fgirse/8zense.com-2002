@@ -19,9 +19,9 @@ const NavItems = () => {
             key={link.route}
             className={`${
               isActive && 'text-primary-500'
-            } font-sans py-1 px-2 rounded-lg bg-zinc-700/5 text-zenseSignal hover:text-orange-500 hover:bg-zinc-300 font-black uppercase text-2xl flex-center p-medium-16 whitespace-nowrap lg:text-3xl`}
+            } font-sans py-1 px-2 rounded-lg bg-zinc-700/5 text-zenseSignaltext-red-700 hover:bg-zinc-300 font-black uppercase text-2xl flex-center p-medium-16 whitespace-nowrap lg:text-3xl`}
           >
-            <Link href={link.route}>{link.label}</Link>
+           <Link href={link.route}>{link.label}</Link>
           </li>
         )
       })}

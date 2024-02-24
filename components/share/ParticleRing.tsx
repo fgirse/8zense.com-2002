@@ -26,14 +26,16 @@ const ParticleRing = () => {
         <PointCircle />
       </Canvas>
 <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center">
-<p className="relative -top-60 text-2xl md:text-4xl lg:text-6xl text-white text-center font-black uppercase">Herzlich willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
+<p className="relative -top-48 text-3xl md:-top-132 md:text-6xl lg:text-5xl text-white text-center font-black uppercase">Herzlich willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
+
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseGreen w-[66vw] h-96 font-black text-6xl md:text-7xl lg:text-[11.33rem] text-center py-5 pointer-events-none">
-        <div className="flex flex-col items-center">
-          <h1 className="text-center text-zenseGreen">8zense.com</h1>
-        <Image  className="absolute top-110" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill style={{width:'100%', objectFit: 'contain',   }}/>
-      </div>
-      </div>
+        <div className=" md:w-60 flex flex-col items-center">
+        <Image  className="absolute md:py-8" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill style={{width:'100%',  }}/>
+      </div >
+      </div >
+      <h1 className="relative text-center text-4xl md:text-7xl top- text-zenseGreen">8zense.com</h1>
      </div>
+    
     </div>
   );
 };

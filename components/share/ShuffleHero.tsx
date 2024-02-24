@@ -11,10 +11,10 @@ const ShuffleHero = () => {
           8zense.com
         </span>
         <h3 className="uppercase font-extrabold text-4xl md:text-6xl text-zenseGreen ">
-        desing interieur
+        desing + interieur
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          8zenSe.com steht für individuelles, extravagantes und exklusivesDesijg aus dem Marterial Beton in unzähligen Variationen.
+          8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen.
         </p>
         <button className="bg-zenseSignal text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
           Find a class
@@ -49,15 +49,12 @@ const squareData = [
   },
  
   {
-    id: 1,
+    id: 2,
     src: "/assets/images/LogoEZ30.png",
   },
   {
-    id: 2,
-    src: "/assets/images/grafik6.png",
-  },
-  {
     id: 3,
+  
     src: "/assets/images/Rastergrafikobg.png",
   },
   {
@@ -67,7 +64,7 @@ const squareData = [
    
   {
     id: 5,
-    src: "/assets/images/kiesbunt.png",
+    src: "/assets/images/.png",
   },
  
   {
@@ -76,7 +73,7 @@ const squareData = [
   },
   {
     id: 7,
-    src: "/assets/images/hotel.png",
+    src: "/assets/images/LogoEZCyan.png",
   },
 
   {
@@ -89,7 +86,7 @@ const squareData = [
   },
   {
     id: 10,
-    src: "/assets/images/sketchobg.png",
+    src: "/assets/images/LogoEZ.png",
   },
   {
     id: 11,

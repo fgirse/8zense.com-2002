@@ -14,9 +14,9 @@ const Contact = () => {
     <>
     <section className="{styles.section} min-h-screen">
     <h1  className='text-center uppercase font-black text-xl text-zenseGrey' >contact</h1>
-    <div className='{styles.section}flex flex-col items-center'>
-            <div className='{styles.image-container} py-7 w-full flex flex-col items-center'>
-              <Image src={Logo} alt="Logo 8zense" sizes="100vw" className='' style={{ width: '45%', height: 'auto',}}/>
+    <div className='{styles.section} flex flex-col items-center bg-zenserSignal'>
+            <div className='{styles.image-container} py-8 w-full flex flex-col items-center'>
+              <Image src={Logo} alt="Logo 8zense" sizes="100vw" className='' style={{ width: '40%', height: 'auto',}}/>
             </div>
         <h1 className='mt-12 text-center text-2xl font-semibold text-zenseGreen md:mt-52'>María Fernanda Pereira Campos</h1>
         <h1 className='text-center text-2xl font-extralight text-zenseGreen'>Architecte et Designer Interieur </h1>
