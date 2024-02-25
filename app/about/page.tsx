@@ -160,7 +160,7 @@ const page = () => {
 
 
 
-<div className="w-full h-[42vh]  grid grid-cols-[6vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
+<div className="w-full grid grid-cols-[6vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
     <div className="bg-zenseSignal/20 col-span-2 row-span-3 self-start">
     <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-28 md:w-28 p mx-1 rounded-full p-1"></Tools>
     </div>
