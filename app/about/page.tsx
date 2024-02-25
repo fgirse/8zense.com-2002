@@ -112,7 +112,7 @@ const page = () => {
 <h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="px-7 py-3 text-[.83rem] leading-3 text-justify container ">8zense enstand aus Intuition heraus,  obwelcher sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 
 <br/><br/></h2>
-<div  className='relative w-80 h-36 transform rotate-90 translate-y-10'>
+<div  className='relative w-full h-60 transform rotate-90 translate-y-10'>
 <Image src={Arrow} fill sizes="100vw" alt="pfeil" />
 </div>
 
