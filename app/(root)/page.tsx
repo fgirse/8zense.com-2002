@@ -93,7 +93,7 @@ function Home () {
 
       <div className="{styles.image-container} mt-[35vh]Â mb-8 flex flex-col items-center  lg:w-[10vw]Â lg:flex-1">
 
-    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'50%',height: 'auto',}}/>
+    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-white/50" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'50%',height: 'auto',}}/>
 
     </div>
 
@@ -219,10 +219,49 @@ export default function Example() {
   <ParticlsRing/>
 
 <section className="">
-  <ShuffleHero></ShuffleHero>
+  
 </section>
 
-<div className="px-3 py-3 min-h-screen grid grid-cols-12 grid-rows-16 gap-2">
+
+<div className="grid grid-cols-5 grid-rows-12 gap-">
+    <div className="h-[10vh] col-span-5 bg-red-500/30">
+    <h1 className=" px-1 uppercase text-[3.90rem] font-black sm:text-8xl md:text-8xl bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent lg:text-[11.66rem] lg:tracking-widest lg:mb-3">Timeless</h1>
+      </div>
+    <div className="h-10vh col-span-5 row-start-2 bg-blue-300/30">
+    <h1 className="relative px-1 -top-20 uppercase text-[5.57rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[12rem] tracking-wider">Design</h1>
+    </div>
+    <div className="col-span-3 row-span-2 col-start-3 row-start-3 ">
+    <p className="mb-5 lg:mr-9 bg-zenseSignal/20  rounded-xl mt-7 py-1 text-zinc-700 font-extrabold text-right text-[.9rem] px-3 sm:text-2xl md:font-semibold md:text-[2.33rem] md:leading-9 lg:px-5 lg:py-3 lg:font-semibold lg:text-6xl lg:p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
+
+<div className=" relative -top-2 left-32 shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-10 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:left-2/4 lg:w-32 lg:h-32">
+
+
+ <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
+
+
+ <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black">Sagan</p>
+
+    
+
+    </div>
+    </div>
+    <div className="-mt-24 col-span-5 row-span-3 row-start-5 bg-yellow-600/10">
+    <Image src={SideBoard} alt="technical-glance"  sizes="100vw" placeholder="blur" style={{objectFit: 'cover' }}/>
+    <p className = "rounded-2xl w-36 text-sm bg-zenseSignal/30 relative -top-10 left-60 text-zenseGreen bg-zenseGray font-bold ">sideboard Beton <br/>klare Linie<br/>edles Design</p>
+    </div>
+    <div className="col-span-3 row-span-5 col-start-2 row-start-8 bg-cyan-500/30">
+      </div>
+</div>
+    
+
+
+
+
+
+
+
+
+{/*<div className="px-3 py-3 min-h-screen grid grid-cols-12 grid-rows-16 gap-2">
 
       <div className="mt-8 col-span-6 row-span-3">
 
@@ -240,7 +279,7 @@ export default function Example() {
     <div className='mt-12 w-[60vw] lg:-mt-[20vh] bg-zenseCyan/20'>
 
             <Image src={SideBoard} alt="technical-glance"  sizes="100vw" placeholder="blur" style={{objectFit: 'cover' }}/>
-            <p className = "text-sm bg-zenseSignal/30 relative -top-10 left-48 uppercase text-zenseGreen bg-zenseGray font-bold ">sideboard Beton <br/>klare Linie<br/>edles Design</p>
+           
     </div> 
 
     
@@ -271,7 +310,7 @@ export default function Example() {
 
       <div className="{styles.image-container} mt-[35vh] mb-8 flex flex-col items-center  lg:w-[10vw] lg:flex-1">
 
-    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-black/5" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" style={{width:'66%',height: 'auto',}}/>
+    <Image className="{styles.image-home} mx-auto  lg:mt-0  lg:bg-white/50" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill/>
 
 ü    </div>
 
@@ -301,11 +340,11 @@ export default function Example() {
 
     
 
+  </div>
+
   </div>*/}
-
-    </div>
     </section>
-
+    <ShuffleHero></ShuffleHero>
 {/*====================================================grid ende ===============*/}
 {/*<main className="flex min-h-screen flex-col items-center justify-between">
       <DemoSlider data={dataSlider} />

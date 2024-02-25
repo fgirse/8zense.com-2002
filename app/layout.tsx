@@ -32,7 +32,7 @@ export default function RootLayout({
    <html lang="en" className="bg-transparent">
 
 
-      <body className={sairaCond.className}>{children}</body>
+      <body className="h-screen w-[100vw] overflow-x-hidden">{children}</body>
     </html>
     </ClerkProvider>
   )

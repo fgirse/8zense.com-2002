@@ -10,14 +10,14 @@ const ShuffleHero = () => {
         <span className="block mb-4 text-xs md:text-sm font-medium">
           8zense.com
         </span>
-        <h3 className="uppercase font-extrabold text-4xl md:text-6xl text-zenseGreen ">
+        <h3 className="uppercase font-extrabold text-5xl md:text-6xl text-zenseGreen ">
         desing + interieur
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen.
+          8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
         </p>
         <button className="bg-zenseSignal text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          Find a class
+          send email
         </button>
       </div>
       <ShuffleGrid />
@@ -64,7 +64,7 @@ const squareData = [
    
   {
     id: 5,
-    src: "/assets/images/.png",
+    src: "/assets/images/Kieselsteine.png",
   },
  
   {
