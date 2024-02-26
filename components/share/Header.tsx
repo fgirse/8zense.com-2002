@@ -9,7 +9,7 @@ import Logo from"@/public/assets/images/LogoEZ30.svg";
 
 const Header = () => {
   return (
-    <header className="flex flex-col py-3 px-5 w-full text-white bg-zenseGreen/50 items-center justify-center">
+    <header className="flex flex-col w-full text-white bg-zenseGreen/50 items-center justify-center">
       <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
           <div className="relative w-24 h-20 sm:w-16">

@@ -11,7 +11,7 @@ import ArchGrafik from"@/public/assets/images/grafik70.png"
 import './about.module.css'
 import  Tools from'@/components/Illustrationen/Tools';
 import Hook from"@/components/Illustrationen/Hackchen"
-import Arrow from '@/public/assets/images/arrow.svg'
+import Arrow from '@/public/assets/images/arrow05.svg'
 import { transform } from 'next/dist/build/swc';
 import Signature from "@/public/assets/images/arrow2.svg"
 
@@ -89,7 +89,7 @@ const page = () => {
       src={Signature}
 
 
-      alt="Portrait"
+      alt="Signature"
 
 
       sizes="100vw"
@@ -112,24 +112,24 @@ const page = () => {
 <h2 className="mb-5 font-normal relative px-2 text-[0.9rem] text-justify"> <span className="px-7 py-3 text-[.83rem] leading-3 text-justify container ">8zense enstand aus Intuition heraus,  obwelcher sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 
 <br/><br/></h2>
-<div  className='relative w-full h-60 transform rotate-90 translate-y-10'>
+<div  className='relative w-full h-60 transform scale-150 translate-y-10'>
 <Image src={Arrow} fill sizes="100vw" alt="pfeil" />
 </div>
 
 <div className='mt-32 flex flex-row items-baseline justify-start'>
-<h1 className='text-left font-extrabold uppercase text-zenserGrey headingA text-6xl'>design</h1>
+<h1 className='text-left font-extrabold uppercase text-zenserGrey headingA text-5xl'>design</h1>
 <Hook className="w-14 h-14 align-text-bottom"/>
 
 </div>
 
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='text-left font-extrabold uppercase text-zenserGrey headingA text-6xl'>individuell</h1>
+<h1 className='text-left font-extrabold uppercase text-zenserGrey headingA text-5xl'>individuell</h1>
 
 <Hook className="w-14 h-14 align-text-bottom"/>
 
 </div>
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='text-left font-extrabold uppercase text-zenserGrey headingA text-6xl'>exclusive</h1>
+<h1 className='text-left font-extrabold uppercase text-zenserGrey headingA text-5xl'>exclusive</h1>
 
 <Hook className="w-14 h-14 align-text-bottom"/>
 
@@ -153,16 +153,16 @@ const page = () => {
 
           
 
-    <h1 className='text-[1.55rem] sm:text-[1.8rem] style={{
+    <h1 className='text-[1.345rem] sm:text-[1.66rem] style={{
 
     }}2rem] mt-5 px-2 md:text-[1.92rem] text-zenseSignal font-bold uppercase text-left leading-6 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
 
 
 
 
-<div className="w-full grid grid-cols-[6vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
+<div className="w-full h-1/3 grid grid-cols-5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
     <div className="bg-zenseSignal/20 col-span-2 row-span-3 self-start">
-    <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-28 md:w-28 p mx-1 rounded-full p-1"></Tools>
+    <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-12 md:w-16 p mx-1 rounded-full p-1"></Tools>
     </div>
     <div className="bg-zenseSignal/20  col-span-4 row-span-3 col-start-3">
     <p className='text-xs leading-3 mt-2 p-1 sm:text-sm' >
@@ -209,7 +209,7 @@ const page = () => {
 </p>
     </div>
     <div className="bg-zenseGrey/30 col-span-4 row-start-7 row-span-6 col-start-7 ">
-    <h1 className="p-1 font-bold mt-12 headingA uppercase text-[2rem]">Education<br/>Projekte</h1>
+    <h1 className="p-1 font-bold mt-12 headingA uppercase text-1.66rem]">Education<br/>Projekte</h1>
     </div>
     <div className="bg-zenseSignal/20 col-span-2 row-span-3 row-start-10">
     <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-28 md:w-28 p mx-1 rounded-full p-1" />    

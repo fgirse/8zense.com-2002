@@ -12,7 +12,7 @@ import { Separator } from '@/components/ui/separator';
 const Contact = () => {
   return (
     <>
-    <section className="{styles.section} min-h-screen">
+    <section className="container min-h-screen">
     <h1  className='text-center uppercase font-black text-xl text-zenseGrey' >contact</h1>
     <div className='{styles.section} flex flex-col items-center bg-zenserSignal'>
             <div className='{styles.image-container} py-8 w-full flex flex-col items-center'>
