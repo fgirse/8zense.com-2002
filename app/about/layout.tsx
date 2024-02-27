@@ -1,5 +1,6 @@
 import Footer from "../../components/share/Footer";
 import Header from "../../components/share/Header";
+import styles from'./about.module.css';
 
 export default function RootLayout({
   children,
@@ -7,11 +8,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="min-h-screen w-[width: 100vw;]  flex flex-col justify-between items-center">
+    <>
       <Header />
-      <main className="content">{children}</main>
+      <main className={styles.main}>{children}</main>
       
       <Footer />
-    </div>
+    </>
   )
 }

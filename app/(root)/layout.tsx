@@ -2,20 +2,23 @@ import Footer from "@/components/share/Footer";
 import Header from "@/components/share/Header";
 import ScrollToTop from "@/components/BackToTop/ScrollToTop";
 import Newsletter from "@/components/share/Newsletter";
+import FlipMenu from"@/components/share//FlipMenu";
+import styles from './styles.module.css'
+import { HeadManagerContext } from "next/dist/shared/lib/head-manager-context.shared-runtime";
 
-export default function RootLayout({
+export default function HomeLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <div className="flex h-screen flex-col mx-auto max-w-9xl">
+    
+      <>
       <Header />
-      <main className="content">{children}</main>
-  <ScrollToTop/>
-  <Newsletter/>
-      <Footer />
+      <main className={styles.main}>{children}</main>
+      <ScrollToTop /><Newsletter /><Footer />
+      </>
       
-    </div>
+    
   )
 }

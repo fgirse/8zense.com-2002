@@ -6,10 +6,11 @@ import NavItems from "./NavItems";
 import MobileNav from "../share/MobileNav";
 import Locked from"@/public/assets/images/locked.png"
 import Logo from"@/public/assets/images/LogoEZ30.svg";
+import FjipMenu from "./FlipMenu";
 
 const Header = () => {
   return (
-    <header className="flex flex-col w-full text-white bg-zenseGreen/50 items-center justify-center">
+    <header className="flex flex-col w-full text-white bg-zenseGrey items-center justify-center">
       <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
           <div className="relative w-24 h-20 sm:w-16">

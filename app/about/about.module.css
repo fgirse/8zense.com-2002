@@ -12,4 +12,13 @@
       position: relative !important;
       height: unset !important;
     }
+
+
+    .main {
+
+      min-height: 100dvh;
+      display: grid;
+      place-content: center;
+      background-color: antiquewhite;
+    }
   }

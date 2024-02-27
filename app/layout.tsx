@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Saira, Saira_Condensed } from 'next/font/google';
 import './globals.css';
-import './../styles/styles.css';
+import styles from './home.module.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { neobrutalism } from '@clerk/themes';
 
@@ -32,7 +32,7 @@ export default function RootLayout({
    <html lang="en" className="bg-transparent">
 
 
-      <body className="h-screen overflow-x-hidden">{children}</body>
+      <body className={styles.container}>{children}</body>
     </html>
     </ClerkProvider>
   )

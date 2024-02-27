@@ -1,3 +1,13 @@
+.body {
+display: grid;
+flex-direction: column;
+overflow-x: hidden;
+min-height: 100dvh;
+
+} 
+
+
+
 .section{
     background-color: royalblue;
     margin-right: auto;

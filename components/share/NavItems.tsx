@@ -18,8 +18,8 @@ const NavItems = () => {
           <li
             key={link.route}
             className={`${
-              isActive && 'text-primary-500'
-            } font-sans py-1 px-2 rounded-lg bg-zinc-700/5 text-zenseSignaltext-red-700 hover:bg-zinc-300 font-black uppercase text-2xl flex-center p-medium-16 whitespace-nowrap lg:text-3xl`}
+              isActive && 'text-zenseCyan'
+            } font-sans py-1 px-2 rounded-lg bg-zinc-700/5  text-slate-200 hover:bg-red-800 font-black uppercase text-2xl flex-center p-medium-16 whitespace-nowrap lg:text-3xl`}
           >
            <Link href={link.route}>{link.label}</Link>
           </li>

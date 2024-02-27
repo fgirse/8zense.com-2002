@@ -160,16 +160,16 @@ const page = () => {
 
 
 
-<div className="w-full h-1/3 grid grid-cols-5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
-    <div className="bg-zenseSignal/20 col-span-2 row-span-3 self-start">
+<div className="w-full h-1/3 grid grid-cols-[5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
+    <div className="bg-zenseSignal/10 col-span-2 row-span-3 self-start">
     <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-12 md:w-16 p mx-1 rounded-full p-1"></Tools>
     </div>
-    <div className="bg-zenseSignal/20  col-span-4 row-span-3 col-start-3">
+    <div className="bg-zenseSignal/10  col-span-4 row-span-3 col-start-3">
     <p className='text-xs leading-3 mt-2 p-1 sm:text-sm' >
   M. Fernanda Pereira besuchte als PhD-Studentin die University of Sao Paulo. Hier studierte sie das Fachgebiet Innenarchitektur.
 </p>
     </div>
-    <div className="bg-zenseGrey/30 col-span-4 row-start-1 row-span-6 col-start-7">
+    <div className="bg-zenseGrey/20 col-span-4 row-start-1 row-span-6 col-start-7">
 
     <div className='relative w-full h-60 mt-5 md:mt-3 px-3'>
 
@@ -190,32 +190,32 @@ const page = () => {
 
       </div>
     </div>
-    <div className="bg-zenseSignal/20 col-span-2 row-span-3 row-start-4">
+    <div className="bg-zenseSignal/10 col-span-2 row-span-3 row-start-4">
     <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-28 md:w-28 p mx-1 rounded-full p-1" />   
  
     </div>
-    <div className="bg-zenseSignal/20  col-span-4 row-span-3 col-start-3 row-start-4">
+    <div className="bg-zenseSignal/10  col-span-4 row-span-3 col-start-3 row-start-4">
      <p className='text-xs leading-3 mt-2 p-1 sm:text-sm' >
     An der Universität in Montevideo- Uruquay legte sie den Grundsteon ihres berulichen Werdegangs mit einem Studium der Architektur.
 </p>
     </div>
     
-    <div className="bg-zenseSignal/20 col-span-2 row-span-3 row-start-7">
+    <div className="bg-zenseSignal/10 col-span-2 row-span-3 row-start-7">
     <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-28 md:w-28 p mx-1 rounded-full p-1" />   
     </div>
-    <div className="bg-zenseSignal/20 col-span-4 row-span-3 col-start-3 row-start-7">
+    <div className="bg-zenseSignal/10 col-span-4 row-span-3 col-start-3 row-start-7">
     <p className='text-xs leading-3 mt-2 p-1 sm:text-sm' >
-    Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktionswissenschaften "Eduardo Torroja" in Spanien.
+    Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktions- wissenschaften "Eduardo Torroja" in Spanien.
 </p>
     </div>
-    <div className="bg-zenseGrey/30 col-span-4 row-start-7 row-span-6 col-start-7 ">
-    <h1 className="p-1 font-bold mt-12 headingA uppercase text-1.66rem]">Education<br/>Projekte</h1>
+    <div className="bg-zenseGrey/20 col-span-4 row-start-7 row-span-6 col-start-7 ">
+    <h1 className="p-1 font-bold ml-5 mt-2 headingA uppercase text-1.96rem]">Education<br/>Projekte</h1>
     </div>
-    <div className="bg-zenseSignal/20 col-span-2 row-span-3 row-start-10">
+    <div className="bg-zenseSignal/10 col-span-2 row-span-3 row-start-10">
     <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-28 md:w-28 p mx-1 rounded-full p-1" />    
  
     </div>
-    <div className="bg-zenseSignal/20 col-span-4 row-span-3 col-start-3 row-start-10">
+    <div className="bg-zenseSignal/10 col-span-4 row-span-3 col-start-3 row-start-10">
     <p className='text-xs leading-3 mt-2 p-1 sm:text-sm' >
     Fernanda Pereira ist Co-Authorin und Mitgestalterin des Fachbuches Manual of Concrete Rehabilitation: Reparier, Strengthening and Protection.
 </p>

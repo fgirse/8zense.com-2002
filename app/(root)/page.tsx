@@ -21,8 +21,8 @@ import ParticlsRing from '@/components/share/ParticleRing';
 import ShuffleHero from "@/components/share/ShuffleHero";
 import HorizontalSrollCarousel from "@/components/share/HorizontalScrollCarousel";
 import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
-
-
+import { StaggerTestimonials} from "@/components/share/Testimonial";
+import OppoScroll from "@/components/share/OppositeScroll";
 
 export default function Home() {
 
@@ -92,14 +92,15 @@ export default function Home() {
     </div>
     </section>
     <ShuffleHero></ShuffleHero>
+    <StaggerTestimonials/>
 {/*====================================================grid ende ===============*/}
 {/*<main className="flex min-h-screen flex-col items-center justify-between">
       <DemoSlider data={dataSlider} />
 </main>*/}
 {/*"<Testimonials data={testimonial}/>"*/}"
     <HorizontalSrollCarousel/>
-    <SwipeCarousel/>
-
+    <OppoScroll/>
+   
     <section className="">
 
 
