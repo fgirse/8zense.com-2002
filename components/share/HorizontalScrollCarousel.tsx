@@ -56,14 +56,14 @@ const Card = ({ card }: { card: CardType }) => {
         }}
         className="absolute tpooi inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
       ></div>
-      <div className="absolute top-[24vh] inset-0 z-10 grid place-content-center">
-        <p className=" leading-6 bg-gradient-to-br from-zenseSignal/25 to-white/0 p-8 text-5xl font-black uppercase text-white ">
+      <div className="absolute top-[30vh] inset-0 z-10 grid place-content-center">
+        <p className=" leading-6 bg-gradient-to-br from-zenseSignal/25 to-white/0 p-8 text-4xl font-black uppercase text-white ">
           {card.title}
         <br/>
         <span className="text-2xl">
           {card.subtitle}
         </span><br/>
-        <span className="text-sm leading-3">
+        <span className="text-lg leading-3 ">
           {card.statement}
         </span></p>
       </div>
@@ -103,7 +103,7 @@ export default Example;
     {
       url: "/assets/images/avatar-sm-zidane.png",
       title: "Zinedine Zidane",
-      subtitle: "Footballplayer and Choache.",
+      subtitle: "Footballplayer.",
       statement: "<< 8zense.com hat einen hervorragenden Service und die Produkte zeigen ein einzigartiges Design >>",
       id: 3,
     },

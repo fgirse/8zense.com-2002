@@ -137,7 +137,7 @@ const TestimonialCard = ({
       initial={false}
       onClick={() => handleMove(position)}
       className={`
-      absolute left-1/2 top-2/3 cursor-pointer border-black p-8 text-black transition-colors duration-500 ${
+      absolute left-1/2 top-1/2 cursor-pointer border-black p-8 text-black transition-colors duration-500 ${
         isActive ? "z-10 bg-zenseSignal" : "z-0 bg-white"
       }
       `}
@@ -180,7 +180,7 @@ const TestimonialCard = ({
         }}
       />
       <h3
-        className={`mt-24 text-base sm:text-xl ${
+        className={`text-base sm:text-xl ${
           isActive ? "text-white" : "text-black"
         }`}
       >
@@ -243,8 +243,8 @@ const TESTIMONIAL_DATA: TestimonialType[] = [
     tempId: 5,
     testimonial:
       "SO SO SO HAPPY WE FOUND YOU FERNANDA!!!! I'd bet you've saved me 100 hours so far.",
-    by: "Jeremy Rennere, Schauspieler",
-    imgSrc: "/assets/images/avatar-sm-jeremy.png",
+    by: "Günther Netzer-Fussballerlegende",
+    imgSrc: "/assets/images/avatar-sm-netzer.png",
   },
   {
     tempId: 6,
@@ -262,22 +262,22 @@ const TESTIMONIAL_DATA: TestimonialType[] = [
   },
   {
     tempId: 8,
-    testimonial: "It's just the best. Period.",
+    testimonial: "8zense.com is just the best. Period.",
     by: "Ronaldo, Football-PlayerCEO at CO",
     imgSrc: "/assets/images/avatar-sm-ronaldo.png"
   },
   {
     tempId: 9,
-    testimonial: "I switched 5 years ago and never looked back.",
-    by: "Andy, CEO at COMPANY",
-    imgSrc: "/assets/images/avatar-sm-belmondo.png"
+    testimonial: "For good Design I switched 5 years ago to 8zense.com and never looked back.",
+    by: "Andy, Handball-Profi",
+    imgSrc: "/assets/images/avatar-sm-andy.png"
   },
   {
     tempId: 10,
     testimonial:
-      "I've been searching for a solution like COMPANY for YEARS. So glad I finally found one!",
-    by: "Pete, CEO at COMPANY",
-    imgSrc: "/imgs/head-shots/11.jpg",
+      "I've been searching for a design-studio like 8zense.com  for YEARS. So glad I finally found one!",
+    by: "Pete, architekt ",
+    imgSrc: "/assets/images/avatar-sm-pete.png",
   },
   {
     tempId: 11,
