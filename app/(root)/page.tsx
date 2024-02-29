@@ -1,4 +1,3 @@
-
 import { getListPage } from "@/lib/contentParser";
 import { motion } from "framer-motion";
 import Image from 'next/image';
@@ -18,7 +17,7 @@ import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 import SlightShow2 from"@/components/share/SlightShow2"
 import"@/app/home.module.css"
 import ParticlsRing from '@/components/share/ParticleRing';
-import ShuffleHero from "@/components/share/ShuffleHero";
+import ShuffleHero from "@/components/share/ShuffleHeroEightzense";
 import HorizontalSrollCarousel from "@/components/share/HorizontalScrollCarousel";
 import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
@@ -38,7 +37,7 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='{styles.section}  mx-auto min-h-screen'>
+<section className='  mx-auto min-h-screen'>
 
   <ParticlsRing/>
 
@@ -52,7 +51,7 @@ export default function Home() {
       <h1 className=" px-1 uppercase text-4xl font-black sm:text-8xl md:text-8xl bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent lg:text-[11.66rem] lg:tracking-widest lg:mb-3">Timeless</h1>
 
 
-<h1 className="relative px-1 -top-2 uppercase text-[2.9rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Design</h1>
+<h1 className="relative px-1 -top-2 <uppercase text-[2.9rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Design</h1>
 
     
 

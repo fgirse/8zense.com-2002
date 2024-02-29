@@ -1,22 +1,16 @@
-"use client"
 
+"use client"
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import Diagramm from "@/public/assets/images/diagramm.svg";
-import Space from "@/public/assets/images/space.png"
 
 const ShuffleHero = () => {
   return (
-    <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-       <ShuffleGrid />
-      <div>
+    <section className="container w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <div>
         <span className="block mb-4 text-xs md:text-sm font-medium">
           8zense.com
         </span>
-        <h3 className="uppercase font-extrabold text-5xl md:text-6xl text-zenseGreen ">
-        desing + interieur
-        </h3>
+        <h1 className="relative px-1 -top-2 <uppercase text-[2.9rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Timeless Design + Interieure</h1>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
           8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
         </p>
@@ -24,19 +18,8 @@ const ShuffleHero = () => {
           send email
         </button>
       </div>
-      <div className='bg-[url ("/assets/images/space.png")] bg-covers'>
-      <div className="relative h-[33vh] w-[33vw]">
-        <Image src={Diagramm} fill sizes="100vw" alt="Diagramm" />
-    </div>
-    <div className="relative mx-auto h-[66vh] w-[90vw]">
-    <Image src={Space} fill sizes="100vw" alt="Space" />
-      
-    </div>
-      </div>
-
-      
-      
-    </section>
+    <ShuffleGrid />
+  </section>
   );
 };
 
@@ -60,7 +43,7 @@ const shuffle = (array: (typeof squareData)[0][]) => {
 const squareData = [
   {
     id: 1,
-    src: "/assets/images/Chairred.svg",
+    src: "/assets/images/LogoEZ30.png",
   },
  
   {
@@ -70,21 +53,21 @@ const squareData = [
   {
     id: 3,
   
-    src: "/assets/images/Rastergrafikobg.png",
+    src: "/assets/images/EZver.png",
   },
   {
     id: 4,
-    src: "/assets/images/room.webp",
+    src: "/assets/images/EZ30.png",
   },
    
   {
     id: 5,
-    src: "/assets/images/Kieselsteine.png",
+    src: "/assets/images/LogoEZver.svg",
   },
  
   {
     id: 6,
-    src: "/assets/images/kiesbunt.png",
+    src: "/assets/images/LogoEZ20.png",
   },
   {
     id: 7,
@@ -97,7 +80,7 @@ const squareData = [
   },
   {
     id: 9,
-    src: "/assets/images/hotel.png",
+    src: "/assets/images/EZ30.png",
   },
   {
     id: 10,
@@ -105,27 +88,27 @@ const squareData = [
   },
   {
     id: 11,
-    src: "/assets/images/sketchobg.png",
+    src: "/assets/images/LogoEZver.png",
   },
   {
     id: 12,
-    src: "/assets/images/sieboardobg.png",
+    src: "/assets/images/LogoEZ20.png",
   },
   {
     id: 13,
-    src: "/assets/images/Hotel-SaoPaulo.png",
+    src: "/assets/images/Hotel-LogoEZCyan.png",
   },
   {
     id: 14,
-    src: "/assets/images/grafik6.png",
+    src: "/assets/images/LogoEZ30.png",
   },
   {
     id: 15,
-    src: "/assets/images/Rastergrafikobg.png",
+    src: "/assets/images/LogoEZver.svg",
   },
   {
     id: 16,
-    src: "/assets/images/room.webp",
+    src: "/assets/images/LogoEZ20.png",
   },
 ];
 
@@ -168,10 +151,3 @@ const ShuffleGrid = () => {
 };
 
 export default ShuffleHero;
-          
-
-
-
-
-
-

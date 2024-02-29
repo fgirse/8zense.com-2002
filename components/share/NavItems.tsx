@@ -19,7 +19,7 @@ const NavItems = () => {
             key={link.route}
             className={`${
               isActive && 'text-zenseCyan'
-            } font-sans py-1 px-2 rounded-lg bg-zinc-700/5  text-slate-200 hover:bg-red-800 font-black uppercase text-2xl flex-center p-medium-16 whitespace-nowrap lg:text-3xl`}
+            } font-sans py-1 px-2 rounded-lg bg-zinc-700/5  text-slate-200 hover:bg-red-900 hover:border-2 font-black uppercase text-2xl flex-center p-medium-16 whitespace-nowrap lg:text-3xl`}
           >
            <Link href={link.route}>{link.label}</Link>
           </li>

@@ -7,7 +7,7 @@ import { pointsInner, pointsOuter } from "./utils";
 import * as THREE from 'three';
 
 import Image from "next/image";
-import LogoEZ from"@/public/assets/images/LogoEZCyan.png";
+import LogoEZ from"@/public/assets/images/LogoEZ40.png";
 import { Group } from "three";
 
 const ParticleRing = () => {
@@ -29,8 +29,8 @@ const ParticleRing = () => {
 <p className="relative -top-48 text-3xl md:-top-132 md:text-6xl lg:text-5xl text-white text-center font-black uppercase">Herzlich willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
 
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseGreen w-[66vw] h-96 font-black text-6xl md:text-7xl lg:text-[11.33rem] text-center py-5 pointer-events-none">
-        <div className="relative mt-24 w-2/3 h-[30vh] mx-auto ">
-        <Image  className="absolute md:py-8" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill />
+        <div className="relative mt-16  h-[24vh] md:mx-auto md:w-[66vw] md:h-[28vh]">
+        <Image  className="mx-auto w-full absolute" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill />
       </div >
       </div >
       <h1 className="relative text-center text-4xl md:text-7xl lg:text-9xl md:transform md:translate-y-32 text-zenseGreen">8zense.com</h1>

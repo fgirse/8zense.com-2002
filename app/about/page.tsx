@@ -157,8 +157,8 @@ const page = () => {
 
 
 
-<div className="w-full h-1/3 grid grid-cols-[5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
-    <div className="bg-zenseCyan/10/10 col-span-2 row-span-3 self-start">
+<div className="bg-zenseCyan/ w-full h-1/3 grid grid-cols-[5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
+    <div className="bg-zenseCyan/20 col-span-2 row-span-3 self-start">
     <Tools className="bg-zenseCyan self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1"></Tools>
     </div>
     <div className="bg-zenseCyan/10  col-span-4 row-span-3 col-start-3">
