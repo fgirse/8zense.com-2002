@@ -20,14 +20,15 @@ import Image from 'next/image'
  export default function Example() {
   return (
     <>
-    <div className='mx-auto relative w-36 h-24'>
+  <section className='bg-zenseGrey'>
+    <div className='bg-zenseGrey mx-auto relative w-36 h-24'>
     <Image className="mx-auto" src={Logo} alt="Logo" fill sizes="100vw"/>
     </div>
-    <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <div className="relative isolate overflow-hidden bg-zenseGrey py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-zenseCyan sm:text-4xl">Newsletter anfordern.</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-zenseCyan sm:text-4xl">8zense.com Newsletter anfordern.</h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
               Erhalten Sie regelmässig unseren Newsletter in welchem wir über neueste Trends im Design in loser Folge berichten¨            </p>
             <div className="mt-6 flex max-w-md gap-x-4">
@@ -75,7 +76,7 @@ import Image from 'next/image'
       </div>
       <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
         <div
-          className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+          className="aspect-[1155/678] w-[72.1875rem] "
           style={{
             clipPath:
               'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -83,6 +84,7 @@ import Image from 'next/image'
         />
       </div>
     </div>
+    </section>
     </>
   )
 }

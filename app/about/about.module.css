@@ -21,4 +21,10 @@
       place-content: center;
       background-color: antiquewhite;
     }
+
+    .headingA {
+      -webkit-text-stroke-width: 3.33px;
+      -webkit-text-stroke-color: #e9ae0d;
+  
+    }
   }

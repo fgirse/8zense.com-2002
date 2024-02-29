@@ -133,6 +133,9 @@ const TestimonialCard = ({
   const isActive = position === 0;
 
   return (
+    <>
+    
+
     <motion.div
       initial={false}
       onClick={() => handleMove(position)}
@@ -162,6 +165,7 @@ const TestimonialCard = ({
         damping: 50,
       }}
     >
+       
       <span
         className="absolute block origin-top-right rotate-45 bg-black object-cover"
         style={{
@@ -194,6 +198,7 @@ const TestimonialCard = ({
         - {testimonial.by}
       </p>
     </motion.div>
+    </>
   );
 };
 

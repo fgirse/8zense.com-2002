@@ -96,11 +96,7 @@ body {
  
 }
 
-.headingA {
-  -webkit-text-stroke-width: 1.33px;
-  -webkit-text-stroke-color: #ffffff;
-  font-family: var(--font-saira_c);
-}
+
 
 .filter-emoji {
   .filteremoj {filter: hue-rotate(-2cc80deg);}

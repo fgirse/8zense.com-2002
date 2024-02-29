@@ -9,7 +9,7 @@ import Link from 'next/link';
 import SideBoard  from "./../../public/assets/images/sideboardobg.png";
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
 import LogoEZ from"@/public/assets/images/LogoEZ30.svg"
-//import {LinkIcon} from "@/public/assets/icons/link.svg"
+import Diagramm from "@/public/assets/images/diagramm.svg";
 import { any, array } from "zod";
 import DemoSlider from "@/components/partials/TestimonialsAAA";
 import dataSlider from "@/constants/sliderData.json";
@@ -23,6 +23,7 @@ import HorizontalSrollCarousel from "@/components/share/HorizontalScrollCarousel
 import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
 import OppoScroll from "@/components/share/OppositeScroll";
+import { VanishText } from "@/components/share/VanishText";  
 
 export default function Home() {
 
@@ -61,7 +62,7 @@ export default function Home() {
 
     <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
 
-            <Image src={SideBoard}   alt="technical-glance"/>
+            <Image src={SideBoard}  alt="technical-glance"/>
 
     </div> 
 
@@ -69,7 +70,7 @@ export default function Home() {
 
     </div>
 
-    <div className="px-1 col-span-6 row-span-7 col-start-7 row-start-1">
+    <div className="mr-5 px-1 col-span-6 row-span-7 col-start-7 row-start-1">
 
     <p className="mb-5 lg:mr-12 bg-zenseSignal/20  rounded-xl  mt-7 py-1 text-zinc-700 font-black text-right text-[.9rem] px-3 sm:text-2xl md:font-semibold md:text-[2.33rem] md:leading-9 lg:px-5 lg:py-3 lg:font-semibold lg:text-6xl lg:p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
 
@@ -85,14 +86,24 @@ export default function Home() {
 
     </div>
 
+    </div> 
+    
+
     </div>
+    <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
 
+            
 
-
-    </div>
+    </div> 
     </section>
-    <ShuffleHero></ShuffleHero>
-    <StaggerTestimonials/>
+    <section className="-mt-96 ">
+    <ShuffleHero/>
+    </section>
+    <section>
+
+      <VanishText/>
+        <StaggerTestimonials/>
+        </section>
 {/*====================================================grid ende ===============*/}
 {/*<main className="flex min-h-screen flex-col items-center justify-between">
       <DemoSlider data={dataSlider} />
