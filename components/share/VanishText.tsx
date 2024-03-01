@@ -5,14 +5,14 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export const VanishText = () => {
   return (
-    <div className="bg-zenseGrey px-4 py-24 text-center md:py-36">
+    <div className=" px-4 py-24 text-center md:py-36">
       <h3 className="text-3xl font-medium text-zenseSignal sm:text-4xl md:text-5xl lg:text-6xl">
         Was sagen unsere Kunden?
         <AnimatedText
           phrases={[
             "Lobeshymnen",
             "Statements ",
-            "Danke",
+            "Dankeschöns",
             "Sterne ",
             "Thumb-Up's 👍👍👍",
           ]}

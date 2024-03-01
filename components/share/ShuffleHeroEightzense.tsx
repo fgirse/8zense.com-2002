@@ -1,5 +1,5 @@
-
 "use client"
+
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
@@ -10,7 +10,9 @@ const ShuffleHero = () => {
         <span className="block mb-4 text-xs md:text-sm font-medium">
           8zense.com
         </span>
-        <h1 className="relative px-1 -top-2 <uppercase text-[2.9rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Timeless Design + Interieure</h1>
+        <h1 className="relative px-1 -top-2 <uppercase text-[2.666rem] leading-7 font-black md:text-[9.11rem] bg-gradient-to-b from-zenseCyan via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Timeless Design</h1>
+        <h1 className="relative px-1 -top-2 <uppercase text-[2.66rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider"> + Interieure</h1>
+
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
           8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
         </p>

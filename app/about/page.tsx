@@ -104,43 +104,48 @@ const page = () => {
   <p className='py-3 w-36 text-xs text-center'>Fernanda Pereira</p>
 
 
-<h1 className='mt-12 text-zenseSignal text-[2.66rem] uppercase font-bold text-center leading-10 sm:mt-60 md:text-8xl md:font-black¨'>was ist <br/>  8zense.com ?</h1>
-
-<h2 className="mt-3 text-[1.49rem] md:text-[2.33rem]">8zense.com ist Fernanda Pereira</h2>
+<h1 className='mt-12 text-zenseSignal text-[2.66rem] uppercase font-bold text-center leading-10 sm:mt-60 md:text-8xl md:font-black lg:-mt-1kk
 
 
-<h2 className="bg-zenseCyan/20 rounded-xl mb-7 font-bold relative py-2 px-2 leading-3 text-3x
-.l text-justify md:text-[3.33rem]"> <span className="px-7 py-3 text-[.83rem] leading-3 text-justify container ">8zense enstand aus Intuition heraus,  obwelcher sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span>
 
-<br/><br/></h2>
-<div  className='relative w-full h-60 transform scale-150 translate-y-10'>
+lg:text-[12rem]'>was ist <br/>  8zense.com ?</h1>
+
+<h2 className="mt-3 text-[1.49rem] md:text-[2.33rem] lg:text-[7rem]">8zense.com ist Fernanda Pereira</h2>
+
+
+<h2 className="  bg-zenseCyan/50 rounded-xl mb-7 font-bold relative py-2 px-2 leading-3 text-7x
+.l text-justify md:text-[3.33rem] lg:text-5xl"> <span className="px-7 py-3 text-[.83rem] leading-3 text-justify lg:block lg:w-[66vw] lg:text-6xl">8zense enstand aus Intuition heraus,  obwelcher sich Fernanda sich immer wieder die Frage stellte ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span><br/><br/></h2>
+<div  className='relative w-full h-60 transform scale-150 translate-y-10 lg:w-20vw lg:text-6xl'>
 <Image src={Arrow} fill sizes="100vw" alt="pfeil" />
 </div>
 
 <section className='mt-32'>
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='text-left font-extrabold uppercase text-zenseGrey headingA text-5xl md:text-6xl'>design </h1>
-<span className='text-7xl align-text-bottom bg-zenseCyan rounded-full'>&#x2714;</span>
-</div>
-
-<div className='flex flex-row items-baseline justify-start'>
-<h1 className='text-left font-extrabold uppercase text-zenseGrey headingA text-5xl md:text-6xl'>individuell </h1>
-<span className='text-7xl align-text-bottom bg-zenseCyan rounded-full'>&#x2714;</span>
-</div>
-<div className='flex flex-row items-baseline justify-start'>
-<h1 className='text-left font-extrabold uppercase text-zenseGrey headingA text-5xl md:text-6xl'>exklusive </h1>
-<span className='text-7xl align-text-bottom bg-zenseCyan rounded-full'>&#x2714;</span>
+<h1 className='text-left font-extrabold uppercase text-zenseGrey headingA text-5xl md:text-6xl lg:text-[14rem]'>design </h1>
+<span className='text-7xl align-text-bottom bg-zenseCyan rounded-full lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
-        
 
+<section className='mt-32'>
+<div className='flex flex-row items-baseline justify-start'>
+<h1 className='text-left font-extrabold uppercase text-zenseGrey headingA text-5xl md:text-6xl lg:text-[14rem]'>individuell </h1>
+<span className='text-7xl align-text-bottom bg-zenseCyan rounded-full lg:text-[14rem]'>&#x2714;</span>
+</div>
+</section>
+<section className='mt-32'>
+<div className='flex flex-row items-baseline justify-start'>
+<h1 className='text-left font-extrabold uppercase text-zenseGrey headingA text-5xl md:text-6xl lg:text-[14rem]'>exklusiv </h1>
+<span className='text-7xl align-text-bottom bg-zenseCyan rounded-full lg:text-[14rem]'>&#x2714;</span>
+</div>
+      
+</section>
     <h1 className="mb-3 p-1 mt-7 text-xs bg-black/10 font-bold text-zenseGrey text-center md:text-3xl lg:py-5">über Fernanda</h1>
 
     
 
     
 
-    <div className="w-full h-60 col-span-10 row-span-4 row-start-3 bg-[url('/assets/images/Hotel-SaoPaulo.png')] bg-cover lg:bg-contain bg-no-repeat bg-center">
+    <div className="w-full h-60 col-span-10 row-span-4 row-start-3 bg-[url('/assets/images/Hotel-SaoPaulo.png')] bg-cover lg:bg-contain bg-no-repeat bg-center lg:w-66vw] lg:h-[33vh]">
 
     <h1   className='relative  text-center text-3xl text-white uppercase font-extrabold'>projekt sao paulo-brasil</h1>
 
@@ -221,22 +226,11 @@ const page = () => {
 </div>
     
 
-
-
-<div/>
 </div>
 </section>
 
+
 </>
-)
+  )
 }
 export default page
-
-
-
-        
-
-      
-
-
-

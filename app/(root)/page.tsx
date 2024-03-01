@@ -46,24 +46,11 @@ export default function Home() {
 </section>
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
-      <div className="mt-8 col-span-6 row-span-3">
 
-      <h1 className=" px-1 uppercase text-4xl font-black sm:text-8xl md:text-8xl bg-gradient-to-b from-zinc-500 to-zinc-200 bg-clip-text text-transparent lg:text-[11.66rem] lg:tracking-widest lg:mb-3">Timeless</h1>
-
-
-<h1 className="relative px-1 -top-2 <uppercase text-[2.9rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Design</h1>
-
-    
-
-    </div>
 
     <div className="col-span-7 row-span-3 col-start-1 row-start-4">
 
-    <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
-
-            <Image src={SideBoard}  alt="technical-glance"/>
-
-    </div> 
+    
 
     
 
@@ -95,10 +82,11 @@ export default function Home() {
 
     </div> 
     </section>
-    <section className="-mt-96 ">
+    <section className="-mt-44 ">
     <ShuffleHero/>
     </section>
     <section>
+    <OppoScroll/>
 
       <VanishText/>
         <StaggerTestimonials/>
@@ -109,8 +97,7 @@ export default function Home() {
 </main>*/}
 {/*"<Testimonials data={testimonial}/>"*/}"
     <HorizontalSrollCarousel/>
-    <OppoScroll/>
-   
+       
     <section className="">
 
 

@@ -78,30 +78,29 @@ export default OppoScroll;
 const items = [
   {
     id: 1,
-    title: "Black Nike w white check",
+    title:"Concrete Table  Studie",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=830&q=80",
+    img: "assets/images/matthew-moloney-f8JVGPcTmYg-unsplash.jpg",
   },
   {
     id: 2,
-    title: "Bunch of black and white shoes",
+    title:"Beistelltisch Beton - Studie",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "https://images.unsplash.com/photo-1600054904350-1d493ae5f922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80",
+    img: "assets/images/stories-AhhZor-1G1M-unsplash.jpg",
   },
   {
     id: 3,
-    title: "White shoes in the rain",
+    title: "Sideboard Beton - Studie ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "https://images.unsplash.com/photo-1465479423260-c4afc24172c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+    img: "assets/images/cocarinne-qMI4XmgTST8-unsplash.jpg"
   },
   {
     id: 4,
-    title: "White shoes with black heel",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1662&q=80",
+    title: "BETON-KERZENGEFÄSS",
+    description:"Betokerze",
+    img: "/assets/images/stephanie-harvey-OKEmv8AKLLY-unsplash.jpg"
   },
 ];
