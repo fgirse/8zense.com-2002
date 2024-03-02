@@ -23,6 +23,7 @@ import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
 import OppoScroll from "@/components/share/OppositeScroll";
 import { VanishText } from "@/components/share/VanishText";  
+import Space from "@/public/assets/images/space02.svg"
 
 export default function Home() {
 
@@ -42,7 +43,7 @@ export default function Home() {
   <ParticlsRing/>
 
 <section className="">
-  
+
 </section>
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
@@ -78,7 +79,11 @@ export default function Home() {
     </div>
     <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
 
-            
+    <div className=" -top-44 -z-10 relative w-[77vw] h-[33vh]">
+  
+  <Image src={Space} fill sizes="100vw"  alt="space Illustration"/>
+  
+  </div>             
 
     </div> 
     </section>
@@ -113,21 +118,3 @@ export default function Home() {
 
 
 {/*====================================================grid ende ===============*/}
-
-{/*
-<section>
-
-
-
-<Testimonials data={testimonial} />
-
-
-</section>
-
-</>
-)
-}
-export default Home
-
-
-*/}

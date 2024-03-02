@@ -6,12 +6,12 @@ import { useEffect, useRef, useState } from "react";
 const ShuffleHero = () => {
   return (
     <section className="container w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-    <div>
+    <div className="-mt-60">
         <span className="block mb-4 text-xs md:text-sm font-medium">
           8zense.com
         </span>
-        <h1 className="relative px-1 -top-2 <uppercase text-[2.666rem] leading-7 font-black md:text-[9.11rem] bg-gradient-to-b from-zenseCyan via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Timeless Design</h1>
-        <h1 className="relative px-1 -top-2 <uppercase text-[2.66rem] font-black md:text-[9.11rem] bg-gradient-to-b from-cyan-700 via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider"> + Interieure</h1>
+        <h1 className="relative px-1 uppercase text-[2.666rem] leading-10 font-black md:text-[9.11rem] bg-gradient-to-b from bg-teal-600 via to-zinc-200 bg-clip-text text-transparent lg:-top-2 8 lg:text-[5rem] lg:tracking-wider0">Timeless Design</h1>
+      
 
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
           8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
@@ -21,6 +21,9 @@ const ShuffleHero = () => {
         </button>
       </div>
     <ShuffleGrid />
+    <div className="">
+ 
+    </div>
   </section>
   );
 };
@@ -50,43 +53,43 @@ const squareData = [
  
   {
     id: 2,
-    src: "/assets/images/LogoEZ30.png",
+    src: "/assets/images/cyan.svg",
   },
   {
     id: 3,
   
-    src: "/assets/images/EZver.png",
+    src: "/assets/images/8zenseVer.png",
   },
   {
     id: 4,
-    src: "/assets/images/EZ30.png",
+    src: "/assets/images/EZ.svg",
   },
    
   {
     id: 5,
-    src: "/assets/images/LogoEZver.svg",
+    src: "/assets/images/8zenseVer.png",
   },
  
   {
     id: 6,
-    src: "/assets/images/LogoEZ20.png",
+    src: "/assets/images/LogoEZ.svg",
   },
   {
     id: 7,
-    src: "/assets/images/LogoEZCyan.png",
+    src: "/assets/images/LogoEZcyan.svg",
   },
 
   {
     id: 8,
-    src: "/assets/images/8zenseVer.png",
+    src: "/assets/images/8zensever.png",
   },
   {
     id: 9,
-    src: "/assets/images/EZ30.png",
+    src: "/assets/images/EZ40.png",
   },
   {
     id: 10,
-    src: "/assets/images/LogoEZ.png",
+    src: "/assets/images/Logocyan.svg",
   },
   {
     id: 11,
@@ -98,7 +101,7 @@ const squareData = [
   },
   {
     id: 13,
-    src: "/assets/images/Hotel-LogoEZCyan.png",
+    src: "/assets/images/LogoEZCyan.png",
   },
   {
     id: 14,
@@ -106,7 +109,7 @@ const squareData = [
   },
   {
     id: 15,
-    src: "/assets/images/LogoEZver.svg",
+    src: "/assets/images/cyan.svg",
   },
   {
     id: 16,
