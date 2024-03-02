@@ -36,7 +36,7 @@ const Content = ({ content }: { content: typeof items }) => {
             idx % 2 ? "bg-white text-black" : "bg-black text-white"
           }`}
         >
-          <h3 className="text-3xl font-medium">{title}</h3>
+          <h3 className="text-4xl font-medium">{title}</h3>
           <p className="font-light w-full max-w-md">{description}</p>
         </div>
       ))}
@@ -78,21 +78,21 @@ export default OppoScroll;
 const items = [
   {
     id: 1,
-    title:"Concrete Table  Studie",
+    title:"Concrete Table",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     img: "assets/images/matthew-moloney-f8JVGPcTmYg-unsplash.jpg",
   },
   {
     id: 2,
-    title:"Beistelltisch Beton - Studie",
+    title:"Beistelltisch Beton",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     img: "assets/images/stories-AhhZor-1G1M-unsplash.jpg",
   },
   {
     id: 3,
-    title: "Sideboard Beton - Studie ",
+    title: "Sideboard Beton ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     img: "assets/images/cocarinne-qMI4XmgTST8-unsplash.jpg"
@@ -100,7 +100,7 @@ const items = [
   {
     id: 4,
     title: "BETON-KERZENGEFÄSS",
-    description:"Betokerze",
+    description:"Betonkerze",
     img: "/assets/images/stephanie-harvey-OKEmv8AKLLY-unsplash.jpg"
   },
 ];

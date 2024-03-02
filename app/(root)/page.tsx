@@ -23,7 +23,7 @@ import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
 import OppoScroll from "@/components/share/OppositeScroll";
 import { VanishText } from "@/components/share/VanishText";  
-import Space from "@/public/assets/images/space02.svg"
+import Space from "@/public/assets/images/space.png"
 
 export default function Home() {
 

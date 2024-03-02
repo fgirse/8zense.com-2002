@@ -2,28 +2,44 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import Skizze from "@/public/assets/images/skizze.png";
+import Image from "next/image";
+import Button from "@/components/share/Button";
 
 const ShuffleHero = () => {
   return (
+    
     <section className="container w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-    <div className="-mt-60">
+    
+    <div className="-mt-60 flex flex-col items-start ">
         <span className="block mb-4 text-xs md:text-sm font-medium">
           8zense.com
         </span>
-        <h1 className="relative px-1 uppercase text-[2.666rem] leading-10 font-black md:text-[9.11rem] bg-gradient-to-b from bg-teal-600 via to-zinc-200 bg-clip-text text-transparent lg:-top-2 8 lg:text-[5rem] lg:tracking-wider0">Timeless Design</h1>
+        <div className="container py-3 bg-zenseGrey/20 rounded-xl">
+        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[9.11rem] bg-gradient-to-b from-zenseCyan via bg-yellow-500 to-zinc-400 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Timeless Design</h1>
       
 
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          8zenSe.com steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
+        <span className="text-zenseSignal font-bold">8zenSe.com</span> steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
         </p>
-        <button className="bg-zenseSignal text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          send email
-        </button>
+        <Button/>
+                </div>
       </div>
+  
     <ShuffleGrid />
-    <div className="">
- 
+<section className="container py-3 bg-zenseGrey/20 rounded-xl">
+    <h1 className="px-1 mt-7 uppercase text-[2.7rem] font-black leading-9 md:text-[9.11rem] bg-gradient-to-b from-zenseCyan via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Interieure Design</h1>
+    <div className="mt-3 relative w-[75vw] h-[20vh]">
+ <Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
+
     </div>
+    <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+          <span className="text-zenseSignal font-bold">8zenSe.com</span> begleitet,beratet und unterstüzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, Büro ofer Praxis. Sprechen Sie uns an -Wir freun uns auf Sie!
+        </p>
+        <Button/>
+</section>
+      
+    
   </section>
   );
 };
