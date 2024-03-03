@@ -10,7 +10,7 @@ import FjipMenu from "./FlipMenu";
 
 const Header = () => {
   return (
-    <header className="flex flex-col w-full text-white bg-zenseGrey items-center justify-center">
+    <header className="flex flex-col w-[100vw] text-white bg-zenseGreen items-center justify-center">
       <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
           <div className="relative w-24 h-20 sm:w-16">
@@ -19,7 +19,7 @@ const Header = () => {
         </Link>
 
         <SignedIn>
-          <nav className="md:flex-between hidden w-full max-w-3xl">
+          <nav className="md:flex-between hidden w-full max-w-3x'¨l">
             <NavItems />
           </nav>
         </SignedIn>

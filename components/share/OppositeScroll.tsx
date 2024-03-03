@@ -1,106 +1,140 @@
 "use client"
 
-import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
-import { FiArrowDown, FiArrowUp } from "react-icons/fi";
-import { useRef } from "react";
 
-const OppoScroll = () => {
-  const targetRef = useRef<HTMLDivElement | null>(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
+
+
+import { motion } from "framer-motion";
+import { useState } from "react";
+import { IconType } from "react-icons";
+import {
+  FiArrowUp,
+  FiChevronLeft,
+  FiChevronRight,
+  FiLink,
+  FiTarget,
+  FiTool,
+  FiUpload,
+} from "react-icons/fi";
+
+const CollapseCardFeatures = () => {
+  const [position, setPosition] = useState(0);
+
+  const shiftLeft = () => {
+    if (position > 0) {
+      setPosition((pv) => pv - 1);
+    }
+  };
+
+  const shiftRight = () => {
+    if (position < features.length - 1) {
+      setPosition((pv) => pv + 1);
+    }
+  };
 
   return (
-    <>
-      <div className="bg-white text-black p-4 grid place-items-center">
-        <FiArrowDown className="text-xl" />
-      </div>
-      <section ref={targetRef} className="flex bg-black text-white">
-        <Content content={items} />
-        <Images content={items} scrollYProgress={scrollYProgress} />
-      </section>
-      <div className="bg-black text-white p-4 grid place-items-center">
-        <FiArrowUp className="text-xl" />
-      </div>
-    </>
-  );
-};
-
-const Content = ({ content }: { content: typeof items }) => {
-  return (
-    <div className="w-full">
-      {content.map(({ id, title, description }, idx) => (
-        <div
-          key={id}
-          className={`p-8 h-screen flex flex-col justify-between ${
-            idx % 2 ? "bg-white text-black" : "bg-black text-white"
-          }`}
-        >
-          <h3 className="text-4xl font-medium">{title}</h3>
-          <p className="font-light w-full max-w-md">{description}</p>
+    <section className="overflow-hidden bg-neutral-100 px-4 py-12">
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-8 flex justify-between gap-4">
+          <h2 className="text-4xl font-bold leading-[1.2] md:text-5xl">
+            We're good. <span className="text-neutral-400">Here's why.</span>
+          </h2>
+          <div className="flex gap-2">
+            <button
+              className="h-fit bg-black p-4 text-2xl text-white transition-colors hover:bg-neutral-700"
+              onClick={shiftLeft}
+            >
+              <FiChevronLeft />
+            </button>
+            <button
+              className="h-fit bg-black p-4 text-2xl text-white transition-colors hover:bg-neutral-700"
+              onClick={shiftRight}
+            >
+              <FiChevronRight />
+            </button>
+          </div>
         </div>
-      ))}
-    </div>
+        <div className="flex gap-4">
+          {features.map((feat, index) => (
+            <Feature {...feat} key={index} position={position} index={index} />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 
-const Images = ({
-  content,
-  scrollYProgress,
-}: {
-  content: typeof items;
-  scrollYProgress: MotionValue<number>;
-}) => {
-  const top = useTransform(
-    scrollYProgress,
-    [0, 1],
-    [`-${(content.length - 1) * 100}vh`, "0vh"]
-  );
+interface FeatureProps {
+  position: number;
+  index: number;
+  title: string;
+  description: string;
+  Icon: IconType;
+}
+
+const Feature = ({
+  position,
+  index,
+  title,
+  description,
+  Icon,
+}: FeatureProps) => {
+  const translateAmt =
+    position >= index ? index * 100 : index * 100 - 100 * (index - position);
 
   return (
-    <div className="h-screen overflow-hidden sticky top-0 w-24 md:w-full">
-      <motion.div style={{ top }} className="absolute left-0 right-0">
-        {[...content].reverse().map(({ img, id, title }) => (
-          <img
-            key={id}
-            alt={title}
-            className="h-screen w-full object-cover"
-            src={img}
-          />
-        ))}
-      </motion.div>
-    </div>
+    <motion.div
+      animate={{ x: `${-translateAmt}%` }}
+      transition={{
+        ease: "easeInOut",
+        duration: 0.35,
+      }}
+      className={`relative flex min-h-[250px] w-10/12 max-w-lg shrink-0 flex-col justify-between overflow-hidden p-8 shadow-lg md:w-3/5 ${
+        index % 2 ? "bg-black text-white" : " bg-white"
+      }`}
+    >
+      <Icon className="absolute right-2 top-2 text-7xl opacity-20" />
+      <h3 className="mb-8 text-3xl font-bold">{title}</h3>
+      <p>{description}</p>
+    </motion.div>
   );
 };
 
-export default OppoScroll;
+export default CollapseCardFeatures;
 
-const items = [
+const features = [
   {
-    id: 1,
-    title:"Concrete Table",
+    title: "Faster uploads",
+    Icon: FiUpload,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "assets/images/matthew-moloney-f8JVGPcTmYg-unsplash.jpg",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt ipsum rerum natus fugit ex minima voluptas ratione quaerat. Ea!",
   },
   {
-    id: 2,
-    title:"Beistelltisch Beton",
+    title: "99.99% uptime",
+    Icon: FiArrowUp,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "assets/images/stories-AhhZor-1G1M-unsplash.jpg",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, vitae sed? Maxime!",
   },
   {
-    id: 3,
-    title: "Sideboard Beton ",
+    title: "Unlimited requests",
+    Icon: FiTarget,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    img: "assets/images/cocarinne-qMI4XmgTST8-unsplash.jpg"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ab perspiciatis earum quibusdam laudantium non nihil nesciunt?",
   },
   {
-    id: 4,
-    title: "BETON-KERZENGEFÄSS",
-    description:"Betonkerze",
-    img: "/assets/images/stephanie-harvey-OKEmv8AKLLY-unsplash.jpg"
+    title: "500+ integrations",
+    Icon: FiLink,
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem explicabo nobis officia, nostrum eligendi accusamus unde ad cumque, magnam deleniti adipisci fugiat facere. Veniam?",
+  },
+  {
+    title: "Modern tooling",
+    Icon: FiTool,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, saepe quo!",
   },
 ];
+
+
+
+
+
