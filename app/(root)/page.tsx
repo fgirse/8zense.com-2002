@@ -24,7 +24,7 @@ import { StaggerTestimonials} from "@/components/share/Testimonial";
 import OppoScroll from "@/components/share/OppositeScroll";
 import { VanishText } from "@/components/share/VanishText";  
 import Space from "@/public/assets/images/space.png"
-
+import ColorChangeCards from "@/components/share/ColorChangeCard";
 export default function Home() {
 
   
@@ -92,7 +92,7 @@ export default function Home() {
     </section>
     <section>
     <OppoScroll/>
-
+    <ColorChangeCards/>
       <VanishText/>
         <StaggerTestimonials/>
         </section>

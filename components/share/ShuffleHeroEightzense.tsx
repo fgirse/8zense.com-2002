@@ -28,7 +28,7 @@ const ShuffleHero = () => {
   
     <ShuffleGrid />
 <section className="container py-3 bg-zenseGrey/20 rounded-xl">
-    <h1 className="px-1 mt-7 uppercase text-[2.7rem] font-black leading-9 md:text-[9.11rem] bg-gradient-to-b from-zenseCyan via bg-yellow-500 to-zinc-300 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Interieure Design</h1>
+    <h1 className="px-1 mt-7 uppercase text-[2.7rem] font-black leading-9 md:text-[9.11rem] bg-gradient-to-b from bg-Cyan-800 via bg-yellow-500 to-zinc-100 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Interieure Design</h1>
     <div className="mt-3 relative w-[75vw] h-[20vh]">
  <Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
 
