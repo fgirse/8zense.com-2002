@@ -1,8 +1,5 @@
 "use client"
 
-
-
-
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { IconType } from "react-icons";
@@ -32,11 +29,11 @@ const CollapseCardFeatures = () => {
   };
 
   return (
-    <section className="overflow-hidden bg-neutral-100 px-4 py-12">
+    <section className="overflow-hidden bg-400 px-4 py-12">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex justify-between gap-4">
           <h2 className="text-4xl font-bold leading-[1.2] md:text-5xl">
-            We're good. <span className="text-neutral-400">Here's why.</span>
+            8zense.com ist top! <span className="text-slate-400"></span>
           </h2>
           <div className="flex gap-2">
             <button
@@ -89,7 +86,7 @@ const Feature = ({
         duration: 0.35,
       }}
       className={`relative flex min-h-[250px] w-10/12 max-w-lg shrink-0 flex-col justify-between overflow-hidden p-8 shadow-lg md:w-3/5 ${
-        index % 2 ? "bg-black text-white" : " bg-white"
+        index % 2 ? "bg-slate-900 text-white" : " bg-white"
       }`}
     >
       <Icon className="absolute right-2 top-2 text-7xl opacity-20" />
@@ -103,31 +100,30 @@ export default CollapseCardFeatures;
 
 const features = [
   {
-    title: "Faster uploads",
+    title: "individuell",
     Icon: FiUpload,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe deserunt ipsum rerum natus fugit ex minima voluptas ratione quaerat. Ea!",
-  },
+      "Individualität ist bei 8zense.Com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"},
   {
-    title: "99.99% uptime",
+    title: " Bestes Networking",
     Icon: FiArrowUp,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, vitae sed? Maxime!",
+      "Wir pflegen beste Verbindungen zu renommierten Architekten und Designern!",
   },
   {
-    title: "Unlimited requests",
+    title: "top Qualität",
     Icon: FiTarget,
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ab perspiciatis earum quibusdam laudantium non nihil nesciunt?",
   },
   {
-    title: "500+ integrations",
+    title: "exklusiv",
     Icon: FiLink,
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem explicabo nobis officia, nostrum eligendi accusamus unde ad cumque, magnam deleniti adipisci fugiat facere. Veniam?",
   },
   {
-    title: "Modern tooling",
+    title: "zeitlos",
     Icon: FiTool,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, saepe quo!",

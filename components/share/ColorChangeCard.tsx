@@ -4,32 +4,48 @@ import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
 
 const ColorChangeCards = () => {
-  return (
-    <div className="p-4 md:p-8 bg-slate-100">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 w-full max-w-6xl mx-auto">
-        <Card
-          heading="Tisch -Beton"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
-          imgSrc="assets/images/matthew-moloney-f8JVGPcTmYg-unsplash.jpg"
-        />
-        <Card
-          heading="Beistelltisch Beton"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
-          imgSrc="assets/images/stories-AhhZor-1G1M-unsplash.jpg"
-        />
-        <Card
-          heading="Sideboard- Beton"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
-          imgSrc="assets/images/cocarinne-qMI4XmgTST8-unsplash.jpg"
-        />
-        <Card
-          heading="Gefäss - Beton"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
-          imgSrc="/assets/images/stephanie-harvey-OKEmv8AKLLY-unsplash.jpg"
-        />
-      </div>
-    </div>
-  );
+    return (
+        <div className="p-4 md:p-8 bg-slate-100">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 w-full max-w-6xl mx-auto">
+                <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="assets/images/interiore11.jpg" />
+                <Card
+                    heading="Projekt"
+                    description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."}
+                    imgSrc="assets/images/interiore13.jpg" />
+                <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem.jpg" 
+                     imgSrc="/assets/images/interiore14.jpg" />
+            <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="/assets/images/interiore16.jpg" />
+            <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="/assets/images/interiore17.jpg" />
+                    <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="/assets/images/interiore20.jpg" />
+                    <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="/assets/images/interiore21.jpg" />
+                    <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="/assets/images/interiore27.jpg"/>
+                    <Card
+                    heading="Projekt"
+                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, exercitationem."
+                    imgSrc="/assets/images/interiore30.jpg" />
+            </div>
+        </div>
+    );
 };
 
 const Card = ({

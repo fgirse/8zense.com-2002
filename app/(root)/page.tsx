@@ -21,7 +21,7 @@ import ShuffleHero from "@/components/share/ShuffleHeroEightzense";
 import HorizontalSrollCarousel from "@/components/share/HorizontalScrollCarousel";
 import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
-import OppoScroll from "@/components/share/OppositeScroll";
+import CollapsCardFeature from "@/components/share/CollapsCardFeature";
 import { VanishText } from "@/components/share/VanishText";  
 import Space from "@/public/assets/images/space.png"
 import ColorChangeCards from "@/components/share/ColorChangeCard";
@@ -59,7 +59,7 @@ export default function Home() {
 
     <div className="mr-5 px-1 col-span-6 row-span-7 col-start-7 row-start-1">
 
-    <p className="mb-5 lg:mr-12 bg-zenseSignal/20  rounded-xl  mt-7 py-1 text-zinc-700 font-black text-right text-[.9rem] px-3 sm:text-2xl md:font-semibold md:text-[2.33rem] md:leading-9 lg:px-5 lg:py-3 lg:font-semibold lg:text-6xl lg:p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
+    <p className="mb-5 lg:mr-12 bg-slate-900  rounded-xl  mt-7 py-1 text-slate-50 font-black text-right text-[.9rem] px-3 sm:text-2xl md:font-semibold md:text-[2.33rem] md:leading-9 lg:px-5 lg:py-3 lg:font-semibold lg:text-6xl lg:p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
 
 <div className=" relative -top-2 left-10 shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-10 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:left-2/4 lg:w-32 lg:h-32">
 
@@ -91,7 +91,7 @@ export default function Home() {
     <ShuffleHero/>
     </section>
     <section>
-    <OppoScroll/>
+    <CollapsCardFeature/>
     <ColorChangeCards/>
       <VanishText/>
         <StaggerTestimonials/>

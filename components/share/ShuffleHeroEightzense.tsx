@@ -16,7 +16,7 @@ const ShuffleHero = () => {
           8zense.com
         </span>
         <div className="container py-3 bg-zenseGrey/20 rounded-xl">
-        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[9.11rem] bg-gradient-to-b from-zenseCyan via bg-yellow-500 to-zinc-400 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Timeless Design</h1>
+        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[9.11rem] bg-gradient-to-b from-slate.900 via bg-slate-500 to-slate-400 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Timeless Design</h1>
       
 
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
@@ -27,8 +27,8 @@ const ShuffleHero = () => {
       </div>
   
     <ShuffleGrid />
-<section className="container py-3 bg-zenseGrey/20 rounded-xl">
-    <h1 className="px-1 mt-7 uppercase text-[2.7rem] font-black leading-9 md:text-[9.11rem] bg-gradient-to-b from bg-Cyan-800 via bg-yellow-500 to-zinc-100 bg-clip-text text-transparent lg:-top-28 lg:text-[rem] lg:tracking-wider">Interieure Design</h1>
+<section className="container py-3 bg-slate-900/20 rounded-xl">
+<h1 className="relative px-1 uppercase text-[3.1333rem] font-black md:text-[9.11rem] bg-gradient-to-b from-slate.900 via bg-slate-500 to-slate-400 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Interiore Design</h1>
     <div className="mt-3 relative w-[75vw] h-[20vh]">
  <Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
 

@@ -6,7 +6,7 @@ import React from 'react'
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import Logo01 from"@/public/assets/images/LogoEZ30.svg"
-import Logo02 from"@/public/assets/images/placeholder.png"
+import Portrait from"@/public/assets/images/CorInterno1.jpg"
 import ArchGrafik from"@/public/assets/images/grafik70.png"
 import './about.module.css'
 import  Tools from'@/components/Illustrationen/Tools';
@@ -16,6 +16,8 @@ import { transform } from 'next/dist/build/swc';
 import Signature from "@/public/assets/images/arrow2.svg"
 import styles from "./about.module.css";
 import Projekt from'@/public/assets/images/Hotel-SaoPaulo.png';
+import  Button  from '@/components/share/Button';
+import SpringModal from "@/components/share/SpringModal";
 
 const page = () => {
 
@@ -30,7 +32,7 @@ const page = () => {
 
 
 
-  <h1 className=' mt-3 py-1 px-1 text center text-xs  lg:text-xl bg-black/10 p-1font-bold text-zenseGrey uppercase'>über 8zense.com</h1>
+  <h1 className=' mt-3 py-1 px-1 text center text-xs md:text-sm lg:text-xl bg-slate-900 p-1 font-bold text-white uppercase'>über 8zense.com</h1>
 
 
   <div className='relative w-60 h-60'>
@@ -58,13 +60,13 @@ const page = () => {
   {/*<h1 className='text-3xl font-bold text-zenseGrey md:mt-72'>8zense.com</h1>*/}
 
 
- <div className='relative w-24 h-24'>
+ <div className='relative w-24 h-24 md:w-60 md:h-60'>
 
 
   <Image
 
 
-      src={Logo02}
+      src={Portrait}
 
 
       alt="Portrait"
@@ -102,7 +104,7 @@ const page = () => {
   /> 
   
   </div>
-  <p className='py-3 w-36 text-xs  lg:text-xl text-center'>Fernanda Pereira</p>
+  <p className='py-3 w-36 text-xs md:text-sm  lg:text-xl text-center'>Fernanda Pereira</p>
 
 
 <h1 className='mt-12 text-zenseSignal text-[2.66rem] uppercase font-bold text-center leading-10 sm:mt-60 md:text-8xl md:font-black lg:-mt-1
@@ -113,9 +115,16 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 
 <h2 className="mt-3 text-[1.49rem] md:text-[2.33rem] lg:text-[7rem]">8zense.com ist Fernanda Pereira</h2>
 
+<div className='bg-zenseGrey/20 mb-16' >
+  
+      
+        <p className="text-base text:justify px-7 text-justify   md:text-lg text-slate-700 my-4 md:my-6">
+        <span className='text-zenseSignal'>8zense.com</span> enstand aus einer Intuition heraus,  obwelcher Fernanda sich immer wieder die Frage stellte, ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:
+        </p>
+      
+      </div>
 
-<h2 className="  bg-zenseCyan/50 rounded-xl mb-7 font-normalrelative py-2 px-2 leading-3 text-7xl
-text-justify md:text-[3.33rem] lg:text-5xl"> <span className="px-7 py-3 text-[.83rem] leading-3 text-justify lg:block h-40 lg:w-[66vw] lg:text-3xl">8zense enstand aus einer Intuition heraus,  obwelcher Fernanda sich immer wieder die Frage stellte, ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:</span><br/><br/></h2>
+
 <div  className='relative w-full h-60 transform scale-150 translate-y-10 lg:w-20vw lg:text-6xl'>   
 <Image src={Arrow} fill sizes="100vw" alt="pfeil" />
 </div>
@@ -135,12 +144,12 @@ text-justify md:text-[3.33rem] lg:text-5xl"> <span className="px-7 py-3 text-[.8
 </section>
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='{styles.headingA}    text-left font-extrabold uppercase text-zenseGrey text-4xl md:text-6xl lg:text-[7rem]'>exklusiv </h1>
-<span className='text-5xl align-text-bottom bg-zenseCyan rounded-full lg:text-[7rem]'>&#x2714;</span>
+<h1 className='{styles.headingA}    text-left font-extrabold uppercase text-zenseGrey headingA headingB leading-3 text-4xl md:text-6xl lg:text-[7rem]'>exklusiv </h1>
+<span className='text-5xl align-text-bottom bg-zenseCyan rounded-full lg:text-[1zrem]'>&#x2714;</span>
 </div>
       
 </section>
-    <h1 className="mb-3 p-1 mt-7 text-xs bg-black/10 font-bold text-zenseGrey text-center md:text-3xl lg:py-5">über Fernanda</h1>
+    <h1 className="mb-4 p-1 mt-24 text-xs bg-slate-900 font-bold text-white text-center md:text-sm lg:py-5">über Fernanda</h1>
 
     
 
@@ -149,14 +158,19 @@ text-justify md:text-[3.33rem] lg:text-5xl"> <span className="px-7 py-3 text-[.8
   
 
     
-    <div  className='relative w-full h-44 lg:mx-auto lg:relative lg:h-[66vh] lg:w-[90vw]'>
+    <div  className='relative w-full h-44 md:h-[44vh] lg:mx-auto lg:relative lg:h-[66vh] lg:w-[90vw]'>
     
       <Image className='mx-auto'  src={Projekt} fill sizes="100vw" alt="projekt sao  paulo"/>
       <h1   className='relative text-center text-3xl lg:text-7xl text-white uppercase font-extrabold'>projekt sao paulo-brasil</h1>
     </div>
           
 
-    <h1 className='text-[1.145rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem text-zenseSignal font-bold uppercase text-left lg:leading-9 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interieure</h1>
+<h1 className='mt-5 px-3 py-2 rounded-xl text-center bg-slate-800 text-white text-2-xl'>betrachten Sie Referenzprojekte von Fernanda Pereira</h1>
+<SpringModal/>
+
+
+
+    <h1 className='text-[1.145rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem text-zenseSignal font-bold uppercase text-left md:text-7xl lg:leading-9 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interiore</h1>
 
 
 
