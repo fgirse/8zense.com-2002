@@ -8,15 +8,14 @@ import Button from "@/components/share/Button";
 
 const ShuffleHero = () => {
   return (
+
     
     <section className="container w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+      
+    <div className="-mt-60 flex flex-col items-start md:flex-row md:justify-around md:items-baseline ">
     
-    <div className="-mt-60 flex flex-col items-start ">
-        <span className="block mb-4 text-xs md:text-sm font-medium">
-          8zense.com
-        </span>
-        <div className="container py-3 bg-zenseGrey/20 rounded-xl">
-        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[9.11rem] bg-gradient-to-b from-slate.900 via bg-slate-500 to-slate-400 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Timeless Design</h1>
+        <div className="container py-3 bg-zenseGrey/20 rounded-xl md:w-full">
+        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[3.31rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-5000 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Timeless Design</h1>
       
 
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
@@ -25,10 +24,11 @@ const ShuffleHero = () => {
         <Button/>
                 </div>
       </div>
-  
+  <div className=" " >
     <ShuffleGrid />
+    </div>
 <section className="container py-3 bg-slate-900/20 rounded-xl">
-<h1 className="relative px-1 uppercase text-[3.1333rem] font-black md:text-[9.11rem] bg-gradient-to-b from-slate.900 via bg-slate-500 to-slate-400 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Interiore Design</h1>
+<h1 className="relative px-1 uppercase text-[3.1333rem] font-black md:text-[3.11rem] bg-gradient-to-b from-slate-900 via bg-slate-700 to-slate-600 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Interiore Design</h1>
     <div className="mt-3 relative w-[75vw] h-[20vh]">
  <Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
 
@@ -64,72 +64,72 @@ const shuffle = (array: (typeof squareData)[0][]) => {
 const squareData = [
   {
     id: 1,
-    src: "/assets/images/LogoEZ30.png",
+    src: "/assets/images/Chairred.svg",
   },
  
   {
     id: 2,
-    src: "/assets/images/cyan.svg",
+    src: "/assets/images/interiore13.jpg",
   },
   {
     id: 3,
   
-    src: "/assets/images/8zenseVer.png",
+    src: "/assets/images/Rastergrafikobg.png",
   },
   {
     id: 4,
-    src: "/assets/images/EZ.svg",
+    src: "/assets/images/interiore30.jpg",
   },
    
   {
     id: 5,
-    src: "/assets/images/8zenseVer.png",
+    src: "/assets/images/Kieselsteine.png",
   },
  
   {
     id: 6,
-    src: "/assets/images/LogoEZ.svg",
+    src: "/assets/images/kiesbunt.png",
   },
   {
     id: 7,
-    src: "/assets/images/LogoEZcyan.svg",
+    src: "/assets/images/LogoEZCyan.png",
   },
 
   {
     id: 8,
-    src: "/assets/images/8zensever.png",
+    src: "/assets/images/interiore21.jpg",
   },
   {
     id: 9,
-    src: "/assets/images/EZ40.png",
+    src: "/assets/images/hotel.png",
   },
   {
     id: 10,
-    src: "/assets/images/Logocyan.svg",
+    src: "/assets/images/LogoEZ.png",
   },
   {
     id: 11,
-    src: "/assets/images/LogoEZver.png",
+    src: "/assets/images/sketchobg.png",
   },
   {
     id: 12,
-    src: "/assets/images/LogoEZ20.png",
+    src: "/assets/images/interiore11.jpg",
   },
   {
     id: 13,
-    src: "/assets/images/LogoEZCyan.png",
+    src: "/assets/images/Hotel-SaoPaulo.png",
   },
   {
     id: 14,
-    src: "/assets/images/LogoEZ30.png",
+    src: "/assets/images/grafik6.png",
   },
   {
     id: 15,
-    src: "/assets/images/cyan.svg",
+    src: "/assets/images/interiore20.jpg",
   },
   {
     id: 16,
-    src: "/assets/images/LogoEZ20.png",
+    src: "/assets/images/room.webp",
   },
 ];
 
@@ -139,7 +139,7 @@ const generateSquares = () => {
       key={sq.id}
       layout
       transition={{ duration: 1.5, type: "spring" }}
-      className="w-full h-full"
+      className="w-full h-full bg-slate-900/50"
       style={{
         backgroundImage: `url(${sq.src})`,
         backgroundSize: "cover",
@@ -168,6 +168,7 @@ const ShuffleGrid = () => {
     <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
       {squares.map((sq) => sq)}
     </div>
+    
   );
 };
 

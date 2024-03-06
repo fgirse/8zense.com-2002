@@ -7,14 +7,14 @@ export const VanishText = () => {
   return (
     <div className=" px-4 py-24 text-center md:py-36">
       <h3 className="text-3xl font-medium text-zenseSignal sm:text-4xl md:text-5xl lg:text-6xl">
-        Was sagen unsere Kunden?
+        Das sagen unsere Kunden:
         <AnimatedText
           phrases={[
             "Lobeshymnen",
             "Statements ",
             "Dankeschöns",
             "Sterne ",
-            "Thumb-Up's 👍👍👍",
+            "Thumb-Up's",
           ]}
         />
       </h3>
@@ -39,7 +39,7 @@ const AnimatedText = ({ phrases }: { phrases: string[] }) => {
   }, [phrases]);
 
   return (
-    <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-4">
+    <div className="flex flex-wrap items-center justify-center gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-4 text">
       <AnimatePresence mode="popLayout">
         {phrases[active].split(" ").map((word, wordIndex) => {
           if (wordIndex === 0) {

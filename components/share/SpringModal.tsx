@@ -11,7 +11,7 @@ const ExampleWrapper = () => {
     <div className="px-4 py-12 bg-transparent grid place-content-center">
       <button
         onClick={() => setIsOpen(true)}
-        className="bg-gradient-to-r from-amber-600 to-orange-600 text-white font-medium px-4 py-2 rounded hover:opacity-90 transition-opacity"
+        className="bg-gradient-to-b from-zenseSignal to-zenseSignal/50 text-white text-3xl font-medium px-4 py-2 rounded hover:opacity-90 transition-opacity"
       >
         Open Projekte
       </button>

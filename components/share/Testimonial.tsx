@@ -135,7 +135,7 @@ const TestimonialCard = ({
   return (
     <>
     
-<h1 className="text-3-------________________________________________________________________________________________________________________">Testimonials</h1>
+
     <motion.div
       initial={false}
       onClick={() => handleMove(position)}
