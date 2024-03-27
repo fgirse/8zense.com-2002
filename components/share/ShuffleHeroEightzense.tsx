@@ -10,12 +10,12 @@ const ShuffleHero = () => {
   return (
 
     
-    <section className="container w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
       
-    <div className="-mt-60 flex flex-col items-start md:flex-row md:justify-around md:items-baseline ">
+    <div className="-mt-48 flex flex-col items-start md:justify-around md:items-baseline ">
     
         <div className="container py-3 bg-zenseGrey/20 rounded-xl md:w-full">
-        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[3.31rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-5000 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Timeless Design</h1>
+        <h1 className="relative px-1 uppercase text-[3.333rem] font-black md:text-[3.31rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-5000 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem]  ">Timeless Design</h1>
       
 
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
@@ -24,17 +24,17 @@ const ShuffleHero = () => {
         <Button/>
                 </div>
       </div>
-  <div className=" " >
+  <div className="md:translate transform -y-24" >
     <ShuffleGrid />
     </div>
 <section className="container py-3 bg-slate-900/20 rounded-xl">
-<h1 className="relative px-1 uppercase text-[3.1333rem] font-black md:text-[3.11rem] bg-gradient-to-b from-slate-900 via bg-slate-700 to-slate-600 bg-clip-text text-transparent lg:top  lg:tracking-wider leading-10 lg:text-[5rem] ">Interiore Design</h1>
-    <div className="mt-3 relative w-[75vw] h-[20vh]">
+<h1 className="relative px-1 uppercase text-[3.1333rem] font-black md:text-[3.11rem] bg-gradient-to-b from-slate-900 via bg-slate-700 to-slate-600 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-13 lg:text-[5rem] ">Interiore Design</h1>
+    <div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[53vw]">
  <Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
 
     </div>
     <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          <span className="text-zenseSignal font-bold">8zenSe.com</span> begleitet,beratet und unterstüzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, Büro ofer Praxis. Sprechen Sie uns an -Wir freun uns auf Sie!
+          <span className="text-zenseSignal font-bold">8zenSe.com</span> begleitet,beratet und unterstüzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, Büro ofer Praxis. Sprechen Sie uns an - Wir freun uns auf Sie!
         </p>
         <Button/>
 </section>

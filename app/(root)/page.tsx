@@ -25,6 +25,13 @@ import CollapsCardFeature from "@/components/share/CollapsCardFeature";
 import { VanishText } from "@/components/share/VanishText";  
 import Space from "@/public/assets/images/space.png"
 import ColorChangeCards from "@/components/share/ColorChangeCard";
+import LottiAnimation from "@/components/share/LottiAnimation";
+
+
+
+
+
+
 export default function Home() {
 
   
@@ -79,7 +86,7 @@ export default function Home() {
     </div>
     <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
 
-    <div className=" -top-44 -z-10 relative w-[77vw] h-[33vh]">
+    <div className="mb-24 -top-44 -z-10 relative w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
   
   <Image src={Space} fill sizes="100vw"  alt="space Illustration"/>
   
@@ -92,6 +99,7 @@ export default function Home() {
     </section>
     <section>
     <CollapsCardFeature/>
+    <LottiAnimation/>
     <ColorChangeCards/>
       <VanishText/>
         <StaggerTestimonials/>

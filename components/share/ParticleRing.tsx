@@ -7,7 +7,7 @@ import { pointsInner, pointsOuter } from "./utils";
 import * as THREE from 'three';
 
 import Image from "next/image";
-import LogoEZ from"@/public/assets/images/LogoEZ40.png";
+import LogoEZ from"@/public/assets/images/LogoEZ300.svg";
 import { Group } from "three";
 
 const ParticleRing = () => {
@@ -26,14 +26,14 @@ const ParticleRing = () => {
         <PointCircle />
       </Canvas>
 <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center">
-<p className="relative -top-48 text-3xl md:-top-132 md:text-6xl lg:text-5xl text-white text-center font-black uppercase">Herzlich willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
+<p className="relative -top-48 text-[1.66rem] md:-top-72 md:text-5xl lg:text-5xl text-white text-center font-black uppercase">Herzlich willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
 
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseGreen w-[66vw] h-96 font-black text-6xl md:text-7xl lg:text-[11.33rem] text-center py-5 pointer-events-none">
-        <div className="relative mt-16  h-[21vh] md:mx-auto md:w-[66vw] md:h-[28vh] lg:w-[33vw] lg:h-[28vh]">
-        <Image  className="mx-auto w-full absolute" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill />
+        <div className="bg-black/70 mx-auto mb-36 relative mt-28 rouded-2xl h-[40vh] md:mx-auto md:mt-36 md:w-[66vw] md:h-[33vh] lg:w-[50vw] lg:h-[50vh]">
+        <Image  className="mx-auto w-full absolute" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill/>
       </div >
       </div >
-      <h1 className="relative text-center text-4xl mt-16 md:text-7xl lg:text-9xl md:transform md:translate-y-32 text-zenseGreen">8zense.com</h1>
+     {/* <h1 className="relative text-center text-4xl mt-7 md:text-7xl lg:text-9xl md:transform md:translate-y-32 text-white">8zense.com</h1>*/}
      </div>
     
     </div>

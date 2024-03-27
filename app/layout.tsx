@@ -4,7 +4,7 @@ import './globals.css';
 import styles from './home.module.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { neobrutalism } from '@clerk/themes';
-
+import link from 'next/link';
 
 const sairaCond = Saira_Condensed({
   display: 'swap',
@@ -13,11 +13,13 @@ const sairaCond = Saira_Condensed({
   variable: '--font-saira_c',
     });
 
-export const metadata: Metadata = {
-  title: '8zenSe.com',
-  description: 'LandingPage for startup - 8zense.com',
-  icons: {icon : "/assets/images/LogoEZ2.png"}
-}
+    export const metadata: Metadata = {
+      title: '8zenSe.com',
+      description: 'LandingPage for startup - 8zense.com',
+      icons: {icon : "/assets/images/LogoEZ300.png"}
+    }
+
+
 
 export default function RootLayout({
   children,
@@ -32,7 +34,7 @@ export default function RootLayout({
    <html lang="en" className="bg-transparent">
 
 
-      <body className={styles.container}>{children}</body>
+      <body className={styles.container}>{children}/</body>
     </html>
     </ClerkProvider>
   )

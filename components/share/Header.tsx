@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import NavItems from "./NavItems";
 import MobileNav from "../share/MobileNav";
 import Locked from"@/public/assets/images/locked.png"
-import Logo from"@/public/assets/images/LogoEZ30.svg";
+import Logo from"@/public/assets/images/LogoEZ300.svg";
 import FjipMenu from "./FlipMenu";
 
 const Header = () => {
