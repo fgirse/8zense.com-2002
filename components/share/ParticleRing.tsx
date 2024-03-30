@@ -1,16 +1,14 @@
-
 'use client'
 import React, { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 import { pointsInner, pointsOuter } from "./utils";
 import * as THREE from 'three';
-
+import  LogoEZ from"@/public/assets/images/LogoEZ80.svg"
 import Image from "next/image";
-import LogoEZ from"@/public/assets/images/LogoEZ300.svg";
 import { Group } from "three";
 
-const ParticleRing = () => {
+const ParticlesRing = () => {
   return (
     <div className="relative">
       <Canvas
@@ -30,7 +28,7 @@ const ParticleRing = () => {
 
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseGreen w-[66vw] h-96 font-black text-6xl md:text-7xl lg:text-[11.33rem] text-center py-5 pointer-events-none">
         <div className="bg-black/70 mx-auto mb-36 relative mt-28 rouded-2xl h-[40vh] md:mx-auto md:mt-36 md:w-[66vw] md:h-[33vh] lg:w-[50vw] lg:h-[50vh]">
-        <Image  className="mx-auto w-full absolute" src={LogoEZ}  alt="LogoEZCyan" sizes="100vw" fill/>
+        <Image  className="mx-auto w-full absolute" src={LogoEZ}  alt="LogoEZ800.svg" sizes="100vw" fill/>
       </div >
       </div >
      {/* <h1 className="relative text-center text-4xl mt-7 md:text-7xl lg:text-9xl md:transform md:translate-y-32 text-white">8zense.com</h1>*/}
@@ -76,4 +74,4 @@ const Point = ({ position, color }: { position: number[]; color: string }) => {
   );
 };
 
-export default ParticleRing;
+export default ParticlesRing;
