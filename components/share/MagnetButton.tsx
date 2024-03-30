@@ -1,10 +1,16 @@
-import { motion } from "framer-motion";
-import { useRef, useState } from "react";
+"use client"
+import {
+  motion,
+  useMotionTemplate,
+  useMotionValue,
+  useSpring,
+} from "framer-motion";
+import { useRef } from "react";
 import { MdOutlineArrowUpward } from "react-icons/md";
 
 const MagnetButtonExample = () => {
   return (
-    <div className="grid min-h-[400px] place-content-center bg-violet-200 p-4">
+    <div className="grid min-h-[00px] place-content-center bg-violet-200 p-4">
       <MagnetButton />
     </div>
   );
@@ -13,8 +19,21 @@ const MagnetButtonExample = () => {
 const MagnetButton = () => {
   const ref = useRef<HTMLButtonElement | null>(null);
 
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  const xSpring = useSpring(x, {
+    mass: 3,
+    stiffness: 400,
+    damping: 50,
+  });
+  const ySpring = useSpring(y, {
+    mass: 3,
+    stiffness: 400,
+    damping: 50,
+  });
+
+  const transform = useMotionTemplate`translateX(${xSpring}px) translateY(${ySpring}px)`;
 
   const handleMouseMove = (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
@@ -23,13 +42,13 @@ const MagnetButton = () => {
 
     const { height, width, left, top } = ref.current.getBoundingClientRect();
 
-    setX(e.clientX - (left + width / 2));
-    setY(e.clientY - (top + height / 2));
+    x.set(e.clientX - (left + width / 2));
+    y.set(e.clientY - (top + height / 2));
   };
 
   const handleMouseLeave = () => {
-    setX(0);
-    setY(0);
+    x.set(0);
+    y.set(0);
   };
 
   return (
@@ -37,13 +56,13 @@ const MagnetButton = () => {
       ref={ref}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      animate={{ x, y }}
+      style={{ transform }}
       transition={{ type: "spring", stiffness: 200, damping: 20 }}
-      className="group relative grid h-[100px] w-[100px] place-content-center rounded-full border-2 border-black transition-colors duration-700 ease-out"
+      className="group relative grid h-[220px] w-[220px] place-content-center rounded-full border-2 border-black transition-colors duration-700 ease-out"
     >
-      <MdOutlineArrowUpward className="relative z-10 rotate-45 text-7xl text-black transition-all duration-700 ease-out group-hover:rotate-90" />
+      <MdOutlineArrowUpward className="pointer-events-none relative z-10 rotate-45 text-7xl text-black transition-all duration-700 ease-out group-hover:rotate-90" />
 
-      <div className="absolute inset-0 z-0 scale-0 rounded-full bg-white transition-transform duration-700 ease-out group-hover:scale-100" />
+      <div className="pointer-events-none absolute inset-0 z-0 scale-0 rounded-full bg-white transition-transform duration-700 ease-out group-hover:scale-100" />
 
       <motion.svg
         initial={{ rotate: 0 }}
@@ -62,20 +81,20 @@ const MagnetButton = () => {
         }}
         width="200"
         height="200"
-        className="absolute z-10"
+        className="pointer-events-none absolute z-10"
       >
         <path
           id="circlePath"
           d="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0"
-          fill="none"
+          fill="#ad2806"
         />
         <text>
           <textPath
             href="#circlePath"
             fill="black"
-            className="fill-black text-xl font-light uppercase opacity-0 transition-opacity duration-700 ease-out group-hover:opacity-100"
+            className="fill-white text-4xl font-light uppercase transition-opacity duration-700 ease-out opacity-100"
           >
-            8zense.com send us e-mail to contact you
+            Timeless Design 
           </textPath>
         </text>
       </motion.svg>

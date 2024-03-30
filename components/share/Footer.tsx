@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
-import Logo02 from"@/public/assets/images/LogoEZCyan.png"
+import Logo02 from"@/public/assets/images/LogoEZ40.svg"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Image from "next/image"

@@ -5,13 +5,16 @@ import { useEffect, useRef, useState } from "react";
 import Skizze from "@/public/assets/images/skizze.png";
 import Image from "next/image";
 import Button from "@/components/share/Button";
+import MagnetButtonExample from "./MagnetButton";
 
 const ShuffleHero = () => {
   return (
 
     
     <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
-      
+      <div className="absolute w-60 h-60 bg-red-500">
+      <MagnetButtonExample/>
+      </div>
     <div className="-mt-48 flex flex-col items-start md:justify-around md:items-baseline ">
     
         <div className="container py-3 bg-zenseGrey/20 rounded-xl md:w-full">

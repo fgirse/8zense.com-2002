@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Diagramm from "@/public/assets/images/diagramm.svg";
 import Space from "@/public/assets/images/space.png"
+import MagnetButtonExample from "./MagnetButton";
 
 const ShuffleHero = () => {
   return (
@@ -161,9 +162,12 @@ const ShuffleGrid = () => {
   };
 
   return (
+    <>
     <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
       {squares.map((sq) => sq)}
     </div>
+    <MagnetButtonExample/>
+    </>
   );
 };
 
