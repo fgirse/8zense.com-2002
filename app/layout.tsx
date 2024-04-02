@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { Saira, Saira_Condensed } from 'next/font/google';
+import { Saira, Saira_Condensed } from 'next/font/google';          
+import 'normalize-css/normalize.css';
 import './globals.css';
 import styles from './home.module.css';
 import { ClerkProvider } from '@clerk/nextjs';

@@ -25,6 +25,7 @@ import CollapsCardFeature from "@/components/share/CollapsCardFeature";
 import { VanishText } from "@/components/share/VanishText";  
 import Space from "@/public/assets/images/space.png"
 import ColorChangeCards from "@/components/share/ColorChangeCard";
+import FeatureAnimation from "@/components/share/FeatureAnimated";
 import LottiAnimation from "@/components/share/LottiAnimation";
 import MagnetButton from "@/components/share/MagnetButton";
 
@@ -45,13 +46,10 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='  mx-auto min-h-screen'>
+<section className='mx-auto min-h-screen'>
 
   <ParticlsRing/>
 
-<section className="">
-
-</section>
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
 
@@ -81,9 +79,12 @@ export default function Home() {
     </div>
 
     </div> 
-    <MagnetButton/>
+    
 
     </div>
+    </section>
+    <section className="section-Space">
+    
     <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
 
     <div className="mb-24 -top-44 -z-10 relative w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
@@ -94,23 +95,32 @@ export default function Home() {
 
     </div> 
     </section>
-    <section className="-mt-44 ">
+    
+    <section className="shuffle-Hero -mt-44 ">
     <ShuffleHero/>
     </section>
-    <section>
+    <section className="collaps-Feature">
     <CollapsCardFeature/>
+    </section>
     <LottiAnimation/>
+    <section className="slight-Show">
+    <SlightShow2/>
+    </section>
+    <section className="feature-Animation">
+    <FeatureAnimation/>
+    </section>
+    
+    <section className="color-Changecards">
     <ColorChangeCards/>
+    </section>
       <VanishText/>
         <StaggerTestimonials/>
-        </section>
+    
 {/*====================================================grid ende ===============*/}
-{/*<main className="flex min-h-screen flex-col items-center justify-between">
-      <DemoSlider data={dataSlider} />
-</main>*/}
-{/*"<Testimonials data={testimonial}/>"*/}"
-    <HorizontalSrollCarousel/>
-       
+
+<section className="">    
+<HorizontalSrollCarousel/>
+       </section>
     <section className="">
 
 
