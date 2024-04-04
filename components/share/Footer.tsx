@@ -31,7 +31,7 @@ export default function FooterDemo() {
 
           <div className="flex mt-4">
             <Input type="email" placeholder="Email" />
-            <Button className="bg-zenseSignal" variant="default">sende e-mail</Button>
+            <Button className="bg-zenseSignal2" variant="default">sende e-mail</Button>
           </div>
           <div className="flex justify-center mt-4 space-x-4 lg:mt-2">
             <Link href={""}>

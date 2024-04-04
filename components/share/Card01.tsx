@@ -16,7 +16,7 @@ export default function ProductCard() {
       <Card className="bg-white max-w-sm rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
         <CardHeader className="relative">
           <Image src={Avatar} alt="Portrait Bardot" sizes="100vw" style={{width:'30%',height: 'auto',}}/>
-          <div className="absolute top-0 left-0 bg-gradient-to-r from-zenseSignal to-orange-200 p-2 text-white">
+          <div className="absolute top-0 left-0 bg-gradient-to-r from-zenseSignal2 to-orange-200 p-2 text-white">
             Testimonials
           </div>
         </CardHeader>

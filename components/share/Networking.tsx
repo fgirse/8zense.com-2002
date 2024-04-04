@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 
-import "@lottiefiles/react-lottie-player";
+import "@lottiefiles/lottie-player";
 
 const styles = {
   container: "container",

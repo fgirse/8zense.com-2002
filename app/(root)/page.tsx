@@ -15,7 +15,7 @@ import dataSlider from "@/constants/sliderData.json";
 import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
 //import Testimonials from "@/components/share/Testimonials"
 import SlightShow2 from"@/components/share/SlightShow2"
-import"@/app/home.module.css"
+import styles from"./styles.module.css"
 import ParticlsRing from '@/components/share/ParticleRing';
 import ShuffleHero from "@/components/share/ShuffleHeroEightzense";
 import HorizontalSrollCarousel from "@/components/share/HorizontalScrollCarousel";
@@ -23,12 +23,12 @@ import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
 import CollapsCardFeature from "@/components/share/CollapsCardFeature";
 import { VanishText } from "@/components/share/VanishText";  
-import Space from "@/public/assets/images/space.png"
+import Space from "@/public/assets/images/space.png";
 import ColorChangeCards from "@/components/share/ColorChangeCard";
 import FeatureAnimation from "@/components/share/FeatureAnimated";
 import LottiAnimation from "@/components/share/LottiAnimation";
 import MagnetButton from "@/components/share/MagnetButton";
-
+import IlluTestimonial from"@/public/assets/images/illustration.png";
 
 
 
@@ -82,14 +82,14 @@ export default function Home() {
     
 
     </div>
-    </section>
-    <section className="section-Space">
+    
+    <section className="-mt-72 section-Space bg-[url('/assets/images/space.png')] bg-contain bg-no-repeat">
     
     <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
 
-    <div className="mb-24 -top-44 -z-10 relative w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
+    <div className="relative -top-[25vh] -z-10  w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
   
-  <Image src={Space} fill sizes="100vw"  alt="space Illustration"/>
+  <Image src={Space} sizes="100vw"  alt="space Illustration"/>
  
   </div>             
 
@@ -99,23 +99,26 @@ export default function Home() {
     <section className="shuffle-Hero -mt-44 ">
     <ShuffleHero/>
     </section>
-    <section className="collaps-Feature">
+    <section className="container flex flex-col items-center mx-auto collaps-Feature">
     <CollapsCardFeature/>
     </section>
-    <LottiAnimation/>
-    <section className="slight-Show">
-    <SlightShow2/>
-    </section>
+    
+    
     <section className="feature-Animation">
     <FeatureAnimation/>
     </section>
     
-    <section className="color-Changecards">
+    <section className="min-h-screen color-Changecards mt-5 bg-zenseGrey">
+      <h1 className=" text-center text-zenseWhite uppercase text-3xl md:text-6xl">Referenz-Projekte</h1>
     <ColorChangeCards/>
     </section>
       <VanishText/>
+      <div className="mb-12 lg:mb-24 mx-auto w-[85vw] h-[22vh]">
+  <Image  src={IlluTestimonial} alt='illustration' sizes="100vw"/>
+</div>
+<section className="lg:mt-72">
         <StaggerTestimonials/>
-    
+        </section>   
 {/*====================================================grid ende ===============*/}
 
 <section className="">    
@@ -123,7 +126,7 @@ export default function Home() {
        </section>
     <section className="">
 
-
+    </section>
     </section>
 </>
   )

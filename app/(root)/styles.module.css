@@ -9,7 +9,7 @@
         position: relative;
         top: 29vh;
         width: 50%;
-      
+    }
          .div {
           position: unset !important;
         }
@@ -26,7 +26,13 @@
           flex-grow: 1;
           place-content: center;
           background-color: aliceblue;
-
-
         }
-      }
+
+        .collaps-Feature {
+
+          margin: auto;
+          width: 100vw;   
+          height: auto;
+          background-color: aqua;
+        }
+      

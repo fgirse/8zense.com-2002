@@ -13,13 +13,13 @@ const Contact = () => {
   return (
     <>
     <section className="container min-h-screen">
-    <h1  className='mt-2 bg-zenseGrey w-36 mx-auto text-center uppercase font-black text-xl text-zenseCyan' >contact</h1>
+    <h1  className='mt-2 bg-zenseGrey w-36 mx-auto text-center uppercase font-black text-xl text-zenseGray' >contact</h1>
     <div className='{styles.section} flex flex-col items-center bg-zenserSignal'>
             <div className='{styles.image-container} py-8 w-full flex flex-col items-center'>
              
               <Image src={Logo} alt="Logo 8zense" sizes="100vw" className='' style={{ width: '40%', height: 'auto',}}/>
             </div>
-            <div className='text-zenseCyan text-center text-xl' >
+            <div className='text-zenseGray text-center text-xl' >
             <Separator ></Separator>
             </div>
 <div className="grid md:grid-cols-2 md:grid-rows-2 md:first-letter:gap-2 items-centers">

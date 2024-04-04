@@ -107,7 +107,7 @@ const page = () => {
   <p className='py-3 w-36 text-xs md:text-sm  lg:text-xl text-center'>Fernanda Pereira</p>
 
 
-<h1 className='mt-12 text-zenseSignal text-[2.66rem] uppercase font-bold text-center leading-10 sm:mt-60 md:text-8xl md:font-black lg:-mt-1
+<h1 className='mt-12 text-zenseSignal2 text-[2.66rem] uppercase font-bold text-center leading-10 sm:mt-60 md:text-8xl md:font-black lg:-mt-1
 
 
 
@@ -119,7 +119,7 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
   
       
         <p className="text-base text:justify px-7 text-justify   md:text-lg text-slate-700 my-4 md:my-6">
-        <span className='text-zenseSignal'>8zense.com</span> enstand aus einer Intuition heraus,  obwelcher Fernanda sich immer wieder die Frage stellte, ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:
+        <span className='text-zenseSignal2'>8zense.com</span> enstand aus einer Intuition heraus,  obwelcher Fernanda sich immer wieder die Frage stellte, ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien  Beton - Holz - Stahl  umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes  und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose dieser Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:
         </p>
       
       </div>
@@ -132,20 +132,20 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 <section className='mt-32'>
 <div className='flex flex-row items-baseline justify-start'>
 <h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey headingB  leading-3 text-4xl md:text-6xl lg:text-[r7em]'>design </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal rounded-full lg:text-[14rem]'>&#x2714;</span>
+<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
 
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
 <h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey  text-4xl leading-3 md:text-6xl lg:text-[7rem]'>individuell </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal rounded-full lg:text-[14rem]'>&#x2714;</span>
+<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
 <h1 className='{styles.headingA}    text-left font-extrabold uppercase text-zenseGrey headingA headingB leading-3 text-4xl md:text-6xl lg:text-[7rem]'>exklusiv </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal rounded-full lg:text-[1zrem]'>&#x2714;</span>
+<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full lg:text-[1zrem]'>&#x2714;</span>
 </div>
       
 </section>
@@ -158,7 +158,7 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
   
 
     
-    <div  className='relative w-full h-44 md:h-[44vh] lg:mx-auto lg:relative lg:h-[66vh] lg:w-[90vw]'>
+    <div  className='relative w-full h-44 md:h-[44vh] lg:mx-auto lg:relative lg:h-[66vh] lg:w-full'>
     
       <Image className='mx-auto'  src={Projekt} fill sizes="100vw" alt="projekt sao  paulo"/>
       <h1   className='relative text-center text-3xl lg:text-7xl text-white uppercase font-extrabold'>projekt sao paulo-brasil</h1>
@@ -171,14 +171,14 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 </div>
 
 
-    <h1 className='text-[1.145rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem text-zenseSignal font-bold uppercase text-left md:text-7xl lg:leading-9 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interiore</h1>
+    <h1 className='text-[1.145rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem text-zenseSignal2 font-bold uppercase text-left md:text-7xl lg:leading-9 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interiore</h1>
 
 
 
 
 <div className="bg-zenseGrey/20 w-full h-1/3 grid grid-cols-[5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
     <div className=" col-span-2 row-span-3 self-start">
-    <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1"></Tools>
+    <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1"></Tools>
     </div>
     <div className="  col-span-4 row-span-3 col-start-3">
     <p className='text-xs leading-3 mt-2 p-1 sm:text-sm lg:text-xl' >
@@ -207,7 +207,7 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
       </div>
     </div>
     <div className="bg-zenseGrey/10 col-span-2 row-span-3 row-start-4">
-    <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12 mx-1 rounded-full p-1" />   
+    <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12 mx-1 rounded-full p-1" />   
  
     </div>
     <div className="bg-zenseGrey/10  col-span-4 row-span-3 col-start-3 row-start-4">
@@ -217,7 +217,7 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
     </div>
     
     <div className="bg- col-span-2 row-span-3 row-start-7">
-    <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1" />   
+    <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1" />   
     </div>
     <div className="bg-zenseGrey/10 col-span-4 row-span-3 col-start-3 row-start-7">
     <p className='text-xs   lg:text-xl leading-3 mt-2 p-1 sm:text-sm' >
@@ -228,7 +228,7 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
     <h1 className="{styles.headingA} text-white p-1 font-bold ml-5 mt-2 headingA uppercase text-1.96rem] sm:text-5xl">Education<br/>Projekte</h1>
     </div>
     <div className="bg-zenseGrey/10 col-span-2 row-span-3 row-start-10">
-    <Tools className="bg-zenseSignal self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12 mx-1 rounded-full p-1" />    
+    <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12 mx-1 rounded-full p-1" />    
  
     </div>
     <div className="bg-zenseGrey/10 col-span-4 row-span-3 col-start-3 row-start-10">

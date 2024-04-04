@@ -14,12 +14,12 @@ interface Step {
   const steps: Step[] = [
     {
       id: 1,
-      text: "Create a free account on the Beccountable website.",
+      text: "Erstellen Sie einen Account auf unserer website  von 8zense.com.",
       animation: "https://assets3.lottiefiles.com/packages/lf20_JExdDIS87T.json",
     },
     {
       id: 2,
-      text: "Create a goal and break down your goals into smaller, more manageable steps.",
+      text: "Vereinbaren Sie ein Zielgespräch mit Fernanda zur Definition Ihrer Wünsche und Ideen",
       animation: "https://assets3.lottiefiles.com/packages/lf20_dvpgo0cl.json",
     },
     {
@@ -37,11 +37,7 @@ interface Step {
       text: "Your referee will review your proof of activity and provide you with feedback. This feedback can help you to identify areas where you need to improve.",
       animation: "https://assets3.lottiefiles.com/packages/lf20_GgLE0z7sML.json",
     },
-    {
-      id: 6,
-      text: "As you achieve your goals, be sure to celebrate your milestones to help you stay motivated and focused.",
-      animation: "@/public/assets/images/quality02.gif",
-    },
+    
   ];
 
   const handleStepChange = useCallback(() => {

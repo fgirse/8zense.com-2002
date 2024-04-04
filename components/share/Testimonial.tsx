@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import Image from "next/image";
+import IlluTestimonial from"@/public/assets/images/illustration.png";
 
 const CARD_SIZE_LG = 365;
 const CARD_SIZE_SM = 290;
@@ -141,7 +143,7 @@ const TestimonialCard = ({
       onClick={() => handleMove(position)}
       className={`
       absolute left-1/2 top-1/2 cursor-pointer border-black p-8 text-black transition-colors duration-500 ${
-        isActive ? "z-10 bg-zenseSignal" : "z-0 bg-white"
+        isActive ? "z-10 bg-zenseSignal2" : "z-0 bg-white"
       }
       `}
       style={{

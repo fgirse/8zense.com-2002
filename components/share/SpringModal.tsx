@@ -11,7 +11,7 @@ const ExampleWrapper = () => {
     <div className="px-4 py-12 bg-transparent grid place-content-center">
       <button
         onClick={() => setIsOpen(true)}
-        className="bg-gradient-to-b from-zenseSignal to-zenseSignal/50 text-white text-3xl font-medium px-4 py-2 rounded hover:opacity-90 transition-opacity"
+        className="bg-gradient-to-b from-zenseSignal2 to-zenseSignal2/50 text-white text-3xl font-medium px-4 py-2 rounded hover:opacity-90 transition-opacity"
       >
         Open Projekte
       </button>
@@ -46,7 +46,7 @@ const SpringModal = ({
           >
             <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
             <div className="relative z-10">
-              <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-zenseSignal grid place-items-center mx-auto">
+              <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-zenseSignal2 grid place-items-center mx-auto">
                 <FiAlertCircle />
               </div>
               <h3 className="text-3xl font-bold text-center mb-2">

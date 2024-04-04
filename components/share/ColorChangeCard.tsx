@@ -63,7 +63,7 @@ const Card = ({
         staggerChildren: 0.035,
       }}
       whileHover="hover"
-      className="w-full h-64 bg-slate-300 overflow-hidden cursor-pointer group relative"
+      className="w-full h-64  text-white bg-zenseGrey overflow-hidden cursor-pointer group relative"
     >
       <div
         className="absolute inset-0 saturate-100 md:saturate-0 md:group-hover:saturate-100 group-hover:scale-110 transition-all duration-500"

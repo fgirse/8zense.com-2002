@@ -6,7 +6,7 @@ const Example = () => {
   return (
     <div className="flex h-[500px] justify-center bg-neutral-900 px-3 py-12">
       <FlyoutLink href="#" FlyoutContent={PricingContent}>
-        Pricing
+      Impressum
       </FlyoutLink>
     </div>
   );
@@ -29,7 +29,7 @@ const FlyoutLink = ({
     <div
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
-      className="relative w-fit h-fit"
+      className="relative w-fit h-fit bg-blue-500"
     >
       <a href={href} className="relative text-white">
         {children}
@@ -50,7 +50,7 @@ const FlyoutLink = ({
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="absolute left-1/2 top-12 bg-white text-black"
           >
-            <div className="absolute -top-6 left-0 right-0 h-6 bg-transparent" />
+            <div className="absolute -top-6 left-0 right-0 h-6 bg-red-600" />
             <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white" />
             <FlyoutContent />
           </motion.div>

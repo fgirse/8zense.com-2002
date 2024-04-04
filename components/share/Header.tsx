@@ -3,17 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import NavItems from "./NavItems";
-import MobileNav from "../share/MobileNav";
+import MobileNav from "../share/MobileNav"
+import DropDown from"@/components/share/staggeredDropDown";
 import Locked from"@/public/assets/images/locked.png"
-import Logo from"@/public/assets/images/LogoEZ900.svg";
+import Logo from"@/public/assets/images/LogoEZ80.svg";
 
 
 const Header = () => {
   return (
-    <header className="flex flex-col w-[100vw] text-white bg-zenseGreen items-center justify-center">
-      <div id="LogoEZ" className="w-[100vw] h-20  rounded-xl flex items-center justify-around">
+    <header className=" h-24 flex flex-col w-[99.9vw] mx-auto  text-white bg-zenseGrey items-center justify-start">
+      <div id="LogoEZ" className="w-[100vw]  mt-10  rounded-xl flex items-center justify-around">
         <Link href="/" className="">
-          <div className="relative w-24 h-20 sm:w-16">
+          <div className="relative w-16 h-12 sm:w-16">
           <Image src={Logo} sizes="100vw" fill alt="Logo 8zense.com"
 /></div>
         </Link>
@@ -21,6 +22,7 @@ const Header = () => {
         <SignedIn>
           <nav className="md:flex-between hidden w-full max-w-3x'¨l">
             <NavItems />
+            <DropDown/>
           </nav>
         </SignedIn>
 

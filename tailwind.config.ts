@@ -25,11 +25,13 @@ module.exports = withUt({
        
      //================8zense-colors==================
 
-        zenseGreen: "#7c9292",
-        zenseCyan: "#add8d8",
-        zenseGrey: "#66696b",
-        zenseLightgrey: "#bdbfc2",
-        zenseSignal: "#ca8a04",
+        zenseBlack: "141414",
+        zenseGrey: "#41423a",
+        zenseCreme: "#ece2d2",
+        zenseWhite: "#f7f7f7",
+        zenseSignal2: "#d9641e",
+        zenseSignal22: "#ed7d27",
+        
      //========================================================
         primary: {
           500: '#624CF5',
