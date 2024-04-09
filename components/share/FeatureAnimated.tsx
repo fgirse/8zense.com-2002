@@ -14,27 +14,27 @@ interface Step {
   const steps: Step[] = [
     {
       id: 1,
-      text: "Erstellen Sie einen Account auf unserer website  von 8zense.com.",
+      text: "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
       animation: "https://assets3.lottiefiles.com/packages/lf20_JExdDIS87T.json",
     },
     {
       id: 2,
-      text: "Vereinbaren Sie ein Zielgespräch mit Fernanda zur Definition Ihrer Wünsche und Ideen",
+      text: "Vereinbaren Sie ein Zielgespräch mit Fernanda zur Definition Ihrer Wünsche, Vorstellungen und Ideen!",
       animation: "https://assets3.lottiefiles.com/packages/lf20_dvpgo0cl.json",
     },
     {
       id: 3,
-      text: "Find an accountability partner to help you stay on track. Your accountability partner can be a friend, family member, or colleague.",
+      text: "Dank unsers ausgezeichnetes Networking finden wir für Sie genau das Team dass unter der Leitung von Fernanda ihren Designtraum erfüllt.",
       animation: "https://assets8.lottiefiles.com/packages/lf20_7sl35zjk.json",
     },
     {
       id: 4,
-      text: "As you work towards your goals, you will need to provide proof of activity.",
+      text: "Das Projekt wird in viele Einzelprojekte herunter gebrochen - nach und nach fügt sich Ihr Design-Traum wie ein Puzzel zu etwas aussergewöhlichemn  wundervollem zusammnen",
       animation: "https://assets3.lottiefiles.com/private_files/lf30_p9it5a2a.json",
     },
     {
       id: 5,
-      text: "Your referee will review your proof of activity and provide you with feedback. This feedback can help you to identify areas where you need to improve.",
+      text: "Wenn Ihr Design-Projekt dann völlg  umgesetzt ist, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda sowie allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind.",
       animation: "https://assets3.lottiefiles.com/packages/lf20_GgLE0z7sML.json",
     },
     
@@ -75,7 +75,7 @@ interface Step {
             style={{ height: '30vh', width: '100%' }}
           />
         </div>
-        <p className="text-xl  text-slate-900 font-light mb-4 text-center">
+        <p className= "h-24 w-96 relative  bg-[url('/assets/images/brushOrange.svg')] bg-cover text-xl  text-slate-900 font-light mb-4 text-center">
           {steps[step].text}
         </p>
       </div>

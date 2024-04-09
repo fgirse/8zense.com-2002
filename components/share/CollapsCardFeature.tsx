@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion";
+import { Player } from '@lottiefiles/react-lottie-player';
 import { useState } from "react";
 import { IconType } from "react-icons";
 import {
@@ -12,6 +13,10 @@ import {
   FiTool,
   FiUpload,
 } from "react-icons/fi";
+import Image from "next/image";
+import NetWorking from'@/public/assets/images/networking.svg'
+import Quality from'@/public/assets/images/quality03.gif';
+
 
 const CollapseCardFeatures = () => {
   const [position, setPosition] = useState(0);
@@ -29,11 +34,11 @@ const CollapseCardFeatures = () => {
   };
 
   return (
-    <section className="container flex flex-col items-center  overflow-hidden bg-400 px-4 py-12">
+    <section className="overflow-hidden bg-400 px-4 py-12">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex justify-between gap-4">
           <h2 className="text-4xl font-bold leading-[1.2] md:text-5xl">
-            8zense.com ist top! <span className="text-slate-400"></span>
+            Wir sind top! <span className="text-slate-400">Hier ist warum</span>
           </h2>
           <div className="flex gap-2">
             <button
@@ -65,7 +70,7 @@ interface FeatureProps {
   index: number;
   title: string;
   description: string;
-  Icon: IconType;
+  icon: string;
 }
 
 const Feature = ({
@@ -73,7 +78,7 @@ const Feature = ({
   index,
   title,
   description,
-  Icon,
+  icon,
 }: FeatureProps) => {
   const translateAmt =
     position >= index ? index * 100 : index * 100 - 100 * (index - position);
@@ -89,8 +94,9 @@ const Feature = ({
         index % 2 ? "bg-slate-900 text-white" : " bg-white"
       }`}
     >
-      <Icon className="absolute right-2 top-2 text-7xl opacity-20" />
-      <h3 className="mb-8 text-3xl font-bold">{title}</h3>
+      
+      <div className="w-16 h-20 absolute right-4 top-2 text-7xl lg:w-36 lg:h-36"><Image src={icon} alt="" fill sizes="100vw"/></div>
+      <h3 className="mb-8 text-[1.66rem] font-bold lg:text-[2.33rem]">{title}</h3>
       <p>{description}</p>
     </motion.div>
   );
@@ -100,37 +106,33 @@ export default CollapseCardFeatures;
 
 const features = [
   {
-    title: "individuell",
-    Icon: FiUpload,
+    title: "Individuell",
+    icon:"/assets/images/uniqueness.svg",
     description:
       "Individualität ist bei 8zense.Com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"},
   {
-    title: " Bestes Networking",
-    Icon: FiArrowUp,
+    title: "Networking",
+   
+    icon:"/assets/images/networking03.gif",
     description:
       "Wir pflegen beste Verbindungen zu renommierten Architekten und Designern!",
   },
   {
-    title: "top Qualität",
-    Icon: FiTarget,
+    title: "Top Qualität",
+    icon:"/assets/images/quality03.gif",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ab perspiciatis earum quibusdam laudantium non nihil nesciunt?",
+      "Alle Werkstücke sind handfefertigt ",
   },
   {
-    title: "exklusiv",
-    Icon: FiLink,
+    title: "Exklusiv",
+    icon:"/assets/images/exclusive.svg",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem explicabo nobis officia, nostrum eligendi accusamus unde ad cumque, magnam deleniti adipisci fugiat facere. Veniam?",
+      "8zense.com steht für Wunderschönes Design, Funktionalität und hohe Material Qualität sprechen für ein",
   },
   {
-    title: "zeitlos",
-    Icon: FiTool,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, saepe quo!",
+    title: "Zeitlos",
+    icon:"/assets/images/quality03.gif",
+    description: "&laquo; 8zense.com Beton-Design ist zeitlos  - "
+
   },
 ];
-
-
-
-
-

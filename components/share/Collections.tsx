@@ -1,3 +1,5 @@
+"use client"
+
 import { IEvent } from '@/lib/database/models/event.model'
 import React from 'react'
 import { Card } from '../ui/card';

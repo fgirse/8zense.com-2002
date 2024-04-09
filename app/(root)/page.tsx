@@ -21,7 +21,7 @@ import ShuffleHero from "@/components/share/ShuffleHeroEightzense";
 import HorizontalSrollCarousel from "@/components/share/HorizontalScrollCarousel";
 import {SwipeCarousel  } from "@/components/share/SwipeCaroussel";
 import { StaggerTestimonials} from "@/components/share/Testimonial";
-import CollapsCardFeature from "@/components/share/CollapsCardFeature";
+import ColCardFeature from "@/components/share/CollapsCardFeature";
 import { VanishText } from "@/components/share/VanishText";  
 import Space from "@/public/assets/images/space.png";
 import ColorChangeCards from "@/components/share/ColorChangeCard";
@@ -99,8 +99,8 @@ export default function Home() {
     <section className="shuffle-Hero -mt-44 ">
     <ShuffleHero/>
     </section>
-    <section className="container flex flex-col items-center mx-auto collaps-Feature">
-    <CollapsCardFeature/>
+    <section className="">
+    <ColCardFeature/>
     </section>
     
     
