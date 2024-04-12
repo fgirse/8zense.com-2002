@@ -8,7 +8,7 @@ import Image from "next/image"
 
 export default function FooterDemo() {
   return (
-    <footer className="mt-auto bg-slate-800 w-full">
+    <footer className="mt-auto bg-neutral-600 w-full">
      
       <div
         className="

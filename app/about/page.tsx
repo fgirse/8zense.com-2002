@@ -5,7 +5,7 @@ import LogoEZ from "../../public/assets/images/LogoEZ3.svg";
 import React from 'react'
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import Logo01 from"@/public/assets/images/LogoEZ30.svg"
+import Logo01 from"@/public/assets/images/LogoEZ900.svg"
 import Portrait from"@/public/assets/images/CorInterno1.jpg"
 import ArchGrafik from"@/public/assets/images/grafik70.png"
 import './about.module.css'
@@ -25,7 +25,7 @@ const page = () => {
 
     <>
  
- <section className='mx-auto min-h-screen'>
+ <section className='mx-auto min-h-screen w-[100vw]'>
 
 
 <div className='flex flex-col items-center justify-center container'>
@@ -60,7 +60,7 @@ const page = () => {
   {/*<h1 className='text-3xl font-bold text-zenseGrey md:mt-72'>8zense.com</h1>*/}
 
 
- <div className='relative w-24 h-24 md:w-60 md:h-60'>
+ <div className='mt-12 relative w-24 h-24 md:w-60 md:h-60'>
 
 
   <Image
@@ -132,20 +132,20 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 <section className='mt-32'>
 <div className='flex flex-row items-baseline justify-start'>
 <h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey headingB  leading-3 text-4xl md:text-6xl lg:text-[r7em]'>design </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full lg:text-[14rem]'>&#x2714;</span>
+<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full text-white lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
 
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
 <h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey  text-4xl leading-3 md:text-6xl lg:text-[7rem]'>individuell </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full lg:text-[14rem]'>&#x2714;</span>
+<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full text-white lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
 <h1 className='{styles.headingA}    text-left font-extrabold uppercase text-zenseGrey headingA headingB leading-3 text-4xl md:text-6xl lg:text-[7rem]'>exklusiv </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full lg:text-[1zrem]'>&#x2714;</span>
+<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full text-white lg:text-[1rem]'>&#x2714;</span>
 </div>
       
 </section>
@@ -176,7 +176,7 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 
 
 
-<div className="bg-zenseGrey/20 w-full h-1/3 grid grid-cols-[5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0">
+<div className="bg-zenseGrey/30  h-1/3 grid grid-cols-[5vw_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr]  items-stretch gap-0 w-[100vw]">
     <div className=" col-span-2 row-span-3 self-start">
     <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1"></Tools>
     </div>
@@ -206,28 +206,29 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 
       </div>
     </div>
-    <div className="bg-zenseGrey/10 col-span-2 row-span-3 row-start-4">
+    <div className="bg-zenseGrey/20 col-span-2 row-span-3 row-start-4">
     <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12 mx-1 rounded-full p-1" />   
  
     </div>
-    <div className="bg-zenseGrey/10  col-span-4 row-span-3 col-start-3 row-start-4">
+    <div className="bg-zenseGrey/20  col-span-4 row-span-3 col-start-3 row-start-4">
      <p className='text-xs  lg:text-xl leading-3 mt-2 p-1 sm:text-sm' >
     An der Universität in Montevideo- Uruquay legte sie den Grundstein ihres berulichen Werdegangs mit einem Studium der Architektur.
 </p>
     </div>
     
-    <div className="bg- col-span-2 row-span-3 row-start-7">
+    <div className="bg-zenseGrey/10 col-span-2 row-span-3 row-start-7">
     <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12  mx-1 rounded-full p-1" />   
     </div>
     <div className="bg-zenseGrey/10 col-span-4 row-span-3 col-start-3 row-start-7">
-    <p className='text-xs   lg:text-xl leading-3 mt-2 p-1 sm:text-sm' >
-    Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktions- wissenschaften "Eduardo Torroja" in Spanien.
+    <p className='text-xs lg:text-xl leading-3 mt-2 p-1 sm:text-sm' >
+    Sie graduierte mit einem Masters Degree am rennomierten Institut für Konstruktions- wissenschaften "Eduardo Torroja" in Spanien.
 </p>
     </div>
     <div className="bg-grey-500 col-span-4 row-start-7 row-span-6 col-start-7 ">
-    <h1 className="{styles.headingA} text-white p-1 font-bold ml-5 mt-2 headingA uppercase text-1.96rem] sm:text-5xl">Education<br/>Projekte</h1>
+    <h1 className="{styles.headingA} text-white p-1 font-bold ml-5 mt-2 headingA uppercase text-[1.26rem] sm:text-3xl¨
+    xl">Education<br/>Projekte</h1>
     </div>
-    <div className="bg-zenseGrey/10 col-span-2 row-span-3 row-start-10">
+    <div className="bg-zenseGrey/ col-span-2 row-span-3 row-start-10">
     <Tools className="bg-zenseSignal2 self-start mt-3 ml-1 w-8 h-8 sm:w-12 sm:h-12 mx-1 rounded-full p-1" />    
  
     </div>

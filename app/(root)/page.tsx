@@ -1,11 +1,5 @@
 import { getListPage } from "@/lib/contentParser";
-import { motion } from "framer-motion";
-import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import Player from "../../components/share/Player";
-import { nanoid } from 'nanoid';
-import Link from 'next/link';
-import SideBoard  from "./../../public/assets/images/sideboardobg.png";
+import link from 'next/link';
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
 import LogoEZ from"@/public/assets/images/LogoEZ30.svg"
 import Diagramm from "@/public/assets/images/diagramm.svg";
@@ -29,7 +23,10 @@ import FeatureAnimation from "@/components/share/FeatureAnimated";
 import LottiAnimation from "@/components/share/LottiAnimation";
 import MagnetButton from "@/components/share/MagnetButton";
 import IlluTestimonial from"@/public/assets/images/illustration.png";
-
+import Image from "next/image";
+import Skizze from "@/public/assets/images/skizze.png";
+import Button from "@/components/share/Button";
+//import MagnetButtonExample from "./MagnetButton";
 
 
 
@@ -47,7 +44,6 @@ export default function Home() {
     {/*====================================================grid start ===============*/}
 
 <section className='mx-auto min-h-screen'>
-
   <ParticlsRing/>
 
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
@@ -71,7 +67,6 @@ export default function Home() {
 
  <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
 
-
  <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black">Sagan</p>
 
     
@@ -85,20 +80,77 @@ export default function Home() {
     
     <section className="-mt-72 section-Space bg-[url('/assets/images/space.png')] bg-contain bg-no-repeat">
     
-    <div className='mt-12 mb-44 w-[60vw] lg:-mt-[20vh]'>
+    
 
     <div className="relative -top-[25vh] -z-10  w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
   
   <Image src={Space} sizes="100vw"  alt="space Illustration"/>
  
-  </div>             
-
-    </div> 
-    </section>
+  </div> 
     
-    <section className="shuffle-Hero -mt-44 ">
-    <ShuffleHero/>
+    
+
+   
+  <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
+
+    
+
+
+
+   
+
+<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Timeless Design</h1>
+
+<div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
+
+<Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
+
+
+</div>
+
+<p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+
+      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstÃ¼tzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
+
+    </p>
+
+    <Button/>
+
+</section>
+  <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
+
+    
+
+
+
+   
+
+<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Interior Design</h1>
+
+<div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
+
+<Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
+
+
+</div>
+
+<p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+
+      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstÃ¼tzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
+
+    </p>
+
+    <Button/>
+
+</section>
+
     </section>
+
+
+    
+{/*  <section className="shuffle-Hero -mt-44 ">
+    <ShuffleHero/>
+  </section>*/}
     <section className="">
     <ColCardFeature/>
     </section>

@@ -20,9 +20,9 @@ import Image from 'next/image'
  export default function Example() {
   return (
     <>
-  <section className='mb-5 bg-zenseGrey'>
-    <div className='bg-zenseGrey mx-auto relative w-36 h-24 md:w-48 md:h-36'>
-    <Image className="mx-auto" src={Logo} alt="Logo" fill sizes="100vw"/>
+  <section className=' bg-zenseGrey'>
+    <div className='bg-zenseGrey mx-auto relative w-48 h-28 md:w-48 md:h-36'>
+    <Image className="mt-5 mx-auto" src={Logo} alt="Logo" fill sizes="100vw"/>
     </div>
     <div className="relative isolate overflow-hidden bg-zenseGrey py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
