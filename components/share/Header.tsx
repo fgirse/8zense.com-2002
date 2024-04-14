@@ -11,7 +11,7 @@ import Logo from"@/public/assets/images/LogoEZ80.svg";
 
 const Header = () => {
   return (
-    <header className=" flex flex-col w-[99.9vw] mx-auto  text-white bg-zenseGrey items-center justify-start">
+    <header className="h-[15vh] flex flex-col w-[99.9vw] mx-auto  text-white bg-zenseGrey items-center justify-start">
       <div id="LogoEZ" className="w-[100vw]  mt-10  rounded-xl flex items-start justify-around">
         <Link href="/" className="">
           <div className="relative w-16 h-12 sm:w-16">

@@ -34,7 +34,7 @@ const CollapseCardFeatures = () => {
   };
 
   return (
-    <section className="overflow-hidden bg-400 px-4 py-12">
+    <section className="overflow-hidden bg-neutral-100 px-4 py-12">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex justify-between gap-4">
           <h2 className="text-4xl font-bold leading-[1.2] md:text-5xl">
@@ -119,7 +119,7 @@ const features = [
   },
   {
     title: "Top Qualität",
-    icon:"/assets/images/quality03.gif",
+    icon:"/assets/images/qualität.gif",
     description:
       "Alle Werkstücke sind handfefertigt ",
   },
@@ -131,7 +131,7 @@ const features = [
   },
   {
     title: "Zeitlos",
-    icon:"/assets/images/quality03.gif",
+    icon:"/assets/icons/ZeituhrDark.svg",
     description: "&laquo; 8zense.com Beton-Design ist zeitlos  - "
 
   },

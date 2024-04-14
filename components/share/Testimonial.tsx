@@ -277,13 +277,13 @@ const TESTIMONIAL_DATA: TestimonialType[] = [
     tempId: 9,
     testimonial: "For good Design I switched 5 years ago to 8zense.com and never looked back.",
     by: "Andy, Handball-Profi",
-    imgSrc: "/assets/images/avatar-sm-andy.png"
+    imgSrc: "/assets/images/avatar-sm-andi.png"
   },
   {
     tempId: 10,
     testimonial:
       "I've been searching for a design-studio like 8zense.com  for YEARS. So glad I finally found one!",
-    by: "Pete, architekt ",
+    by: "Pete, Architekt ",
     imgSrc: "/assets/images/avatar-sm-pete.png",
   },
   {

@@ -91,7 +91,7 @@ export default function Home() {
     
 
    
-  <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
+  <section className="container mt-16 w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
 
     
 

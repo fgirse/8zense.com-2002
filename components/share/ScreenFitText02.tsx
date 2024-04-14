@@ -48,7 +48,7 @@ export const ScreenFitText = () => {
       ref={containerRef}
     >
       <span
-        className="absolute bottom-0 left-0 mx-auto whitespace-nowrap text-center font-bold uppercase text-zenseSignal2"
+        className="absolute bottom-0 left-0 mx-auto whitespace-nowrap text-center font-bold uppercase text-zenseGrey"
         ref={textRef}
       >
         Was sagen unsere Kunden ?
