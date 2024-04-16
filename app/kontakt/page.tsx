@@ -30,7 +30,7 @@ const Contact = () => {
         <h1 className='text-center text-2xl font-extralight text-zenseGreen'>3 Rue de Blotzheim</h1>
         <h1 className='text-center text-2xl font-normal text-zenseGreen'>F-68128-Village-Neuf </h1>
         <div className='flex flex-row items-center justify-evenly gap-x-2'>
-          <Phone color="red"/>
+          <Phone />
           <h1 className='text-2xl font-normal text-zenseGrey'> +33 (0) 671463942</h1>
         </div>
         <div className=' flex flex-row items-baseline justify-evenly gap-x-2'  >

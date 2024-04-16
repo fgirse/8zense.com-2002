@@ -26,6 +26,7 @@ import IlluTestimonial from"@/public/assets/images/illustration.png";
 import Image from "next/image";
 import Skizze from "@/public/assets/images/skizze.png";
 import Button from "@/components/share/Button";
+import Animation from "@/components/share/Lotticreator";
 //import MagnetButtonExample from "./MagnetButton";
 
 
@@ -99,7 +100,7 @@ export default function Home() {
 
    
 
-<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Timeless Design</h1>
+<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Interiore Design</h1>
 
 <div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
 
@@ -125,7 +126,7 @@ export default function Home() {
 
    
 
-<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Interior Design</h1>
+<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Timeless Design</h1>
 
 <div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
 
@@ -136,7 +137,7 @@ export default function Home() {
 
 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
 
-      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstÃ¼tzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
+      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstätzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
 
     </p>
 
@@ -165,14 +166,14 @@ export default function Home() {
     <ColorChangeCards/>
     </section>
       <VanishText/>
-      <div className="mb-12 lg:mb-24 mx-auto w-[85vw] h-[22vh]">
+      <div className="-mt-12 lg:mb-24 mx-auto w-[66vw] h-[22vh]">
   <Image  src={IlluTestimonial} alt='illustration' sizes="100vw"/>
 </div>
-<section className="lg:mt-72">
+<section className="-mt-10 lg:mt-72">
         <StaggerTestimonials/>
         </section>   
 {/*====================================================grid ende ===============*/}
-
+<Animation/>
 <section className="">    
 <HorizontalSrollCarousel/>
        </section>

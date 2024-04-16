@@ -16,7 +16,9 @@ export default function HomeLayout({
       <>
       <Header />
       <main className={styles.main}>{children}</main>
-      <ScrollToTop /><Newsletter /><Footer />
+      <ScrollToTop />
+      <Newsletter />
+      <Footer />
       </>
       
     

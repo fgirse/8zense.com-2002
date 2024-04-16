@@ -47,7 +47,7 @@ const AnimatedText = ({ phrases }: { phrases: string[] }) => {
           }
 
           return (
-            <motion.div key={word} className="whitespace-nowrap text-violet-50">
+            <motion.div key={word} className="whitespace-nowrap text-zenseSignal2">
               {word.split("").map((letter, letterIndex) => {
                 const content = (
                   <motion.span

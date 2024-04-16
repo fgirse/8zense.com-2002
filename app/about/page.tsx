@@ -13,7 +13,7 @@ import  Tools from'@/components/Illustrationen/Tools';
 import Hook from"@/components/Illustrationen/Hackchen"
 import Arrow from '@/public/assets/images/arrow05.svg'
 import { transform } from 'next/dist/build/swc';
-import Signature from "@/public/assets/images/arrow2.svg"
+import Signature from "@/public/assets/images/arrow02.png"
 import styles from "./about.module.css";
 import Projekt from'@/public/assets/images/Hotel-SaoPaulo.png';
 import  Button  from '@/components/share/Button';
@@ -35,7 +35,7 @@ const page = () => {
   <h1 className=' mt-3 py-1 px-1 text center text-xs md:text-sm lg:text-xl bg-slate-900 p-1 font-bold text-white uppercase'>über 8zense.com</h1>
 
 
-  <div className='relative w-60 h-60'>
+  <div className='relative w-28 h-28'>
 
 
       <Image
@@ -125,27 +125,27 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
       </div>
 
 
-<div  className='relative w-full h-60 transform scale-150 translate-y-10 lg:w-20vw lg:text-6xl'>   
+<div  className='relative w-full h-60 transform scale-110 translate-y-10 lg:w-20vw lg:text-6xl'>   
 <Image src={Arrow} fill sizes="100vw" alt="pfeil" />
 </div>
 
 <section className='mt-32'>
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey headingB  leading-3 text-4xl md:text-6xl lg:text-[r7em]'>design </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full text-white lg:text-[14rem]'>&#x2714;</span>
+<h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey headingB  leading-3 text-5xl md:text-6xl lg:text-[r7em]'>design </h1>
+<span className='text-6xl align-text-bottom bg-zenseSignal2 text-center h-16 w-16 rounded-full text-white lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
 
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey  text-4xl leading-3 md:text-6xl lg:text-[7rem]'>individuell </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full text-white lg:text-[14rem]'>&#x2714;</span>
+<h1 className='{styles.headingA} text-left font-extrabold uppercase text-zenseGrey  text-5xl leading-3 md:text-6xl lg:text-[7rem]'>individuell </h1>
+<span className='text-6xl align-text-bottom bg-zenseSignal2 text-center h-16 w-16 rounded-full text-white lg:text-[14rem]'>&#x2714;</span>
 </div>
 </section>
 <section className=''>
 <div className='flex flex-row items-baseline justify-start'>
-<h1 className='{styles.headingA}    text-left font-extrabold uppercase text-zenseGrey headingA headingB leading-3 text-4xl md:text-6xl lg:text-[7rem]'>exklusiv </h1>
-<span className='text-5xl align-text-bottom bg-zenseSignal2 rounded-full text-white lg:text-[1rem]'>&#x2714;</span>
+<h1 className='{styles.headingA}    text-left font-extrabold uppercase text-zenseGrey headingA headingB leading-3 text-5xl md:text-6xl lg:text-[7rem]'>exklusiv </h1>
+<span className='text-6xl align-text-bottom bg-zenseSignal2 text-center h-16 w-16 rounded-full text-white lg:text-[1rem]'>&#x2714;</span>
 </div>
       
 </section>
@@ -170,8 +170,8 @@ lg:text-[9rem]'>was ist <br/>  8zense.com ?</h1>
 <SpringModal/>
 </div>
 
-
-    <h1 className='text-[1.145rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem text-zenseSignal2 font-bold uppercase text-left md:text-7xl lg:leading-9 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interiore</h1>
+<h1 className='text-white text-[2.45rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem]font-bold uppercase text-left bg-neutral-500 md:text-7xl lg:leading-9 py-3 mb-7'>Curriculum</h1>
+    <h1 className='text-[1.145rem] leading-5 sm:text-[1.36rem] mt-5 px-2 md:text-[1.92rem] lg:text-[2.33rem text-zenseGrey font-bold uppercase text-center md:text-7xl lg:leading-9 py-3 mb-7'>M. Fernanda Pereira<br/> PhD Architectura+Design interiore</h1>
 
 
 

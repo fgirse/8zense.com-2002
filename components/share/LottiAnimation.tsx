@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useRef } from "react";
-
+import * as LottiePlayer from "@lottiefiles/lottie-player";
 import "@lottiefiles/react-lottie-player";
 
 const styles = {
