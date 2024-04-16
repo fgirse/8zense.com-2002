@@ -3,38 +3,40 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import NavItems from "./NavItems";
-import MobileNav from "../share/MobileNav"
-import DropDown from"@/components/share/staggeredDropDown";
+import MobileNav from "../share/MobileNav";
 import Locked from"@/public/assets/images/locked.png"
-import Logo from"@/public/assets/images/LogoEZ80.svg";
-
+import Logo from"@/public/assets/images/LogoEZ990.svg";
+import FjipMenu from "./FlipMenu";
+import StaggeredDropDown from "./staggeredDropDown";
 
 const Header = () => {
   return (
-    <header className="flex flex-col w-[99.9vw] mx-auto  text-white bg-zenseGrey items-center justify-start lg:flex-row lg:items-baseline">
-      <div id="LogoEZ" className=" py-5 h-24 w-[100vw] rounded-xl flex items-baseline justify-between">
-       <Link href="/" className="">
-          <div className="relative w-16 h-12 sm:w-16">
+    <header className="flex flex-col w-full lg:h-20 text-white bg-zenseGrey items-center justify-between">
+      <div id="" className="w-[100vw] h-20 rounded-xl flex flex-row items-center justify-start">
+        <Link href="/" className="">
+          <div className="relative w-20 h-16 sm:w-16">
           <Image src={Logo} sizes="100vw" fill alt="Logo 8zense.com"
 /></div>
         </Link>
 
         <SignedIn>
-
-          <nav className="hidden w-full max-w-3xl ">
+          <nav className=" hidden lg:flex lg:flex-row lg:items-baseline w-3/4 max-w-6xl">
             <NavItems />
-           
-          </nav>
-          
-        </SignedIn>
+            <div className="ml-24"> 
+                        
+                         </div>
 
-        <div className="flex items-center justify-end gap-3">
+          </nav>
+        </SignedIn>
+        <StaggeredDropDown/>
+        <div className="flex items-center justify-end gap-2">
           <SignedIn>
             <UserButton afterSignOutUrl="/" />
-            
+            <MobileNav />
           </SignedIn>
+
           <SignedOut>
-          <div className='flex items-center justify-center'>
+          <div className='flex items-center'>
       <Image
           src={Locked}
           alt="Schloss"
@@ -56,6 +58,13 @@ const Header = () => {
   )
 }
 export default Header
+
+
+
+
+
+
+
 
 
 

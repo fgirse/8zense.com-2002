@@ -14,13 +14,13 @@ import {
     const [open, setOpen] = useState(false);
   
     return (
-      <div className="p-8 pb-56 flex items-center justify-center bg-zenseGrey">
+      <div className="hidden lg:flex lg:flex-row items-baseline justify-center">
         <motion.div animate={open ? "open" : "closed"} className="relative">
           <button
             onClick={() => setOpen((pv) => !pv)}
-            className="font-sans py-1 px-1 rounded-lg bg-zinc-700/5  text-slate-200 hover:bg-red-900 hover:border-2 font-black uppercase text-2xl flex-center p-2 whitespace-nowrap lg:text-6xl"
+            className="font-sans py-1 px-1 rounded-lg bg-zinc-200/5  text-slate-200 hover:bg-red-900 hover:border-2 font-black uppercase text-2xl flex-center p-2 whitespace-nowrap lg:text-6xl"
           >
-            <span className="font-medium text-sm">Post actions</span>
+            <span className="font-black text-3xl text-zenseWhite">Impressum</span>
             <motion.span variants={iconVariants}>
               <FiChevronDown />
             </motion.span>

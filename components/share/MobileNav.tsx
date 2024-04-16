@@ -55,7 +55,7 @@ const MobileNav = () => {
         <div className="">
           <Image
             className="max-w-full" 
-            src="/assets/images/LogoEZ.png"
+            src="/assets/images/LogoEZ990.svg"
             alt="logo"
             width={38}
             height={38}
