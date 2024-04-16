@@ -109,10 +109,10 @@ const features = [
     title: "Individuell",
     icon:"/assets/images/uniqueness.svg",
     description:
-      "Individualität ist bei 8zense.Com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"},
+      "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"  
+  },
   {
     title: "Networking",
-   
     icon:"/assets/images/networking03.gif",
     description:
       "Wir pflegen beste Verbindungen zu renommierten Architekten und Designern!",
@@ -121,18 +121,18 @@ const features = [
     title: "Top Qualität",
     icon:"/assets/images/qualität.gif",
     description:
-      "Alle Werkstücke sind handfefertigt ",
+      "Alle die von uns hergestellten Werkstücke sind handgefertigt! ",
   },
   {
     title: "Exklusiv",
     icon:"/assets/images/exclusive.svg",
     description:
-      "8zense.com steht für Wunderschönes Design, Funktionalität und hohe Material Qualität sprechen für ein",
+      "8zense.com steht für klares Design, hohe Funktionalität und ausgezeichneter Material Qualität!",
   },
   {
     title: "Zeitlos",
-    icon:"/assets/icons/ZeituhrDark.svg",
-    description: "&laquo; 8zense.com Beton-Design ist zeitlos  - "
+  icon:"/assets/icons/Zeituhrdark.svg",
+    description: "8zense.com Beton-Design ist zeitlos!"
 
   },
 ];
