@@ -107,7 +107,7 @@ export default CollapseCardFeatures;
 const features = [
   {
     title: "Individuell",
-    icon:"/assets/images/uniqueness.svg",
+    icon:"/assets/images/Animation - 1713258701084.gif",
     description:
       "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"  
   },

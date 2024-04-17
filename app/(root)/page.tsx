@@ -1,3 +1,4 @@
+
 import { getListPage } from "@/lib/contentParser";
 import link from 'next/link';
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
@@ -111,7 +112,7 @@ export default function Home() {
 
 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
 
-      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstÃ¼tzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
+      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstützt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
 
     </p>
 
@@ -120,11 +121,6 @@ export default function Home() {
 </section>
   <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
 
-    
-
-
-
-   
 
 <h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Timeless Design</h1>
 
@@ -136,10 +132,8 @@ export default function Home() {
 </div>
 
 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-
-      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstätzt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
-
-    </p>
+        <span className="text-zenseSignal font-bold">8zenSe.com</span> steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
+        </p>
 
     <Button/>
 
@@ -161,12 +155,12 @@ export default function Home() {
     <FeatureAnimation/>
     </section>
     
-    <section className="min-h-screen color-Changecards mt-5 bg-zenseGrey">
+    <section className="min-h-screen color-Changecards mt-9 bg-zenseGrey">
       <h1 className=" text-center text-zenseWhite uppercase text-3xl md:text-6xl">Referenz-Projekte</h1>
     <ColorChangeCards/>
     </section>
       <VanishText/>
-      <div className="-mt-12 lg:mb-24 mx-auto w-[66vw] h-[22vh]">
+      <div className="-mt-5 lg:mb-24 mx-auto w-[66vw] h-[22vh]">
   <Image  src={IlluTestimonial} alt='illustration' sizes="100vw"/>
 </div>
 <section className="-mt-10 lg:mt-72">

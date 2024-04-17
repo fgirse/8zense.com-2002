@@ -14,14 +14,14 @@
 */
 import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 import styles from"./newsletter.module.css"
- import Logo from"@/public/assets/images/LogoEZ80.svg"
+ import Logo from"@/public/assets/images/LogoEZ990.svg"
 import Image from 'next/image'
 
  export default function Example() {
   return (
     <>
   <section className=' bg-zenseGrey'>
-    <div className='bg-zenseGrey mx-auto relative w-48 h-28 md:w-48 md:h-36'>
+    <div className='bg-zenseGrey mx-auto relative w-28  md:w-24'>
     <Image className="mt-5 mx-auto" src={Logo} alt="Logo" fill sizes="100vw"/>
     </div>
     <div className="relative isolate overflow-hidden bg-zenseGrey py-16 sm:py-24 lg:py-32">

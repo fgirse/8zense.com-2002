@@ -5,7 +5,7 @@ import LogoEZ from "../../public/assets/images/LogoEZ3.svg";
 import React from 'react'
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import Logo01 from"@/public/assets/images/LogoEZ900.svg"
+import Logo01 from"@/public/assets/images/LogoEZ990.svg"
 import Portrait from"@/public/assets/images/CorInterno1.jpg"
 import ArchGrafik from"@/public/assets/images/grafik70.png"
 import './about.module.css'

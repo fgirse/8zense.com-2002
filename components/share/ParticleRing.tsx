@@ -24,10 +24,10 @@ const ParticlesRing = () => {
         <PointCircle />
       </Canvas>
 <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center">
-<p className="relative -top-52 text-[1.66rem] md:-top-80 md:text-6xl lg:mt-48 lg:text-5xl text-white text-center font-black uppercase">willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
+<p className="relative -top-52  text-white text-center font-black uppercase text-[1.66rem] md:-top-80 md:text-5xl lg:-mt-2 lg:text-7xl ">willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
 
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseGreen w-[66vw] h-96 font-black text-6xl md:text-7xl lg:text-[11.33rem] text-center py-5 pointer-events-none">
-        <div className="bg-black/70 mx-auto mb-36 relative mt-24 rounded-2xl h-[40vh] md:mx-auto md:mt-16 md:w-[66vw] md:h-[33vh] lg:w-[50vw] lg:h-[50vh]">
+        <div className="mx-auto relative mt-24 rounded-2xl h-[40vh] md:mx-auto md:mt-16 md:w-[66vw] md:h-[20vh] lg:-mt-2 lg:w-[24vw] lg:h-[30vh]">
         <LogoEZ/>
       </div >
       </div >
