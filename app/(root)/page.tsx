@@ -28,9 +28,10 @@ import Image from "next/image";
 import Skizze from "@/public/assets/images/skizze.png";
 import Button from "@/components/share/Button";
 import Animation from "@/components/share/Lotticreator";
+
+import Animation2 from "@/components/share/LottiAnimation";
+
 //import MagnetButtonExample from "./MagnetButton";
-
-
 
 export default function Home() {
 
@@ -60,14 +61,14 @@ export default function Home() {
 
     </div>
 
-    <div className="mr-5 px-1 col-span-6 row-span-7 col-start-7 row-start-1">
+    <div className="relative mr-5 px-1 col-span-6 row-span-7 col-start-7 row-start-1">
 
     <p className="mb-5 lg:mr-12 bg-slate-900  rounded-xl  mt-7 py-1 text-slate-50 font-black text-right text-[.9rem] px-3 sm:text-2xl md:font-semibold md:text-[2.33rem] md:leading-9 lg:px-5 lg:py-3 lg:font-semibold lg:text-6xl lg:p-5 ">&laquo;the beauty of a living thing is not the atoms that go into it -but the way those atoms are put together...&raquo;</p>
 
 <div className=" relative -top-2 left-10 shadow-xl shadow-gray-400/50 flex flex-col items-center justify-center text-xs sm:text-2xl md:text-2xl lg:text-3xl text-white leading-3 bg-orange-400 rounded-full w-16 h-16 transform translate-x-16 md:transform md:translate-x-44 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-top-1  lg:left-2/4 lg:w-32 lg:h-32">
 
 
- <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
+ <p className="relative z-10 text-sm md:text-2xl md:leading-4 lg:text-3xl font-black ">Carl</p>
 
  <p className="text-sm md:text-2xl md:leading-4 lg:text-3xl font-black">Sagan</p>
 
@@ -80,11 +81,11 @@ export default function Home() {
 
     </div>
     
-    <section className="-mt-72 section-Space bg-[url('/assets/images/space.png')] bg-contain bg-no-repeat">
+    <section className="section">
     
     
 
-    <div className="relative -top-[25vh] -z-10  w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
+    <div className="relative -z-10 -mt-60 w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
   
   <Image src={Space} sizes="100vw"  alt="space Illustration"/>
  
@@ -101,25 +102,25 @@ export default function Home() {
 
    
 
-<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Interiore Design</h1>
+<h1 className="relative -top-20 px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Interiore Design</h1>
 
-<div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
+<div className="relative -top-20 w-[75vw] h-[24vh] lg:w-[45vw]">
 
 <Image src={Skizze} fill sizes="100vw" alt="Skizze"/>
 
 
 </div>
 
-<p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+<p className="-mt-12 text-base md:text-lg text-slate-700 my-4 md:my-6">
 
-      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstützt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, BÃ¼ro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
+      <span className="text-zenseSignal2 font-bold">8zenSe.com</span> begleitet, beratet und unterstützt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, Büro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!
 
     </p>
 
     <Button/>
 
 </section>
-  <section className="container w-full px-8 py-12 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
+  <section className="container w-full px-8 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
 
 
 <h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Timeless Design</h1>
@@ -132,8 +133,7 @@ export default function Home() {
 </div>
 
 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-        <span className="text-zenseSignal font-bold">8zenSe.com</span> steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designformen
-        </p>
+        <span className="text-zenseSignal2 font-bold">8zenSe.com</span> steht für individuelles, extravagantes und exklusives Desing aus dem Marterial Beton in unterschiedlichen Designvariationen und Designform </p>
 
     <Button/>
 
@@ -160,14 +160,15 @@ export default function Home() {
     <ColorChangeCards/>
     </section>
       <VanishText/>
-      <div className="-mt-5 lg:mb-24 mx-auto w-[66vw] h-[22vh]">
+      <div className=" lg:mb-12 mx-auto w-[66vw] h-[22vh]">
   <Image  src={IlluTestimonial} alt='illustration' sizes="100vw"/>
 </div>
-<section className="-mt-10 lg:mt-72">
+<section className="mt-6 lg:mt-[45vh]">
         <StaggerTestimonials/>
         </section>   
 {/*====================================================grid ende ===============*/}
 <Animation/>
+<Animation2/>
 <section className="">    
 <HorizontalSrollCarousel/>
        </section>

@@ -99,6 +99,11 @@ height: 100%;
   font-family: Bold,  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#Header {
+background-color: transparent;
+
+}
+
 .nav {
   padding: 20px;
 }

@@ -6,6 +6,8 @@ import styles from './home.module.css';
 import { ClerkProvider } from '@clerk/nextjs';
 import { neobrutalism } from '@clerk/themes';
 import link from 'next/link';
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+
 
 const sairaCond = Saira_Condensed({
   display: 'swap',
@@ -35,7 +37,7 @@ export default function RootLayout({
    <html lang="en" className="bg-transparent">
 
 
-      <body className={styles.container}>{children}/</body>
+      <body className={styles.container}><AntdRegistry>{children}</AntdRegistry></body>
     </html>
     </ClerkProvider>
   )

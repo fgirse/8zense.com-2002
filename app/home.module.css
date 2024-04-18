@@ -24,3 +24,7 @@ min-height: 100dvh;
           height: unset !important;
         }
       
+        .container {
+background-color: transparent;
+
+        }

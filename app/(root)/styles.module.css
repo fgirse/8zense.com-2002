@@ -1,5 +1,5 @@
 .section{
-    background-color: antiquewhite;
+    background-color: rgb(237, 158, 55);
     margin-right: auto;
     margin-left: auto;
     width: 97vw;
@@ -25,7 +25,7 @@
           min-height: 100dvh;
           flex-grow: 1;
           place-content: center;
-          background-color: rgb(236, 233, 233);
+          background-color: transparent;
         }
 
         .collaps-Feature {
@@ -33,6 +33,6 @@
           margin: auto;
           width: 100vw;   
           height: auto;
-          background-color: aqua;
+          background-color: red;
         }
       
