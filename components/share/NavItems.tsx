@@ -5,7 +5,7 @@
 import { headerLinks } from"../../constants/index"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import DropDown from "../share//StaggeredDropDown";
+import DropDown from "./StaggereDropDown";
 import React from 'react'
 
 

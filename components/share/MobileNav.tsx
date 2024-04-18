@@ -20,7 +20,7 @@ import { Separator } from "../ui/separator";
 
 import NavItems from "./NavItems"
 import { StaggerTestimonials } from "./Testimonial";
-import DropDown from "@/components/share/StaggeredDropDown";
+import DropDown from "@/components/share/StaggereDropDown";
 
 
 
