@@ -28,11 +28,7 @@ import Image from "next/image";
 import Skizze from "@/public/assets/images/skizze.png";
 import Button from "@/components/share/Button";
 import Animation from "@/components/share/Lotticreator";
-
-import Animation2 from "@/components/share/LottiAnimation";
-
-//import MagnetButtonExample from "./MagnetButton";
-
+import Animation2 from "@/components/share/Lottiwalking"
 export default function Home() {
 
   
