@@ -15,17 +15,17 @@ interface Step {
     {
       id: 1,
       text: "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
-      animation: "https://assets3.lottiefiles.com/packages/lf20_JExdDIS87T.json",
+      animation: "https://lottie.host/d7cbbe0f-2e7c-4b4c-993e-249e072151bd/0Qz7Pnm5TN.json",
     },
     {
       id: 2,
       text: "Vereinbaren Sie ein Zielgespräch mit Fernanda zur Definition Ihrer Wünsche, Vorstellungen und Ideen!",
-      animation: "https://assets3.lottiefiles.com/packages/lf20_dvpgo0cl.json",
+      animation: "https://lottie.host/57443a3d-e280-4f39-9134-86d96cd8f28f/ohtp2XVGjS.json",
     },
     {
       id: 3,
       text: "Dank unsers ausgezeichnetes Networking finden wir für Sie genau das Team dass unter der Leitung von Fernanda ihren Designtraum erfüllt.",
-      animation: "https://assets8.lottiefiles.com/packages/lf20_7sl35zjk.json",
+      animation: "https://lottie.host/78373cd4-e991-482b-8f25-e897acb9bbb8/V0IaYYRt3A.json",
     },
     {
       id: 4,
@@ -35,7 +35,7 @@ interface Step {
     {
       id: 5,
       text: "Wenn Ihr Design-Projekt dann völlg  umgesetzt ist, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda sowie allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind.",
-      animation: "https://assets3.lottiefiles.com/packages/lf20_GgLE0z7sML.json",
+      animation: "https://lottie.host/59703381-ed25-463c-913f-7cd163db2aa7/uF1vDxwgIZ.json",
     },
     
   ];
