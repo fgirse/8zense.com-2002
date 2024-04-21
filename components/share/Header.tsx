@@ -14,11 +14,11 @@ const Header = () => {
     <header className="flex flex-col w-full lg:h-20 text-white items-center justify-between bg-transparent">
       <div id="" className="bg-neutral-600 w-[100vw] h-20 flex flex-row items-center justify-between ">
         <Link href="/" className="ml-5">
-          <div className="hidden lg:flex flex-row justify-center items-center gap-x-7">
+          <div className=" md:flex flex-row justify-center items-center gap-x-7">
           <div className="relative w-20 h-16 ">
             <Image src={Logo} sizes="100vw" fill alt="Logo 8zense.com"/>
           </div>
-          <h1 className="hidden xl:block">8zenSe.com</h1>
+          <h1 className="hidden md:mr-9 md:block md:text-lg xl:block">8zenSe.com</h1>
           </div>
         </Link>
 
@@ -31,7 +31,7 @@ const Header = () => {
 
           </nav>
        <div className="w-full mr-6 flex flex-row justify-between items-center gap-x-5 ">
-        <div className="relative w-20 h-16 ">
+        <div className="hidden relative w-20 h-16 ">
           <Image src={Logo} sizes="100vw" fill alt="Logo 8zense.com"/>
         </div>          
         <UserButton afterSignOutUrl="/" />
