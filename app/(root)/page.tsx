@@ -42,9 +42,17 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='mx-auto min-h-screen'>
-  <ParticlsRing/>
+<section className='mx-auto min-h-screen '>
 
+  <div className="lg:hidden">
+  <ParticlsRing/>
+  </div>
+
+  <div className="hidden lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore11.jpg')] lg:bg-cover lg:bg-no-repeat">
+<h1 className="relative top-12 font-black text-zenseWhite text-9xl text-center">design interiore</h1>
+<h1 className="relative text-lime-300 font-black text-9xl text-center">8zenSe.com</h1>
+  </div>
+  <Animation/>
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
 

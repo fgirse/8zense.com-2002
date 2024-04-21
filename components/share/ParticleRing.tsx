@@ -23,7 +23,7 @@ const ParticlesRing = () => {
         <pointLight position={[-30, 0, -30]} power={10.0} />
         <PointCircle />
       </Canvas>
-<div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center">
+<div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  flex flex-col items-center justify-center lg:hidden">
 <p className="relative -top-52  text-white text-center font-black uppercase text-[1.66rem] md:-top-80 md:text-5xl lg:-mt-2 lg:text-7xl ">willkommen<br/>welcome<br/>salut<br/>ciao<br/></p>
 
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-zenseGreen w-[66vw] h-96 font-black text-6xl md:text-7xl lg:text-[11.33rem] text-center py-5 pointer-events-none">
