@@ -34,18 +34,26 @@ interface Step {
     },
     {
       id: 5,
+      text: "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
+      animation: "https://lottie.host/d969d744-bf03-4aa4-90ac-50f9c5dda9b5/P36NGczhaX.json",
+    },
+
+    {
+      id: 6,
       text: "Wenn Ihr Design-Projekt dann völlg  umgesetzt ist, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda sowie allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind.",
       animation: "https://lottie.host/59703381-ed25-463c-913f-7cd163db2aa7/uF1vDxwgIZ.json",
     },
     
   ];
 
+
+
   const handleStepChange = useCallback(() => {
     setStep((prevStep) => (prevStep + 1) % steps.length);
   }, [steps.length]);
 
   useEffect(() => {
-    const interval = setInterval(handleStepChange, 5000);
+    const interval = setInterval(handleStepChange, 7000);
     return () => clearInterval(interval);
   }, [handleStepChange]);
 
@@ -66,7 +74,7 @@ interface Step {
             HOW IT WORKS
           </p>
           <h2 className="text-3xl md:text-4xl text-[#1A2238] font-semibold mb-4 text-center">
-            {`8zense.com ist top!!!`}
+            {`so funktioniert 8zense.com`}
           </h2>
           <Player
             autoplay
