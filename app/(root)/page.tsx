@@ -1,4 +1,4 @@
-
+0
 import { getListPage } from "@/lib/contentParser";
 import link from 'next/link';
 import { ClientAnimationWrapper } from "@/components/share/ClientAnimationWrapper";
@@ -48,11 +48,24 @@ export default function Home() {
   <ParticlsRing/>
   </div>
 
-  <div className="hidden lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore11.jpg')] lg:bg-cover lg:bg-no-repeat">
-<h1 className="relative top-12 font-black text-zenseWhite text-9xl text-center">design interiore</h1>
-<h1 className="relative text-lime-300 font-black text-9xl text-center">8zenSe.com</h1>
+  <div className="hidden lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore14.jpg')] lg:bg-cover lg:bg-no-repeat">
+    <div className="lg:relative lg:top-[20vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-12">  
+     {/*============================== LINKS =======================*/}
+    <div className="lg:w-2/* py-24">
+    <h1 className="lg:relative lg:text-zenseWhite lg:leading-5 lg:font-black lg:text-[7.924966rem] lg:uppercase lg:text-left">design interiore</h1>
+    <h1 className="lg:relative lg:text-lime-300 lg:font-black lg:text-[8.33rem] lg:uppercase lg:text-left">8zenSe.com</h1>
   </div>
-  <Animation/>
+   {/*============================== ENDE =======================*/}
+
+
+  {/*============================== RECHTS =======================*/}
+            <div className="lg:py-3 lg:w-96 lg:h-">
+            <Animation/>
+            </div>
+   {/*============================== ENDE =======================*/}
+   </div>
+  
+  </div>
 <div className=" grid grid-cols-12 grid-rows-16 gap-1">
 
 
