@@ -29,7 +29,7 @@ interface Step {
     },
     {
       id: 4,
-      text: "Das Projekt wird in viele Einzelprojekte herunter gebrochen - nach und nach fügt sich Ihr Design-Traum wie ein Puzzel zu etwas aussergewöhlichemn  wundervollem zusammnen",
+      text: "Das Projekt wird in viele Einzelprojekte herunter gebrochen - nach und nach fügt sich Ihr Design-Traum wie ein Puzzel zu etwas aussergewöhlichen wundervollem zusammnen",
       animation: "https://assets3.lottiefiles.com/private_files/lf30_p9it5a2a.json",
     },
     {
@@ -80,7 +80,7 @@ interface Step {
             autoplay
             loop
             src={steps[step].animation}
-            style={{ height: '30vh', width: '100%' }}
+            style={{ height: '40vh', width: '100%' }}
           />
         </div>
         <p className= "h-24 w-96 relative  bg-[url('/assets/images/brushOrange.svg')] bg-cover text-xl  text-slate-900 font-light mb-4 text-center">

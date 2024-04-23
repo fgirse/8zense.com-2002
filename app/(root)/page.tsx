@@ -49,11 +49,12 @@ export default function Home() {
   </div>
 
   <div className="hidden lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore14.jpg')] lg:bg-cover lg:bg-no-repeat">
-    <div className="lg:relative lg:top-[20vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-12">  
+    <div className="lg:relative lg:top-[50vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-end lg:gap-x-12">  
      {/*============================== LINKS =======================*/}
-    <div className="lg:w-2/* py-24">
-    <h1 className="lg:relative lg:text-zenseWhite lg:leading-5 lg:font-black lg:text-[7.924966rem] lg:uppercase lg:text-left">design interiore</h1>
-    <h1 className="lg:relative lg:text-lime-300 lg:font-black lg:text-[8.33rem] lg:uppercase lg:text-left">8zenSe.com</h1>
+    <div className="lg:w-2/3 lg:mt-36">
+    <h1 className="lg:relative lg:text-zenseWhite lg:leading-3 lg:font-black lg:text-[8.24966rem] lg:uppercase lg:text-left">design interiore</h1>
+    <h1 className="lg:lg:text-lime-200 lg:font-black xl:text-[11.33rem] lg:uppercase lg:text-left">8zenSe.com</h1>
+    <p className=" <h1 className=lg: lg:text-4xl lg:text-zenseWhite lg:font-black lg:uppercase lg:text-left">Timeless Design rund um den Werkstoff Beton</p>
   </div>
    {/*============================== ENDE =======================*/}
 
@@ -98,11 +99,11 @@ export default function Home() {
 
     </div>
     
-    <section className="section">
+    <section className="lg:w-2/3 mx-auto h-33vh lg:bg-[url('/assets/images/space.png')] lg:bg-contain lg:bg-no-repeat">
     
     
 
-    <div className="relative -z-10 -mt-60 w-[77vw] h-[33vh] lg:w-[77vw] lg:h-[50vh]">
+    <div className="relative -z-10 -mt-60 w-[77vw] h-[33vh] lg:w-[90vw] lg:h-[100vh]">
   
   <Image src={Space} sizes="100vw"  alt="space Illustration"/>
  
@@ -119,7 +120,7 @@ export default function Home() {
 
    
 
-<h1 className="relative -top-20 px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Interiore Design</h1>
+<h1 className="relative -top-20 px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-0 lg:text-8xl">Interiore Design</h1>
 
 <div className="relative -top-20 w-[75vw] h-[24vh] lg:w-[45vw]">
 
@@ -140,7 +141,7 @@ export default function Home() {
   <section className="container w-full px-8 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
 
 
-<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:leading-[4rem] md:text-[3.750rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-6 lg:text-8xl">Timeless Design</h1>
+<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:text-[3.750rem] lg:leading-0 lg:text-[4rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-0 lg:text-9xl">Timeless Design</h1>
 
 <div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
 
@@ -163,7 +164,13 @@ export default function Home() {
 {/*  <section className="shuffle-Hero -mt-44 ">
     <ShuffleHero/>
   </section>*/}
-    <section className="">
+    <section className="lg:h-[66vh]">
+
+      <div className="bg-black mt-24" >
+
+
+      <h1 className="lg:                   mb-24  lg:text-center text-zenseWhite uppercase text-3xl md:text-6xl">Features</h1>
+      </div>
     <ColCardFeature/>
     </section>
     
@@ -172,7 +179,7 @@ export default function Home() {
     <FeatureAnimation/>
     </section>
     
-    <section className="min-h-screen color-Changecards mt-9 bg-zenseGrey">
+    <section className="min-h-screen mt-9 bg-zenseGrey">
       <h1 className=" text-center text-zenseWhite uppercase text-3xl md:text-6xl">Referenz-Projekte</h1>
     <ColorChangeCards/>
     </section>
