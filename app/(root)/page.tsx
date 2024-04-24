@@ -52,7 +52,7 @@ export default function Home() {
     <div className="lg:relative lg:top-[28vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">  
      {/*============================== LINKS =======================*/}
     <div className="lg:w-2/3 lg:py-20">
-    <h1 className="lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[5.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
+    <h1 className="lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
     <h1 className="lg:-mt-3 lg:text-lime-200 lg:font-black xl:text-[11.33rem] lg:leading-3 lg:uppercase lg:text-left">8zenSe.com</h1>
     <p className=" <h1 className=lg: lg:text-4xl lg:text-zenseWhite lg:font-black lg:uppercase lg:text-left">Timeless Design rund um den Werkstoff Beton</p>
   </div>
@@ -141,7 +141,7 @@ export default function Home() {
   <section className="container w-full px-8 grid grid-cols-1 lg:grid-cols-1 items-center gap-8 max-w-6xl mx-auto">
 
 
-<h1 className="relative px-1 uppercase leading-10 text-[3.0rem] font-black md:text-center md:text-[3.750rem] lg:leading-0 lg:text-[4rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-0 lg:text-9xl">Timeless Design</h1>
+<h1 className="relative px-1 uppercase -mt-12 leading-10 text-[3.0rem] font-black md:text-center md:text-[3.750rem] lg:leading-0 lg:text-[4rem] bg-gradient-to-b from-slate-900 via bg-slate-600 to-slate-500 bg-clip-text text-transparent lg:top  lg:tracking-wider lg:leading-0 lg:text-9xl">Timeless Design</h1>
 
 <div className="mt-3 relative w-[75vw] h-[24vh] lg:w-[45vw]">
 
@@ -189,26 +189,23 @@ export default function Home() {
 <div className="bg-black mt-24" >
 
 
-<h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">Referenz Projekte</h1>
+<h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xl lg:mb-24  ">Referenz Projekte</h1>
 </div>
 <ColorChangeCards/>
 </section>
 
-
-
-
-    
-    <section className="min-h-screen mt-9 bg-zenseGrey">
-      <h1 className=" text-center text-zenseWhite uppercase text-3xl md:text-6xl">Referenz-Projekte</h1>
-    
-    </section>
       <VanishText/>
-      <div className=" lg:mb-12 mx-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          uto w-[66vw] h-[22vh]">
+
+      <section className="-mt-24 lg:h-[70vh]">
+
+<div className="bg-black mb-7 mt-24" >
+<h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">Testimonials</h1>
+</div>
+<div className="m-7 lg:mb-12 mx-auto w-[66vw] h-[22vh]">
   <Image  src={IlluTestimonial} alt='illustration' sizes="100vw"/>
 </div>
-<section className="mt-6 lg:mt-[45vh]">
-        <StaggerTestimonials/>
-        </section>   
+<StaggerTestimonials/>
+</section> 
 {/*====================================================grid ende ===============*/}
 <Animation/>
 <Animation2/>
