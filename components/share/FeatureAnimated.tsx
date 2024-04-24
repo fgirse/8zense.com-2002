@@ -40,7 +40,7 @@ interface Step {
 
     {
       id: 6,
-      text: "Wenn Ihr Design-Projekt dann völlg  umgesetzt ist, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda sowie allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind.",
+      text: "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind.",
       animation: "https://lottie.host/59703381-ed25-463c-913f-7cd163db2aa7/uF1vDxwgIZ.json",
     },
     

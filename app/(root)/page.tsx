@@ -49,18 +49,18 @@ export default function Home() {
   </div>
 
   <div className="hidden lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore14.jpg')] lg:bg-cover lg:bg-no-repeat">
-    <div className="lg:relative lg:top-[50vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-end lg:gap-x-12">  
+    <div className="lg:relative lg:top-[28vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">  
      {/*============================== LINKS =======================*/}
-    <div className="lg:w-2/3 lg:mt-36">
-    <h1 className="lg:relative lg:text-zenseWhite lg:leading-3 lg:font-black lg:text-[8.24966rem] lg:uppercase lg:text-left">design interiore</h1>
-    <h1 className="lg:lg:text-lime-200 lg:font-black xl:text-[11.33rem] lg:uppercase lg:text-left">8zenSe.com</h1>
+    <div className="lg:w-2/3 lg:py-20">
+    <h1 className="lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[5.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
+    <h1 className="lg:-mt-3 lg:text-lime-200 lg:font-black xl:text-[11.33rem] lg:leading-3 lg:uppercase lg:text-left">8zenSe.com</h1>
     <p className=" <h1 className=lg: lg:text-4xl lg:text-zenseWhite lg:font-black lg:uppercase lg:text-left">Timeless Design rund um den Werkstoff Beton</p>
   </div>
    {/*============================== ENDE =======================*/}
 
 
   {/*============================== RECHTS =======================*/}
-            <div className="lg:py-3 lg:w-96 lg:h-">
+            <div className="lg:mt-16 lg:py-3 lg:w-96 lg:h-72">
             <Animation/>
             </div>
    {/*============================== ENDE =======================*/}
@@ -169,22 +169,41 @@ export default function Home() {
       <div className="bg-black mt-24" >
 
 
-      <h1 className="lg:                   mb-24  lg:text-center text-zenseWhite uppercase text-3xl md:text-6xl">Features</h1>
+      <h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">Features</h1>
       </div>
     <ColCardFeature/>
     </section>
     
+    <section className="lg:h-[66vh]">
+
+<div className="bg-black mt-24" >
+
+
+<h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">How it works</h1>
+</div>
+<FeatureAnimation/>
+</section>
     
-    <section className="feature-Animation">
-    <FeatureAnimation/>
-    </section>
+<section className="lg:h-[66vh]">
+
+<div className="bg-black mt-24" >
+
+
+<h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">Referenz Projekte</h1>
+</div>
+<ColorChangeCards/>
+</section>
+
+
+
+
     
     <section className="min-h-screen mt-9 bg-zenseGrey">
       <h1 className=" text-center text-zenseWhite uppercase text-3xl md:text-6xl">Referenz-Projekte</h1>
-    <ColorChangeCards/>
+    
     </section>
       <VanishText/>
-      <div className=" lg:mb-12 mx-auto w-[66vw] h-[22vh]">
+      <div className=" lg:mb-12 mx-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          uto w-[66vw] h-[22vh]">
   <Image  src={IlluTestimonial} alt='illustration' sizes="100vw"/>
 </div>
 <section className="mt-6 lg:mt-[45vh]">

@@ -19,7 +19,7 @@ const sairaCond = Saira_Condensed({
     export const metadata: Metadata = {
       title: '8zenSe.com',
       description: 'LandingPage for startup, Interiore Design, Innenarchitektur, Desing Beton-Möbel ',
-      icons: {icon : "/assets/images/LogoEZ300.png"}
+      icons: {icon : "/assets/images/LogoEZ990.svg"}
     }
 
 

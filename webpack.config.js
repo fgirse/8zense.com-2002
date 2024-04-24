@@ -1,14 +1,11 @@
-
-
-
-  const webpack = require('webpack');
+const webpack = require("webpack");
 
 module.exports = {
   cache: {
-    type: 'filesystem',
+    type: "filesystem",
     allowCollectingMemory: true,
   },
-  entry: './src/index.js',
+  entry: "./src/index.js",
   module: {
     rules: [
       //...
@@ -16,7 +13,7 @@ module.exports = {
         test: /\.svg$/,
         use: [
           {
-            loader: 'svg-url-loader',
+            loader: "svg-url-loader",
             options: {
               limit: 10000,
             },
