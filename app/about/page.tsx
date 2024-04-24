@@ -33,7 +33,7 @@ const page = () => {
 
 
 
-  <h1 className=' mt-3 py-1 px-1 text center text-xs md:text-sm lg:text-xl bg-slate-900 p-1 font-bold text-white uppercase'>über 8zense.com</h1>
+  <h1 className='w-full py-1 text center text-xs md:text-sm lg:text-xl bg-slate-900 p-1 font-bold text-white uppercase'>über 8zense.com</h1>
 
 
   <div className='relative w-28 h-28'>
@@ -61,7 +61,7 @@ const page = () => {
   {/*<h1 className='text-3xl font-bold text-zenseGrey md:mt-72'>8zense.com</h1>*/}
 
 
- <div className='mt-12 relative w-80 h-80 md:w-96 md:h-96'>
+ <div className='mt-3 relative w-44 h-44 md:w-96 md:h-96'>
 
 
   <Image
@@ -84,7 +84,7 @@ const page = () => {
   </div>
 
 
-  <div className='mt-20 relative w-3/4 h-44'>
+  <div className='relative w-40 h-20'>
 
 
   <Image
@@ -105,7 +105,7 @@ const page = () => {
   /> 
   
   </div>
-  <p className='py-3 w-36 text-xs md:text-sm  lg:text-xl text-center'>Fernanda Pereira</p>
+  <p className='w-36 text-xs md:text-sm  lg:text-xl text-center'>Fernanda Pereira</p>
 
 
 <h1 className='mt-12 text-zenseSignal2 text-[2.66rem] uppercase font-bold text-center leading-10 sm:mt-60 md:text-8xl md:font-black lg:-mt-1

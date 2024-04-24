@@ -42,25 +42,25 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className={'mx-auto min-h-screen bg-[url("/assets/images/interiore11.jpg") '}>
+<section className={'mx-auto min-h-screen") '}>
 
-  <div className="lg:hidden">
+  {/*<div className="/Users/fgirse/Downloads/WhatsApp Image 2024-04-24 at 2.50.03 PM (3).jpeg /Users/fgirse/Downloads/WhatsApp Image 2024-04 /Users/fgirse/Downloads/WhatsApp lg:hidden">
   <Image src="/assets/images/interiore11.jpg" alt="background hero mobile" fill sizes="100vw"/>
-  </div>
+  </div>*/}
 
-  <div className=" lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore14.jpg')] lg:bg-cover lg:bg-no-repeat">
-    <div className="lg:relative lg:top-[28vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">  
+  <div className="lg:block lg:w-full h-screen bg-[url('/assets/images/interiore13.jpg')] bg-cover lg:bg-cover lg:bg-no-repeat">
+    <div className="relative top-[12vh]flex flex-col items-center justify-center lg:relative lg:top-[28vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">  
      {/*============================== LINKS =======================*/}
-    <div className="lg:w-2/3 lg:py-20">
-    <h1 className="lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
-    <h1 className="lg:-mt-3 lg:text-lime-200 lg:font-black xl:text-[11.33rem] lg:leading-3 lg:uppercase lg:text-left">8zenSe.com</h1>
-    <p className=" <h1 className=lg: lg:text-4xl lg:text-zenseWhite lg:font-black lg:uppercase lg:text-left">Timeless Design rund um den Werkstoff Beton</p>
+    <div className="flex flex-col justify-center lg:w-2/3 lg:py-20">
+    <h1 className="mt-3 text-zenseWhite leading-snug text-4xl uppercase lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
+    <h1 className="lg:text-left text-5xl text-lime-200 uppercase lg:-mt-3 lg:font-black xl:text-[11.33rem] lg:leading-3 ">8zenSe.com</h1>
+    <p className="text-zenseWhite lg: lg:text-4xl  lg:font-black lg:uppercase lg:text-left">Timeless Design rund um den Werkstoff Beton</p>
   </div>
    {/*============================== ENDE =======================*/}
 
 
   {/*============================== RECHTS =======================*/}
-            <div className="lg:mt-16 lg:py-3 lg:w-96 lg:h-72">
+            <div className="mt-48 mx-auto w-52 h-52 lg:mt-16 lg:py-3 lg:w-96 lg:h-72">
             <Animation/>
             </div>
    {/*============================== ENDE =======================*/}
