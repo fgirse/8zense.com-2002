@@ -52,15 +52,15 @@ export default function Home() {
     <div className="relative top-[12vh]flex flex-col items-center justify-center lg:relative lg:top-[28vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">  
      {/*============================== LINKS =======================*/}
     <div className="flex flex-col justify-center lg:w-2/3 lg:py-20">
-    <h1 className="mt-3 text-zenseWhite leading-snug text-4xl uppercase lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
-    <h1 className="lg:text-left text-5xl text-lime-200 uppercase lg:-mt-3 lg:font-black xl:text-[11.33rem] lg:leading-3 ">8zenSe.com</h1>
+    <h1 className="mt-5 py-3 text-zenseWhite font-black leading-3 text-4xl uppercase lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">design interiore</h1>
+    <h1 className="-mt-2 font-black lg:text-left leading-3 text-5xl text-lime-200 uppercase lg:-mt-3 lg:font-black xl:text-[11.33rem] lg:leading-3 ">8zenSe.com</h1>
     <p className="text-zenseWhite lg: lg:text-4xl  lg:font-black lg:uppercase lg:text-left">Timeless Design rund um den Werkstoff Beton</p>
   </div>
    {/*============================== ENDE =======================*/}
 
 
   {/*============================== RECHTS =======================*/}
-            <div className="mt-48 mx-auto w-52 h-52 lg:mt-16 lg:py-3 lg:w-96 lg:h-72">
+            <div className="mt-44 mx-auto w-52 h-52 lg:mt-16 lg:py-3 lg:w-96 lg:h-72">
             <Animation/>
             </div>
    {/*============================== ENDE =======================*/}
