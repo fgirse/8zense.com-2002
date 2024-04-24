@@ -18,6 +18,7 @@ import styles from "./about.module.css";
 import Projekt from'@/public/assets/images/Hotel-SaoPaulo.png';
 import  Button  from '@/components/share/Button';
 import SpringModal from "@/components/share/SpringModal";
+import Portrait01 from "@/public/assets/images/Portrait01.jpeg"
 
 const page = () => {
 
@@ -60,13 +61,13 @@ const page = () => {
   {/*<h1 className='text-3xl font-bold text-zenseGrey md:mt-72'>8zense.com</h1>*/}
 
 
- <div className='mt-12 relative w-24 h-24 md:w-60 md:h-60'>
+ <div className='mt-12 relative w-80 h-80 md:w-96 md:h-96'>
 
 
   <Image
 
 
-      src={Portrait}
+      src={Portrait01}
 
 
       alt="Portrait"

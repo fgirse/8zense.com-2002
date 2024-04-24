@@ -42,13 +42,13 @@ export default function Home() {
 
     {/*====================================================grid start ===============*/}
 
-<section className='mx-auto min-h-screen '>
+<section className={'mx-auto min-h-screen bg-[url("/assets/images/interiore11.jpg") '}>
 
   <div className="lg:hidden">
-  <ParticlsRing/>
+  <Image src="/assets/images/interiore11.jpg" alt="background hero mobile" fill sizes="100vw"/>
   </div>
 
-  <div className="hidden lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore14.jpg')] lg:bg-cover lg:bg-no-repeat">
+  <div className=" lg:block lg:w-full lg:h-screen lg:bg-[url('/assets/images/interiore14.jpg')] lg:bg-cover lg:bg-no-repeat">
     <div className="lg:relative lg:top-[28vh] lg:bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">  
      {/*============================== LINKS =======================*/}
     <div className="lg:w-2/3 lg:py-20">
