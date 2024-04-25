@@ -5,7 +5,6 @@ import { Button } from "../ui/button";
 import NavItems from "./NavItems";
 import Locked from"@/public/assets/images/locked.png"
 import Logo from"@/public/assets/images/LogoEZ990.svg";
-import FjipMenu from "./FlipMenu";
 import { PropsWithChildren } from "react";
 import MobileNav from "./MobileNav";
 
