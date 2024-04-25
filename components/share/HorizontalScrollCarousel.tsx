@@ -87,10 +87,10 @@ export default Example;
   
   const cards: CardType[] = [
     {
-      url: '/assets/images/avatar-sm-bardot.png',
-      title: "Brigitte Bardot",
-      subtitle: "Actreuse",
-      statement: "<< 8zense.com hat einen hervorragenden Service und die Produkte zeigen ein einzigartiges Design >>",
+      url: '/assets/images/Portrait01.jpeg',
+      title: "Fernanda Pereira",
+      subtitle: "Founderin 8zense.com",
+      statement: "<< 8zense.com ist das Fundament und die Basis für anspuchvolles Design >>",
       id: 1,
     },
     {
