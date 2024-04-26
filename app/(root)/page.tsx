@@ -34,23 +34,23 @@ export default function Home() {
   </div>*/}
 
         <div className="lg:block lg:w-full h-screen bg-[url('/assets/images/interiore14.jpg')] bg-cover lg:bg-cover lg:bg-no-repeat">
-          <div className="relative top-[12vh]flex flex-col items-center justify-center lg:relative lg:top-[28vh] bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 xl:top-[43vh]2xl:[40vh]">
+          <div className="relative top-[12vh]flex flex-col items-center justify-center lg:relative bg-black/20 lg:flex lg:flex-row lg:justify-evenly lg:items-stretch lg:gap-x-3 lg:top-[32vh] xl:top-[43vh] 2xl:[40vh]">
             {/*============================== LINKS =======================*/}
-            <div className="flex flex-col justify-center lg:w-2/3 lg:py-20">
-              <h1 className="mt-5 py-3 text-zenseWhite font-black leading-3 text-4xl uppercase lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">
+            <div className="px-2 sm:px-5 flex flex-col justify-center lg:w-2/3 lg:py-20">
+              <h1 className="mt-5 py-3 text-zenseWhite font-black leading-3 text-4xl uppercase sm:text-7xl sm-leading-3 lg:py-12 lg:mt-3 lg:relative lg:text-zenseWhite lg:text-[4.666rem] lg:leading-3 lg:font-black  lg:uppercase lg:text-left xl:text-[7.166rem]">
                 design interiore
               </h1>
-              <h1 className="-mt-2 font-black lg:text-left leading-3 text-5xl text-lime-200 uppercase lg:-mt-3 lg:font-black xl:text-[11.33rem] lg:leading-3 ">
+              <h1 className=" -mt-2 font-black lg:text-left leading-3 text-5xl text-lime-200 uppercase sm:text-8xl lg:-mt-3 lg:text-[8.33rem] lg:font-black xl:text-[11.33rem] lg:leading-3 ">
                 8zenSe.com
               </h1>
-              <p className="text-zenseWhite lg: lg:text-4xl  lg:font-black lg:uppercase lg:text-left">
+              <p className=" text-zenseWhite sm:text-3xl lg:text-4xl lg:font-black lg:text-left">
                 Timeless Design rund um den Werkstoff Beton
               </p>
             </div>
             {/*============================== ENDE =======================*/}
 
             {/*============================== RECHTS =======================*/}
-            <div className="mt-20 mx-auto w-72 h-72 lg:mt-16 lg:py-3 lg:w-72 lg:h-72">
+            <div className="mt-20 mx-auto w-72 h-72 sm:w-96 sm-h-96 lg:mt-16 lg:py-3 lg:w-72 lg:h-72">
               <Animation />
             </div>
             {/*============================== ENDE =======================*/}
@@ -124,7 +124,7 @@ export default function Home() {
         {/*  <section className="shuffle-Hero -mt-44 ">
     <ShuffleHero/>
   </section>*/}
-        <section className="lg:h-[66vh]">
+        <section id="section-features" className="lg:h-[66vh]">
           <div className="bg-black mt-24">
             <h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">
               Features
@@ -133,7 +133,7 @@ export default function Home() {
           <ColCardFeature />
         </section>
 
-        <section className="lg:h-[66vh]">
+        <section id="section-itworks" className="lg:h-[66vh]">
           <div className="bg-black mt-24">
             <h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">
               How it works
@@ -142,7 +142,7 @@ export default function Home() {
           <FeatureAnimation />
         </section>
 
-        <section className="lg:h-[66vh]">
+        <section id="section-projRef" className="lg:h-[66vh]">
           <div className="bg-black mt-24">
             <h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xl lg:mb-24  ">
               Referenz Projekte
@@ -153,7 +153,7 @@ export default function Home() {
 
         <VanishText />
 
-        <section className="-mt-24 lg:h-[70vh]">
+        <section id="section-testimonials" className="-mt-24 lg:h-[70vh]">
           <div className="bg-black mb-7 mt-24">
             <h1 className="text-center text-zenseWhite uppercase text-3xl md:text-6xllg:mb-24  ">
               Testimonials
