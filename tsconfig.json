@@ -33,6 +33,6 @@
     "components/Illustrationen/Hackchen.js",
     "components/share/Particels.jsx",
     "components/share/ParticleRing.tsx"
-  ],
+, "components/Contact.jsx"  ],
   "exclude": ["node_modules"]
 }
