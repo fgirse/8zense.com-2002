@@ -1,0 +1,60 @@
+2024-01-03T00:53:57.607Z [INFO]: # Cloning repository: git@github.com:fgirse/8zense.com-1990.git
+2024-01-03T00:53:59.708Z [INFO]: 
+2024-01-03T00:53:59.708Z [INFO]: Cloning into '8zense.com-1990'...
+2024-01-03T00:53:59.709Z [INFO]: # Checking for Git submodules at: /codebuild/output/src1392954148/src/8zense.com-1990/.gitmodules
+2024-01-03T00:53:59.716Z [INFO]: # Retrieving environment cache...
+2024-01-03T00:53:59.743Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2024-01-03T00:53:59.743Z [INFO]: ---- Setting Up SSM Secrets ----
+2024-01-03T00:53:59.743Z [INFO]: SSM params {"Path":"/amplify/d3f8bvl0atsz2t/main/","WithDecryption":true}
+2024-01-03T00:53:59.794Z [WARNING]: !Failed to set up process.env.secrets
+2024-01-03T00:54:01.535Z [INFO]: No live updates for this build run
+2024-01-03T00:54:01.614Z [INFO]: # Retrieving cache...
+2024-01-03T00:54:01.643Z [INFO]: # Retrieved cache
+2024-01-03T00:54:29.476Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## No backend environment association found, continuing...
+                                 ## Completed Backend Build
+2024-01-03T00:54:29.478Z [INFO]: {"backendDuration": 0}
+                                 ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm install
+2024-01-03T00:55:31.296Z [WARNING]: npm
+2024-01-03T00:55:31.300Z [WARNING]: WARN EBADENGINE Unsupported engine {
+                                    npm WARN EBADENGINE   package: 'nextplate@2.0.2',
+                                    npm WARN EBADENGINE   required: { node: '>=18.0.0' },
+                                    npm WARN EBADENGINE   current: { node: 'v16.19.0', npm: '8.19.3' }
+                                    npm WARN EBADENGINE }
+                                    npm WARN EBADENGINE Unsupported engine {
+                                    npm WARN EBADENGINE   package: 'next@14.0.4',
+                                    npm WARN EBADENGINE   required: { node: '>=18.17.0' },
+                                    npm WARN EBADENGINE   current: { node: 'v16.19.0', npm: '8.19.3' }
+                                    npm WARN EBADENGINE }
+                                    npm WARN EBADENGINE Unsupported engine {
+                                    npm WARN EBADENGINE   package: 'marked@11.1.1',
+                                    npm WARN EBADENGINE   required: { node: '>= 18' },
+                                    npm WARN EBADENGINE   current: { node: 'v16.19.0', npm: '8.19.3' }
+                                    npm WARN EBADENGINE }
+                                    npm WARN EBADENGINE Unsupported engine {
+                                    npm WARN EBADENGINE   package: 'sharp@0.33.1',
+                                    npm WARN EBADENGINE   required: { node: '^18.17.0 || ^20.3.0 || >=21.0.0', libvips: '>=8.15.0' },
+                                    npm WARN EBADENGINE   current: { node: 'v16.19.0', npm: '8.19.3' }
+                                    npm WARN EBADENGINE }
+2024-01-03T00:55:46.127Z [INFO]: added 603 packages, and audited 604 packages in 1m
+2024-01-03T00:55:46.129Z [INFO]: 243 packages are looking for funding
+                                 run `npm fund` for details
+                                 found 0 vulnerabilities
+2024-01-03T00:55:46.149Z [INFO]: # Completed phase: preBuild
+                                 # Starting phase: build
+2024-01-03T00:55:46.149Z [INFO]: # Executing command: npm run build
+2024-01-03T00:55:46.437Z [INFO]: > nextplate@2.0.2 build
+                                 > yarn generate-json && next build
+2024-01-03T00:55:47.194Z [INFO]: yarn run v1.22.0
+2024-01-03T00:55:47.224Z [WARNING]: error nextplate@2.0.2: The engine "node" is incompatible with this module. Expected version ">=18.0.0". Got "16.19.0"
+2024-01-03T00:55:47.233Z [WARNING]: error Commands cannot run with an incompatible environment.
+2024-01-03T00:55:47.233Z [INFO]: info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+2024-01-03T00:55:47.246Z [ERROR]: !!! Build failed
+2024-01-03T00:55:47.247Z [INFO]: Please read more about Amplify Hosting's support for SSR frameworks to find if your build failure is related to an unsupported feature: https://docs.aws.amazon.com/amplify/latest/userguide/amplify-ssr-framework-support.html. You may also find this troubleshooting guide useful: https://docs.aws.amazon.com/amplify/latest/userguide/troubleshooting-ssr-deployment.html
+2024-01-03T00:55:47.247Z [ERROR]: !!! Non-Zero Exit Code detected
+2024-01-03T00:55:47.247Z [INFO]: # Starting environment caching...
+2024-01-03T00:55:47.247Z [INFO]: # Environment caching completed
+Terminating logging...
